@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Alves", 
+        "firstname": "Mickaël",
+        "image": "mickael.png",
+        "thumbnail": "mickael-thumbnail.png",
+        "bio": "lorem",
+        "cv-fr": "mickael-cv-fr.pdf",
+        "cv-en": "mickael-cv-en.pdf",
+        "fonction": "Président",
+        "metier": "Développeur Web",
+        "socials": [
+            {
+                "mail": "alves.mckl@gmail.com",
+                "icon": ""
+            },
+            {
+                "tel": "0650034154",
+                "icon": ""
+            },
+            {                
+                "github": "https://github.com/Cruz-Azul",
+                "icon": ""
+            },
+            {
+                "linkedin": "https://www.linkedin.com/in/mickael-alves-7a0810171",
+                "icon": ""
+            }
+        ],
+        "studies": [
+            {
+                "title": "Master 2 TIW",
+                "date": "2020 / 2021",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list[": [
+                    "Développemnt en React JS",
+                    "Base de donnée",
+                    "..."
+                ]
+            },
+            {
+                "title": "Master 1 Informatique",
+                "date": "2019 / 2020",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list": [
+                    "Développemnt en Symfony",
+                    "Base de donnée",
+                    "..."
+                ]
+            }
+        ],
+        "experiences": [
+            {
+                "title": "Développeur Web",
+                "date": "Depuis 2020",
+                "company": "Association La Cruz",
+                "logo": "",
+                "list": [
+                    "Je m'occupe de la gestion de l'association",
+                    "Je développe des sites avec la cruz web <3"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Only Vert",
+                "description": "lorem"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "ReactJS",
+                "logo": ""
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "logo": ""
+            }
+        ],
+        "qualities": [
+            {
+                "tilte": "Travail d'équipe",
+                "image": ""
+            }
+        ]
+    }
+]
