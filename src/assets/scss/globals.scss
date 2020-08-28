@@ -1,0 +1,44 @@
+html,
+input,
+textarea {
+  // font-family: 'Kodchasan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Kodchasan', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: white;
+  font-size: 3rem;
+  
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
