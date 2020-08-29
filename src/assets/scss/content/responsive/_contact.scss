@@ -1,0 +1,27 @@
+@include extra-large {
+    .contact-page {
+        #contact {
+            width: 80vw;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .contact-page {
+        h2 {
+            font-size: 4rem;
+        }
+
+        form {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-page {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
