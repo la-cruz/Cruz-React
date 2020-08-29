@@ -1,10 +1,12 @@
-@import './reset.scss';
-@import './variables.scss';
-@import './globals.scss';
-@import './animation.scss';
+@import './reset';
+@import './variables';
+@import './globals';
+@import './animation';
 
-@import './content/home.scss';
+
+@import './content/home';
+@import './content/footer';
 @import './content/header';
 
-@import './content/responsive/home.scss';
+@import './content/responsive/home';
 @import './content/responsive/header';

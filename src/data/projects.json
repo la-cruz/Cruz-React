@@ -8,6 +8,7 @@
         "desc-en": "lorem",
         "short-desc-fr": "lorem",
         "short-desc-en": "lorem",
+        "in-home": true,
         "links": [
             {
                 "link": "",
