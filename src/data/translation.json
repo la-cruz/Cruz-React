@@ -1,7 +1,10 @@
 {
   "fr": {
     "translation": {
-      "label.modele": "Modèle des traductions"
+      "label.modele": "Modèle des traductions",
+      "label.menu.home": "Accueil",
+      "label.menu.team": "Équipe",
+      "label.menu.contact": "Contact"
     }
   }
 }
