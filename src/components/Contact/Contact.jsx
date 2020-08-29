@@ -110,7 +110,7 @@ function Contact() {
                     </div>
                 </div>
                 <button className="btn">
-                    { isLoading ? <span className="loader"></span> : (isSended ? <i className='fas fa-check'></i> : "Envoyer") }
+                    { isLoading ? <span className="loader"></span> : (isSended ? <i className='fas fa-check'></i> : <Trans>label.form.send</Trans>) }
                 </button>
             </form>
         </section>

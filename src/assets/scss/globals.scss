@@ -34,18 +34,11 @@ html {
   display: none;
 }
 
-.stroke-text {
+strong {
   background: -webkit-linear-gradient(#eee, #eee);
   -webkit-background-clip: text;
   -webkit-text-stroke: 4px transparent;
-  color: $cruz-color-dark-grey;
-  padding: 0.3rem;
-}
-
-.stroke-text-menu {
-  background: -webkit-linear-gradient($cruz-color-yellow-dark, $cruz-color-yellow-dark);
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 4px transparent;
+  text-transform: uppercase;
   color: $cruz-color-dark-grey;
   padding: 0.3rem;
 }
