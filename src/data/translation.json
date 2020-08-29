@@ -17,7 +17,17 @@
       "label.legal.contact": "Nous contacter",
       "label.legal.contact.text": "Par email : contact@lacruz.org",
       "label.legal.cnil": "CNIL",
-      "label.legal.cnil.text": "L’association La Cruz ne conserve aucune trace de votre passage sur notre site."
+      "label.legal.cnil.text": "L’association La Cruz ne conserve aucune trace de votre passage sur notre site.",
+      "label.form.title": "Nous <strong>contacter</strong>",
+      "label.form.name": "Nom",
+      "label.form.email": "Email",
+      "label.form.subject": "Objet",
+      "label.form.content": "Contenu",
+      "label.form.send": "Envoyer",
+      "label.format.email": "Votre email n'est pas au bon format",
+      "label.form.error.name.empty": "Cette zone de texte ne peut pas être vide",
+      "label.form.error.subject.empty": "Cette zone de texte ne peut pas être vide",
+      "label.form.error.content.empty": "Cette zone de texte ne peut pas être vide"
     }
   },
   "en": {
@@ -38,7 +48,17 @@
       "label.legal.contact": "Contact us",
       "label.legal.contact.text": "By email : contact@lacruz.org",
       "label.legal.cnil": "CNIL",
-      "label.legal.cnil.text": "The association La Cruz keeps no trace of your visit on our site."
+      "label.legal.cnil.text": "The association La Cruz keeps no trace of your visit on our site.",
+      "label.form.title": "Contact <strong>us</strong>",
+      "label.form.name": "Nom",
+      "label.form.email": "Email",
+      "label.form.subject": "Object",
+      "label.form.content": "Content",
+      "label.form.send": "Send",
+      "label.format.email": "Your email is not in the correct format",
+      "label.form.error.name.empty": "This input cannot be empty",
+      "label.form.error.subject.empty": "This input cannot be empty",
+      "label.form.error.content.empty": "This input cannot be empty"
     }
   }
 }

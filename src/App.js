@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Legal from './components/Legal/Legal'
+import Contact from './components/Contact/Contact'
 
 import {
   BrowserRouter as Router,
@@ -49,6 +50,9 @@ function App() {
         </Route>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
         <Route>
           <Error404 />

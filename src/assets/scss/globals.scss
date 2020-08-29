@@ -1,10 +1,24 @@
+html,
+input,
+textarea {
+  background-color: $cruz-color-dark-grey;
+  font-family: $police-base;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #141414;
-  font-family: $police-base;
+  min-height: 100vh;
 }
 
 ul,
@@ -20,20 +34,17 @@ html {
   display: none;
 }
 
-.stroke-text {
+strong {
   background: -webkit-linear-gradient(#eee, #eee);
   -webkit-background-clip: text;
   -webkit-text-stroke: 4px transparent;
+  text-transform: uppercase;
   color: $cruz-color-dark-grey;
   padding: 0.3rem;
 }
 
-.stroke-text-menu {
-  background: -webkit-linear-gradient($cruz-color-yellow-dark, $cruz-color-yellow-dark);
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 4px transparent;
-  color: $cruz-color-dark-grey;
-  padding: 0.3rem;
+a {
+  text-decoration: none;
 }
 
 h2 {
@@ -86,5 +97,96 @@ h3 {
 
   &.alert-error {
     background: linear-gradient(45deg, #EC360F, #DB6146);
+  }
+}
+
+.collapse-checkbox {
+  display: none;
+}
+
+.stroke-text {
+  background: -webkit-linear-gradient(#eee, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: $cruz-color-dark-grey;
+  padding: 0.3rem;
+}
+
+.stroke-text-menu {
+  background: -webkit-linear-gradient($cruz-color-yellow-dark, $cruz-color-yellow-dark);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: $cruz-color-dark-grey;
+  padding: 0.3rem;
+}
+
+h2 {
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 8rem;
+  text-align: center;
+  color: white;
+  padding-bottom: 5rem;
+
+  @media (max-width: 760px) {
+    font-size: 7rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 4rem;
+  }
+}
+
+h3 {
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.alert {
+  border-radius: 5px;
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+
+  .flash-message {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.60);
+    margin: 1rem 0;
+  }
+  
+  &.alert-success {
+    background: linear-gradient(45deg, rgb(70, 192, 70), rgb(92, 189, 73));
+    animation: fadeAway 5s forwards;
+  }
+
+  &.alert-error {
+    background: linear-gradient(45deg, #EC360F, #DB6146);
+  }
+}
+
+.error-form {
+  padding-top: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(184, 68, 68);
+
+  span {
+    color: white;
+    background-color: rgb(184, 68, 68);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.3rem 0.8rem;
+    margin-right: 0.5rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
   }
 }
