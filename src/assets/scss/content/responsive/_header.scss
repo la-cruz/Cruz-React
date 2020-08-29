@@ -1,0 +1,62 @@
+@media (max-width:1200px) {
+    .cruz-logo {
+        img {
+            width: 7%;
+            top: 4rem;
+            left: 4rem;
+            opacity: 1;
+        }
+    } 
+}
+
+@media (max-width: 991px) {
+    .cruz-header {
+        .header-menu {
+            ul {
+                li {
+                    margin: 2rem;
+                    
+                    a {
+                        font-size: 8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .cruz-logo {
+        img {
+            width: 15%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .cruz-header {
+        .header-menu {
+            ul {
+                li {
+                    a {
+                        font-size: 6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 330px) {
+    .cruz-header {
+        .header-menu {
+            ul {
+                li {
+                    a {
+                        font-size: 5rem;
+                    }
+                }
+            }
+        }
+    }
+}

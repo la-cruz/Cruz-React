@@ -1,5 +1,4 @@
 // Color variables
-
 $cruz-color-white : #ffffffff;
 $cruz-color-base : #FFFD00;
 $cruz-color-base-opac : rgba(255,253,0,0.7);
@@ -13,11 +12,9 @@ $cruz-color-black-opac: rgb(0, 0, 0);
 $gradient-yellow: linear-gradient(90deg, #ceb75c, #FFCD00);
 
 // Police
-
 $police-base : 'Montserrat', sans-serif;
 
 // Mixin Media
-
 @mixin extra-small {
     @media (min-width: 576px) { @content; }
 }
