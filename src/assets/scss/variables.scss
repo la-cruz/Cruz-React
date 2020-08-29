@@ -1,1 +1,39 @@
 // Color variables
+
+$cruz-color-white : #ffffffff;
+$cruz-color-base : #FFFD00;
+$cruz-color-base-opac : rgba(255,253,0,0.7);
+$cruz-color-yellow-dark: #FFCD00;
+$cruz-color-blue : #2965f1;
+$cruz-color-grey: #2A2929;
+$cruz-color-dark-grey: #141414;
+$cruz-color-dark-grey-opac: rgba(14,14,14,0.7);
+$cruz-color-black-opac-strong: rgba(0, 0, 0, 0.7);
+$cruz-color-black-opac: rgb(0, 0, 0);
+$gradient-yellow: linear-gradient(90deg, #ceb75c, #FFCD00);
+
+// Police
+
+$police-base : 'Montserrat', sans-serif;
+
+// Mixin Media
+
+@mixin extra-small {
+    @media (min-width: 576px) { @content; }
+}
+
+@mixin small {
+    @media (max-width: 576px) { @content; }
+}
+
+@mixin medium {
+    @media (max-width: 768px) { @content; }
+}
+
+@mixin large {
+    @media (max-width: 992px) { @content; }
+}
+
+@mixin extra-large {
+    @media (max-width: 1200px) { @content; }
+}
