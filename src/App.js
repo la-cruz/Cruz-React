@@ -1,11 +1,13 @@
-import React from 'react';
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import { useTranslation } from "react-i18next"
 import ScrollToTop from './components/Basic/ScrollToTop'
 import Error404 from './components/Basic/Error404'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
+import Legal from './components/Legal/Legal'
 import Contact from './components/Contact/Contact'
+
 
 import {
   BrowserRouter as Router,
@@ -22,6 +24,9 @@ function App() {
       <ScrollToTop />
       <Header />
       <Switch>
+        <Route path="/legal">
+          <Legal />
+        </Route>
         <Route exact path="/">
           <Home />
         </Route>
