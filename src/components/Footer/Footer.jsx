@@ -1,7 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 function Footer() {
+    const location = useLocation()
+
+    useEffect(() => {
+        if(location.pathname === "/") {
+            document.querySelector(".links-footer").style.boxShadow = 'none';
+        }
+    }, [])
+
     return (
         <footer>
             <div className="cruz-footer">

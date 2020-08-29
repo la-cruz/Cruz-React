@@ -4,7 +4,14 @@
       "label.modele": "Modèle des traductions",
       "label.menu.home": "Accueil",
       "label.menu.team": "Équipe",
-      "label.menu.contact": "Contact"
+      "label.menu.contact": "Contact",
+      "label.subtitle": "Association de développement",
+      "label.association.description": "La Cruz est une association créée par des étudiants en informatique de l'Université Claude Bernard Lyon 1. Nous avions comme objectif de conserver une organisation semblable à celles présentes durant nos stages de licence. Aujourd'hui cette association nous permet d'avoir un cadre professionnel afin de réaliser des projets en dehors de nos cursus respectifs. Nos membres se sont spécialisés dans la création de sites web ainsi que dans le développement de jeux-vidéos afin de parfaire nos expériences personnelles et mettre en pratique nos compétences acquises au cours de nos parcours universitaire.",
+      "label.title.web": "Web",
+      "label.title.jv": "Jeux-vidéo",
+      "label.title.about": "qui <strong>sommes nous</strong>",
+      "label.title.productions": "nos <strong>réalisations</strong>",
+      "label.title.tools": "nos <strong>outils</strong>"
     }
   },
   "en": {
@@ -12,7 +19,14 @@
       "label.modele": "Translation template",
       "label.menu.home": "Home",
       "label.menu.team": "Team",
-      "label.menu.contact": "Contact"
+      "label.menu.contact": "Contact",
+      "label.subtitle": "Development association",
+      "label.association.description": "La Cruz is an association created by a group of computer science students from the Lyon 1 University Claude Bernard. Our objective is to keep an organisation like the one we had in our internships. Today, this association brings us a workplace which help us to brings projects to life outside of our own studies. All of the members are specialised in web technologies or in video-games development to improve our personal experiences and use our skills acquired in our studies.",
+      "label.title.web": "Web",
+      "label.title.jv": "Video games",
+      "label.title.about": "who <strong>are whe</strong>",
+      "label.title.productions": "our <strong>productions</strong>",
+      "label.title.tools": "our <strong>tools</strong>"
     }
   }
 }
