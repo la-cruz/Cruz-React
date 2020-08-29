@@ -6,5 +6,13 @@
       "label.menu.team": "Équipe",
       "label.menu.contact": "Contact"
     }
+  },
+  "en": {
+    "translation": {
+      "label.modele": "Translation template",
+      "label.menu.home": "Home",
+      "label.menu.team": "Team",
+      "label.menu.contact": "Contact"
+    }
   }
 }
