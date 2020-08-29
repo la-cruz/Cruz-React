@@ -1,1 +1,28 @@
 // Color variables
+$cruz-color-yellow-dark: #FFCD00;
+$cruz-grey: #2A2929;
+$cruz-dark-grey: #141414;
+
+// Police
+$police-base : 'Montserrat', sans-serif;
+
+// Mixin Media
+@mixin extra-small {
+    @media (min-width: 576px) { @content; }
+}
+
+@mixin small {
+    @media (max-width: 576px) { @content; }
+}
+
+@mixin medium {
+    @media (max-width: 768px) { @content; }
+}
+
+@mixin large {
+    @media (max-width: 992px) { @content; }
+}
+
+@mixin extra-large {
+    @media (max-width: 1200px) { @content; }
+}

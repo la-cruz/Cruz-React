@@ -5,6 +5,7 @@ import Error404 from './components/Basic/Error404'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
+import Contact from './components/Contact/Contact'
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
         <Route>
           <Error404 />
