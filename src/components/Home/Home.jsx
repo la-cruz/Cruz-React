@@ -16,8 +16,6 @@ import { isSafari } from 'react-device-detect';
 function Home() {
     const [isAnimation, setIsAnimation] = useSessionStorage('animation', false)
 
-    console.log(<Particles/>)
-
     useEffect(() => {
         const logo = document.querySelector(".cruz-logo > img")
         const title = document.querySelector(".main-title")
