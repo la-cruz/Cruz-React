@@ -10,7 +10,7 @@ function Legal(){
             <hr />
 
             <h2><Trans>label.legal.edit</Trans></h2>
-            <p><Trans>label.legal.edit.text</Trans> 853 155 968.</p>
+            <p><Trans>label.legal.edit.text</Trans> 853 <span>155</span> 968.</p>
 
             <hr />
             
