@@ -12,7 +12,7 @@ function Footer() {
                     <li><a href="mailto:contact@lacruz.org" target="_blank" rel="noopener" aria-label="Link to our mail"><i className="fas fa-envelope"></i></a></li>
                 </section>
                 <section className="copyright">
-                    <p><Link to="/legal"><Trans>label.legal.title</Trans> </Link> - © La Cruz<span><img src={require('../../assets/images/logo_cruz.png')} alt="logo cruz" /></span></p>
+                    <p><Link to="/legal"><Trans>label.footer.legal</Trans> </Link> - © La Cruz<span><img src={require('../../assets/images/logo_cruz.png')} alt="logo cruz" /></span></p>
                 </section>
             </div>
         </footer>
