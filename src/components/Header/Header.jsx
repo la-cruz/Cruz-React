@@ -50,9 +50,9 @@ function Header() {
             <header className="cruz-header">
                 <nav className="header-menu">
                     <ul>
-                        <li> <NavLink to="/" onClick={handleOnClick}> <Trans>label.menu.home</Trans> </NavLink> </li>
-                        <li> <NavLink to="team" onClick={handleOnClick}> <Trans>label.menu.team</Trans> </NavLink> </li>
-                        <li> <NavLink to="contact" onClick={handleOnClick}> <Trans>label.menu.contact</Trans> </NavLink> </li>
+                        <li> <NavLink exact to="/" onClick={handleOnClick}> <Trans>label.menu.home</Trans> </NavLink> </li>
+                        <li> <NavLink exact to="team" onClick={handleOnClick}> <Trans>label.menu.team</Trans> </NavLink> </li>
+                        <li> <NavLink exact to="contact" onClick={handleOnClick}> <Trans>label.menu.contact</Trans> </NavLink> </li>
                     </ul>
                 </nav>
             </header>

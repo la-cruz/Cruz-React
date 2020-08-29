@@ -24,7 +24,7 @@ function App() {
       <ScrollToTop />
       <Header />
       <Switch>
-        <Route path="/legal">
+        <Route exact path="/legal">
           <Legal />
         </Route>
         <Route exact path="/">
