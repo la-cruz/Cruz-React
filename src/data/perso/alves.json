@@ -78,6 +78,10 @@
                     {
                         "elem-fr":"Gestion de projet",
                         "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"La Nuit de l'Info 2019",
+                        "elem-en":"Pareil mais en anglais"
                     }
                 ]
             },
@@ -97,6 +101,18 @@
                     },
                     {
                         "elem-fr":"Création de projet Web et Jeux vidéo",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"La Nuit de l'Info 2018",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Certificat informatique et internet, C2I niveau 1",
                         "elem-en":"Pareil mais en anglais"
                     }
                 ]
@@ -233,6 +249,7 @@
             "CSS",
             "HTML",
             "Twig",
+            "Python",
             "Java",
             "C++",
             "Git"
