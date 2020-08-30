@@ -59,6 +59,10 @@
                         "elem-en": "Node.js development"
                     },
                     {
+                        "elem-fr": "Développement en python",
+                        "elem-en": "Python development"
+                    },
+                    {
                         "elem-fr": "Gestion de projet avec des méthodes agiles (SCRUM)",
                         "elem-en": "Project management with agile methods (SCRUM)"
                     },
@@ -201,19 +205,19 @@
             }
         ],
         "technologies": [
-            "React",
-            "Vue.js",
-            "Node.js",
-            "Sass",
+            "ReactJS",
+            "VueJS",
+            "NodeJS",
+            "SASS",
+            "HTML",
+            "CSS",
+            "Javascript",
             "Git",
             "Java",
             "Spring",
             "C++",
             "C#",
-            "SQL",
-            "HTML",
-            "CSS",
-            "Javascript"
+            "SQL"
         ],
         "tools": [
             "Github",
