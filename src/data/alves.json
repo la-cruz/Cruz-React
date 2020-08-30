@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Alves", 
+        "firstname": "Mickaël",
+        "image": "mickael.png",
+        "thumbnail": "mickael-thumbnail.png",
+        "bio-fr": "lorem",
+        "bio-en": "lorem",
+        "cv-fr": "mickael-cv-fr.pdf",
+        "cv-en": "mickael-cv-en.pdf",
+        "fonction-fr": "Président",
+        "fonction-en": "President",
+        "metier-fr": "Développeur Web",
+        "metier-en": "Web developper",
+        "socials": [
+            {
+                "name": "mail",
+                "link": "alves.mckl@gmail.com",
+                "icon": "fas fa-envelope"
+            },
+            {
+                "name": "tel",
+                "link": "0650034154",
+                "icon": "fas fa-phone"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Cruz-Azul",
+                "icon": "fab fa-github"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/mickael-alves-7a0810171",
+                "icon": "fab fa-linkedin"
+            }
+        ],
+        "studies": [
+            {
+                "title-fr": "Master 2 TIW",
+                "title-en": "Master 2 TIW",
+                "date-fr": "2020 / 2021",
+                "date-en": "2020 / 2021",
+                "location-fr": "Université Claude Bernard Lyon 1",
+                "location-en": "Lyon 1 University",
+                "logo": "",
+                "list": [
+                ]
+            },
+            {
+                "title-fr": "Master 1 Informatique",
+                "title-en": "Master 1 Computer Science",
+                "date-fr": "2019 / 2020",
+                "date-en": "2019 / 2020",
+                "location-fr": "Université Claude Bernard Lyon 1",
+                "location-en": "Lyon 1 University",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Développemnt en ReactJS",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Développemnt en VueJS",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Développemnt en NodeJS",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Développemnt en Symfony",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Développemnt en Python",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Gestion de projet",
+                        "elem-en":"Pareil mais en anglais"
+                    }
+                ]
+            },
+            {
+                "title": "Licence Informatique",
+                "date": "2016 / 2019",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Développement Symfony",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Développement C++",
+                        "elem-en":"Pareil mais en anglais"
+                    },
+                    {
+                        "elem-fr":"Création de projet Web et Jeux vidéo",
+                        "elem-en":"Pareil mais en anglais"
+                    }
+                ]
+            },
+            {
+                "title": "Baccalauréat",
+                "date": "2016",
+                "location": "Lycée Ambroise Croizat",
+                "logo": "",
+                "list": [
+                    "Science de la vie et de la Terre",
+                    "Spécialité Physique-Chimie"
+                ]
+            }
+        ],
+        "experiences": [
+            {
+                "title-fr": "Président / Développeur Web",
+                "title-en": "President / Web developper",
+                "date-fr": "Depuis 2019",
+                "date-en": "Since 2019",
+                "company": "Association La Cruz",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Gestion de l'association",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Réalisation de projets web",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Gestion de projet",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Travail en équipe",
+                        "elem-en":""
+                    }
+                ]
+            },
+            {
+                "title-fr": "Stagiaire en développement Web",
+                "title-en": "",
+                "date-fr": "3 mois - Mai 2019 à Juillet 2019",
+                "date-en": "",
+                "company": "Pentalog Innovation ( Soluti )",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Réalisation de projets web Symfony",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Maintenance de sites web",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Utilisation de méthode agile ( Scrum )",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Travail en équipe",
+                        "elem-en":""
+                    }
+                ]
+            },
+            {
+                "title-fr": "Stagiaire assistant informaticien",
+                "title-en": "",
+                "date-fr": "2 mois - Juillet 2017 à Août 2017",
+                "date-en": "",
+                "company": "Topastuces Informatique",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Maintenance informatique",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Maintenance du site web de l'entreprise",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Gestion de réseaux informatiques",
+                        "elem-en":""
+                    }
+                ]
+            },
+            {
+                "title-fr": "Stagiaire assistant informaticien",
+                "title-en": "",
+                "date-fr": "1 mois - Mars 2013",
+                "date-en": "",
+                "company": "TEAMINFO",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Maintenance informatique",
+                        "elem-en":""
+                    }
+                ]
+            },
+            {
+                "title-fr": "Bénévole",
+                "title-en": "",
+                "date-fr": "2 ans - Juin 2010 à Juin 2012",
+                "date-en": "",
+                "company": "Les Restos du Coeur",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr":"Gestion de projet",
+                        "elem-en":""
+                    },
+                    {
+                        "elem-fr":"Récolte de fonds pour des associations",
+                        "elem-en":""
+                    }
+                ]
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "VueJS",
+            "NodeJS",
+            "JS",
+            "Symfony",
+            "Laravel",
+            "PHP",
+            "SQL",
+            "Sass",
+            "CSS",
+            "HTML",
+            "Twig",
+            "Java",
+            "C++",
+            "Git"
+        ],
+        "tools": [
+            "Github",
+            "Gitlab",
+            "Suite Atlassian",
+            "Linux",
+            "Firebase",
+            "MySQL",
+            "Postman",
+            "VSCode",
+            "Figma",
+            "Netlify",
+            "Nginx",
+            "Apache",
+            "Photoshop"
+        ],
+        "qualities": [
+            {
+                "title-fr": "Gestion de projet agile (Scrum)",
+                "title-en": "",
+                "image": ""
+            },
+            {
+                "tilte-fr": "Travail d'équipe",
+                "tilte-en": "Teamwork",
+                "image": ""
+            },
+            {
+                "title-fr": "Gestion d'équipe",
+                "title-en": "",
+                "image": ""
+            },
+            {
+                "title-fr": "Autonomie",
+                "title-en": "Autonomy",
+                "image": ""
+            }
+        ]
+    }
+]
