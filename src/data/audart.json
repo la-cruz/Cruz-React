@@ -80,7 +80,7 @@
             "logo": "",
             "list": [
                 "Réalisation de projets web",
-                "Organisation de Réunion",
+                "Gestion d'association",
                 "Gestion de projet",
                 "Travail en équipe"
             ]
@@ -128,7 +128,7 @@
         },
         {
             "title": "Administrateur système",
-            "date": "2014",
+            "date": "Juillet 2014 (1 semaine)",
             "company": "Interface",
             "logo": "",
             "list": [
@@ -155,12 +155,15 @@
         "Sass",
         "JS",
         "HTML",
+        "PHP",
         "CSS",
         "Java",
+        "Git",
         "C++"
     ],
     "outils": [
-        "Git",
+        "Github",
+        "Gitlab",
         "Firebase",
         "MySQL",
         "VSCode",
