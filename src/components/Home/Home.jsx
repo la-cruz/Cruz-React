@@ -108,14 +108,14 @@ function Home() {
                 </div>
                 <section className="production-list production-list-web wow fadeInUp">
                     {
-                        projects.web.filter(elem => elem.is_home).map(project => (
+                        projects.filter(elem => elem.is_home && elem.category === "web").map(project => (
                             <div key={project.name}>Card projet à faire</div>
                         ))
                     }
                 </section>
                 <section className="production-list production-list-jv wow fadeInUp">
                     {
-                        projects.jv.filter(elem => elem.is_home).map(project => (
+                        projects.filter(elem => elem.is_home && elem.category === "jv").map(project => (
                             <div key={project.name}>Card projet à faire</div>
                         ))
                     }
@@ -136,7 +136,7 @@ function Home() {
                 </div>
                 <section className="tools-list tools-list-web wow fadeInUp">
                     {
-                        tools.web.filter(elem => elem.is_home).map(tool => (
+                        tools.filter(elem => elem.is_home && (elem.category === "web" || elem.category === "both" )).map(tool => (
                             <a href={tool.url} className="logo-tool" target="_blank" rel="noopener" aria-label={`logo for ${tool.name}`} key={tool.name}>
                                 <img src={ require(`../../assets/images/tools/${tool.img_src}`) } />
                             </a>
@@ -145,7 +145,7 @@ function Home() {
                 </section>
                 <section className="tools-list tools-list-jv wow fadeInUp">
                     {
-                        tools.jv.filter(elem => elem.is_home).map(tool => (
+                        tools.filter(elem => elem.is_home && (elem.category === "jv" || elem.category === "both" )).map(tool => (
                             <a href={tool.url} className="logo-tool" target="_blank" rel="noopener" aria-label={`logo for ${tool.name}`} key={tool.name}>
                                 <img src={ require(`../../assets/images/tools/${tool.img_src}`) } />
                             </a>
