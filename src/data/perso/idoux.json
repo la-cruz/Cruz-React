@@ -1,0 +1,254 @@
+[
+    {
+        "name": "IDOUX", 
+        "firstname": "Etienne",
+        "image": "etienne.png",
+        "thumbnail": "etienne-thumbnail.png",
+        "bio-fr": "lorem",
+        "bio-en": "lorem",
+        "cv-fr": "etienne-cv-fr.pdf",
+        "cv-en": "etienne-cv-en.pdf",
+        "fonction-fr": "Membre",
+        "fonction-en": "Member",
+        "metier-fr": "Développeur Web",
+        "metier-en": "Web developper",
+        "socials": [
+            {
+                "mail": "etienne.idoux@gmail.com",
+                "icon": "fas fa-envelope"
+            },
+            {
+                "tel": "07 77 31 11 11",
+                "icon": "fas fa-phone"
+            },
+            {                
+                "github": "https://github.com/Rascaleuh",
+                "icon": "fab fa-github"
+            },
+            {
+                "linkedin": "https://www.linkedin.com/in/etienne-idoux",
+                "icon": "fab fa-linkedin"
+            }
+        ],
+        "studies": [
+            {
+                "title-fr": "Master 2 TIW",
+                "title-en": "Master 2 TIW",
+                "date-fr": "2020 / 2021",
+                "date-en": "2020 / 2021",
+                "location-fr": "Université Claude Bernard Lyon 1",
+                "location-en": "Lyon 1 University",
+                "logo": "",
+                "list": []
+            },
+            {
+                "title-fr": "Master 1 Informatique",
+                "title-en": "Master 1 Computer Science",
+                "date-fr": "2019 / 2020",
+                "date-en": "2019 / 2020",
+                "location-fr": "Université Claude Bernard Lyon 1",
+                "location-en": "Lyon 1 University",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Développement en Vue.js",
+                        "elem-en": "Vue.js development"
+                    },
+                    {
+                        "elem-fr": "Développement en Node.js",
+                        "elem-en": "Node.js development"
+                    },
+                    {
+                        "elem-fr": "Développement en python",
+                        "elem-en": "Python development"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet avec des méthodes agiles (SCRUM)",
+                        "elem-en": "Project management with agile methods (SCRUM)"
+                    },
+                    {
+                        "elem-fr": "Développement en Java / Spring",
+                        "elem-en": "Java / Spring development"
+                    }
+                ]
+            },
+            {
+                "title-fr": "Licence informatique",
+                "title-en": "Licence in Computer Science",
+                "date-fr": "De 2015 à 2019",
+                "date-en": "From 2015 to 2019",
+                "location-fr": "Université Claude Bernard Lyon 1",
+                "location-en": "Lyon 1 University",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Développement en Java / Spring",
+                        "elem-en": "Java / Spring development"
+                    },
+                    {
+                        "elem-fr": "Développement en Symfony",
+                        "elem-en": "Symfony development"
+                    },
+                    {
+                        "elem-fr": "Design patterns",
+                        "elem-en": "Design patterns"
+                    },
+                    {
+                        "elem-fr": "Fondamentaux de l'informatique",
+                        "elem-en": "Basics of computer science"
+                    }
+                ]
+            },
+            {
+                "title-fr": "Baccalauréat Scientifique",
+                "title-en": "High school diploma in sciences",
+                "date-fr": "De 2012 à 2015",
+                "date-en": "From 2015 to 2019",
+                "location-fr": "Lycée Honoré de Balzac",
+                "location-en": "Honoré de Balzac high school",
+                "logo": "",
+                "list": []
+            }
+        ],
+        "experiences": [
+            {
+                "title-fr": "Développeur Web",
+                "title-en": "Web developper",
+                "date-fr": "Depuis 2020",
+                "date-en": "Since 2020",
+                "company": "La Cruz",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Réalisations de projets web",
+                        "elem-en": "Web projects realizations"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    },
+                    {
+                        "elem-fr": "Travail en équipe",
+                        "elem-en": "Teamwork"
+                    }
+                ]
+            },
+            {
+                "title-fr": "Développeur jeux-vidéo",
+                "title-en": "Game developper",
+                "date-fr": "Janvier 2020",
+                "date-en": "January 2020",
+                "company": "Global Game Jam 2020",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Réalisation d'un jeu en 48h",
+                        "elem-en": "Production of a game in 48h"
+                    },
+                    {
+                        "elem-fr": "Game Design",
+                        "elem-en": "Game Design"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    },
+                    {
+                        "elem-fr": "Travail en équipe",
+                        "elem-en": "Teamwork"
+                    }
+                ]
+            },
+            {
+                "title-fr": "Stagiaire développeur",
+                "title-en": "Developper intern",
+                "date-fr": "De mars 2019 à août 2019",
+                "date-en": "From march 2019 to august 2019",
+                "company": "Qualnet",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Méthodes agiles (SCRUM)",
+                        "elem-en": "Agile methods (SCRUM)"
+                    },
+                    {
+                        "elem-fr": "Environnement .NET",
+                        "elem-en": ".NET Environment"
+                    },
+                    {
+                        "elem-fr": "Adaptabilité",
+                        "elem-en": "Flexibility"
+                    }
+                ]
+            },
+            {
+                "title-fr": "Agent de production polyvalent",
+                "title-en": "Versatile Production Agent",
+                "date-fr": "De 2014 à 2016",
+                "date-en": "From March 2019 to August 2019",
+                "company": "Sermat",
+                "logo": "",
+                "list": [
+                    {
+                        "elem-fr": "Initialisation au monde du travail",
+                        "elem-en": "Initialization to the working world "
+                    },
+                    {
+                        "elem-fr": "Rigueur",
+                        "elem-en": "Rigor"
+                    },
+                    {
+                        "elem-fr": "Autonomie",
+                        "elem-en": "Autonomy"
+                    }
+                ]
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "VueJS",
+            "NodeJS",
+            "SASS",
+            "HTML",
+            "CSS",
+            "JS",
+            "Git",
+            "Java",
+            "Spring",
+            "C++",
+            "C#",
+            "SQL"
+        ],
+        "tools": [
+            "Github",
+            "Gitlab",
+            "Postman",
+            "Netlify",
+            "Nginx",
+            "Firebase",
+            "Unity",
+            "Figma",
+            "VSCode",
+            "Photoshop",
+            "Linux"
+        ],
+        "qualities": [
+            {
+                "tilte-fr": "Adaptabilité",
+                "tilte-en": "Flexibility"
+            },
+            {
+                "tilte-fr": "Autonomie",
+                "tilte-en": "Autonomy"
+            },
+            {
+                "tilte-fr": "Travail d'équipe",
+                "tilte-en": "Teamwork"
+            },
+            {
+                "tilte-fr": "Gestion de projet (SCRUM)",
+                "tilte-en": "Project management (SCRUM)"
+            }
+        ]
+    }
+]
