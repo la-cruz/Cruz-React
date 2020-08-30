@@ -11,7 +11,8 @@
         { "url" : "https://twig.symfony.com/", "img_src": "twig.svg", "name": "Twig", "is_home": true },
         { "url" : "https://nodejs.org/", "img_src": "node-js.svg", "name": "NodeJS", "is_home": true },
         { "url" : "https://www.mysql.com/", "img_src": "mysql.svg", "name": "MySQL", "is_home": true },
-        { "url" : "https://git-scm.com/", "img_src": "git.svg", "name": "Git", "is_home": true }
+        { "url" : "https://git-scm.com/", "img_src": "git.svg", "name": "Git", "is_home": true },
+        { "url" : "https://firebase.google.com", "img_src": "firebase.svg", "name": "Firebase", "is_home": false}
     ],
     "jv": [
         { "url" : "http://www.cplusplus.com/", "img_src": "c++.svg", "name": "C++", "is_home": true },

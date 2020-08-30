@@ -110,5 +110,192 @@
                 "image": ""
             }
         ]
+    },
+    {
+        "name": "Audart",
+        "firstname": "Lucas",
+        "image": "lucas.png",
+        "thumbnail": "lucas-thumbnail.png",
+        "bio": "",
+        "cv-fr": "",
+        "cv-en": "",
+        "fonction": "Trésorier",
+        "metier": "Développeur web",
+        "socials": [
+            {
+                "name": "mail",
+                "link": "lucasaudart@gmail.com",
+                "icon": "fas fa-envelope"
+            },
+            {
+                "name": "tel",
+                "link": "0629015302",
+                "icon": "fas fa-phone"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/Slocaly",
+                "icon": "fab fa-github"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/lucas-audart-935a18134/",
+                "icon": "fab fa-linkedin"
+            }
+        ],
+        "studies": [
+            {
+                "title": "Master 2 TIW",
+                "date": "En cours",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list": []
+            },
+            {
+                "title": "Master 1 Informatique",
+                "date": "2019 / 2020",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list": [
+                    "Développement React JS",
+                    "Développement Vue",
+                    "Développement Node Js",
+                    "Gestion de projet"
+                ]
+            },
+            {
+                "title": "Licence Informatique",
+                "date": "2015 / 2019",
+                "location": "Université Claude Bernard Lyon 1",
+                "logo": "",
+                "list": [
+                    "Développement Symfony",
+                    "Développement C++",
+                    "Création de projet Web et Jeux vidéo"
+                ]
+            },
+            {
+                "title": "Baccalauréat",
+                "date": "2015",
+                "location": "Lycée Pierre Brossolette",
+                "logo": "",
+                "list": [
+                    "Science de l'ingénieur",
+                    "Spécialité Informatique et Science du Numérique"
+                ]
+            }
+        ],
+        "experiences": [
+            {
+                "title": "Développeur Web",
+                "date": "Depuis 2019",
+                "company": "Association La Cruz",
+                "logo": "",
+                "list": [
+                    "Réalisation de projets web",
+                    "Organisation de Réunion",
+                    "Gestion de projet",
+                    "Travail en équipe"
+                ]
+            },
+            {
+                "title": "Réalisateur / Producteur",
+                "date": "Depuis 2018",
+                "company": "Association Rital Prod",
+                "logo": "",
+                "list": [
+                    "Réalisation de projets audiovisuel",
+                    "Organisation de Tournage",
+                    "Gestion d'équipe"
+                ]
+            },
+            {
+                "title": "Développeur Symfony",
+                "date": "Mai 2019 - Aout 2019",
+                "company": "IDCI Consulting",
+                "logo": "",
+                "list": [
+                    "Réalisation d'un réusinage Silex vers Symfony",
+                    "Adaptation à l'organisation d'une entreprise",
+                    "Travail en équipe"
+                ]
+            },
+            {
+                "title": "Ouvier Polyvalent",
+                "date": "Juillet 2016",
+                "company": "Europoly",
+                "logo": "",
+                "list": [
+                    "Rigueur"
+                ]
+            },
+            {
+                "title": "Assistant Communication",
+                "date": "Juin 2016",
+                "company": "AFAA",
+                "logo": "",
+                "list": [
+                    "Conception graphique",
+                    "Gestion de base de donnée"
+                ]
+            },
+            {
+                "title": "Administrateur système",
+                "date": "2014",
+                "company": "Interface",
+                "logo": "",
+                "list": [
+                    "Base de la maintenance informatique"
+                ]
+            },
+            {
+                "title": "Développeur Web",
+                "date": "2012",
+                "company": "Danka Studio",
+                "logo": "",
+                "list": [
+                    "Base du développement web",
+                    "Réalisation de projets web simple"
+                ]
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "VueJS",
+            "NodeJS",
+            "Symfony",
+            "Twig",
+            "Sass",
+            "JS",
+            "HTML",
+            "CSS",
+            "Java",
+            "C++"
+        ],
+        "outils": [
+            "Git",
+            "Firebase",
+            "MySQL",
+            "VSCode",
+            "Figma"
+        ],
+        "qualities": [
+            {
+                "title": "Travail d'équipe",
+                "image": ""
+            },
+            {
+                "title": "Gestion de projet",
+                "image": ""
+            },
+            {
+                "title": "Gestion d'équipe",
+                "image": ""
+            },
+            {
+                "title": "Organisation",
+                "image": ""
+            }
+        ]
     }
 ]
