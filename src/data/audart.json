@@ -44,10 +44,11 @@
             "location": "Université Claude Bernard Lyon 1",
             "logo": "",
             "list": [
-                "Développement React JS",
-                "Développement Vue",
-                "Développement Node Js",
-                "Gestion de projet"
+                "Développement ReactJS",
+                "Développement VueJS",
+                "Développement NodeJs",
+                "Gestion de projet",
+                "Nuit de l'info 2019"
             ]
         },
         {
@@ -58,7 +59,8 @@
             "list": [
                 "Développement Symfony",
                 "Développement C++",
-                "Création de projet Web et Jeux vidéo"
+                "Création de projet Web et Jeux vidéo",
+                "Nuit de l'info 2018"
             ]
         },
         {
@@ -152,12 +154,14 @@
         "NodeJS",
         "Symfony",
         "Twig",
-        "Sass",
+        "SASS",
         "JS",
         "HTML",
         "PHP",
         "CSS",
         "Java",
+        "Python",
+        "SQL",
         "Git",
         "C++"
     ],
