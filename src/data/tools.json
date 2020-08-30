@@ -1,24 +1,20 @@
-{
-    "web": [
-        { "url" : "https://symfony.com/", "img_src": "symfony.svg", "name": "Symfony", "is_home": true },
-        { "url" : "https://fr.reactjs.org/", "img_src": "react.svg", "name": "ReactJS", "is_home": true },
-        { "url" : "https://vuejs.org/", "img_src": "vue.svg", "name": "VueJS", "is_home": true },
-        { "url" : "https://developer.mozilla.org/fr/docs/Web/JavaScript", "img_src": "javascript.svg", "name": "JS", "is_home": true },
-        { "url" : "https://developer.mozilla.org/fr/docs/Web/HTML", "img_src": "html.svg", "name": "HTML", "is_home": true },
-        { "url" : "https://developer.mozilla.org/fr/docs/Web/CSS", "img_src": "css3.svg", "name": "CSS", "is_home": true },
-        { "url" : "https://sass-lang.com/", "img_src": "sass.svg", "name": "SASS", "is_home": true },
-        { "url" : "https://www.php.net/manual/fr/intro-whatis.php", "img_src": "php.svg", "name": "PHP", "is_home": true },
-        { "url" : "https://twig.symfony.com/", "img_src": "twig.svg", "name": "Twig", "is_home": true },
-        { "url" : "https://nodejs.org/", "img_src": "node-js.svg", "name": "NodeJS", "is_home": true },
-        { "url" : "https://www.mysql.com/", "img_src": "mysql.svg", "name": "MySQL", "is_home": true },
-        { "url" : "https://git-scm.com/", "img_src": "git.svg", "name": "Git", "is_home": true }
-    ],
-    "jv": [
-        { "url" : "http://www.cplusplus.com/", "img_src": "c++.svg", "name": "C++", "is_home": true },
-        { "url" : "https://unity.com/", "img_src": "unity.svg", "name": "Unity", "is_home": true },
-        { "url" : "https://www.blender.org/", "img_src": "blender.svg", "name": "Blender", "is_home": true },
-        { "url" : "https://en.wikipedia.org/wiki/C_(programming_language)", "img_src": "c.svg", "name": "C", "is_home": true },
-        { "url" : "https://www.java.com/", "img_src": "java.svg", "name": "Java", "is_home": true },
-        { "url" : "https://www.unrealengine.com/", "img_src": "unreal.svg", "name": "Unreal", "is_home": true }
-    ]
-}
+[
+    { "url" : "https://symfony.com/", "img_src": "symfony.svg", "name": "Symfony", "is_home": true, "category": "web" },
+    { "url" : "https://fr.reactjs.org/", "img_src": "react.svg", "name": "ReactJS", "is_home": true, "category": "web" },
+    { "url" : "https://vuejs.org/", "img_src": "vue.svg", "name": "VueJS", "is_home": true, "category": "web" },
+    { "url" : "https://developer.mozilla.org/fr/docs/Web/JavaScript", "img_src": "javascript.svg", "name": "JS", "is_home": true, "category": "web" },
+    { "url" : "https://developer.mozilla.org/fr/docs/Web/HTML", "img_src": "html.svg", "name": "HTML", "is_home": true, "category": "web" },
+    { "url" : "https://developer.mozilla.org/fr/docs/Web/CSS", "img_src": "css3.svg", "name": "CSS", "is_home": true, "category": "web" },
+    { "url" : "https://sass-lang.com/", "img_src": "sass.svg", "name": "SASS", "is_home": true, "category": "web" },
+    { "url" : "https://www.php.net/manual/fr/intro-whatis.php", "img_src": "php.svg", "name": "PHP", "is_home": true, "category": "web" },
+    { "url" : "https://twig.symfony.com/", "img_src": "twig.svg", "name": "Twig", "is_home": true, "category": "web" },
+    { "url" : "https://nodejs.org/", "img_src": "node-js.svg", "name": "NodeJS", "is_home": true, "category": "web" },
+    { "url" : "https://www.mysql.com/", "img_src": "mysql.svg", "name": "MySQL", "is_home": true, "category": "web" },
+    { "url" : "http://www.cplusplus.com/", "img_src": "c++.svg", "name": "C++", "is_home": true, "category": "jv" },
+    { "url" : "https://unity.com/", "img_src": "unity.svg", "name": "Unity", "is_home": true, "category": "jv" },
+    { "url" : "https://www.blender.org/", "img_src": "blender.svg", "name": "Blender", "is_home": true, "category": "jv" },
+    { "url" : "https://en.wikipedia.org/wiki/C_(programming_language)", "img_src": "c.svg", "name": "C", "is_home": true, "category": "jv" },
+    { "url" : "https://www.java.com/", "img_src": "java.svg", "name": "Java", "is_home": true, "category": "jv" },
+    { "url" : "https://www.unrealengine.com/", "img_src": "unreal.svg", "name": "Unreal", "is_home": true, "category": "jv" },
+    { "url" : "https://git-scm.com/", "img_src": "git.svg", "name": "Git", "is_home": true, "category": "both" }
+]
