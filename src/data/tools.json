@@ -18,7 +18,6 @@
     { "name": "Unreal", "url" : "https://www.unrealengine.com/", "img_src": "unreal.svg", "is_home": true, "category": "jv" },
     { "name": "Git", "url" : "https://git-scm.com/", "img_src": "git.svg", "is_home": true, "category": "both" },
     { "name": "VSCode", "url" : "https://code.visualstudio.com", "img_src": "vscode.svg", "is_home": false, "category": "both" },
-    { "name": "C#", "url" : "https://wikipedia.org/wiki/C_sharp", "img_src": "c#.svg", "is_home": true, "category": "jv" },
     { "name": "Spring", "url" : "https://spring.io/", "img_src": "spring.svg", "is_home": false, "category": "web" },
     { "name": "SQL", "url" : "https://wikipedia.org/wiki/Structured_Query_Language", "img_src": "sql.svg", "is_home": false, "category": "web" },
     { "name": "Gitlab", "url" : "https://about.gitlab.com/", "img_src": "gitlab.svg", "is_home": false, "category": "web" },

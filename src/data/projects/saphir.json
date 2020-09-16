@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Saphir",
+        "image": "",
+        "category": "web",
+        "date-fr": "2020",
+        "date-en": "2020",
+        "desc-fr": "lorem",
+        "desc-en": "lorem",
+        "short-desc-fr": "lorem",
+        "short-desc-en": "lorem",
+        "is_home": true,
+        "links": [
+            {
+                "link": "https://projet.liris.cnrs.fr/SAPHIR/",
+                "icon": "fas fa-link"
+            }
+        ],
+        "type": [
+            {
+                "elem-fr":"Application Web Educative",
+                "elem-en":"Educative Web App"
+            }
+        ],
+        "features": [
+            {
+                "image": "xxx.png",
+                "title-fr": "Progressive Web App",
+                "title-en": "Progressive Web App",
+                "description-fr": "Saphir est une PWA, ce qui lui permet d'être téléchargé comme une application sur tout les dispositif et disponnible hors connexion",
+                "description-en": "Saphir is a PWA, you can download it as an desktop or mobile application, and it will be available without connexion"
+            },
+            {
+                "image": "xxx.png",
+                "title-fr": "Site responsive",
+                "title-en": "Responsive website",
+                "description-fr": "L'application est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+                "description-en": "The application is available on all platform, from the desktop to mobile phone"
+            },
+            {
+                "image": "xxx.png",
+                "title-fr": "Éducatif",
+                "title-en": "Educative",
+                "description-fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
+                "description-en": "The application is made to work in school with young learner"
+            },
+            {
+                "image": "xxx.png",
+                "title-fr": "Mise en place d'un expérience",
+                "title-en": "Setting up an experiment",              
+                "description-fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
+                "description-en": "The application is made to work in school with young learner"
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "Firebase"
+        ],
+        "team": [
+            {
+                "name": "Alves Mickael",
+                "roles": [
+                    {
+                        "elem-fr": "Développement",
+                        "elem-en": "development"
+                    },
+                    {
+                        "elem-fr": "Design",
+                        "elem-en": "Design"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    }
+                ]
+            },
+            {
+                "name": "Audart Lucas",
+                "roles": [
+                    {
+                        "elem-fr": "Développement",
+                        "elem-en": "Development"
+                    },
+                    {
+                        "elem-fr": "Design",
+                        "elem-en": "Design"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    }
+                ]
+            }
+        ]
+    }
+]
