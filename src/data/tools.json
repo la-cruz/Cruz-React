@@ -29,5 +29,8 @@
     { "name": "Firebase", "url" : "https://firebase.google.com/", "img_src": "firebase.svg", "is_home": false, "category": "web" },
     { "name": "Figma", "url" : "https://www.figma.com/", "img_src": "figma.svg", "is_home": false, "category": "web" },
     { "name": "Photoshop", "url" : "https://www.adobe.com/fr/products/photoshop.html", "img_src": "photoshop.svg", "is_home": false, "category": "both" },
-    { "name": "Linux", "url" : "https://wikipedia.org/wiki/Linux", "img_src": "linux.svg", "is_home": false, "category": "web" }
+    { "name": "Linux", "url" : "https://wikipedia.org/wiki/Linux", "img_src": "linux.svg", "is_home": false, "category": "web" },
+    { "name": "VBA", "url" : "https://fr.wikipedia.org/wiki/Visual_Basic_for_Applications", "img_src": "vba.png", "is_home": false, "category": "both" },
+    { "name": "Netlogo", "url" : "https://ccl.northwestern.edu/netlogo/", "img_src": "netlogo.png", "is_home": false, "category": "ia" },
+    { "name": "JUnit", "url" : "https://fr.wikipedia.org/wiki/JUnit", "img_src": "JUnit.png", "is_home": false, "category": "both" }
 ]
