@@ -7,8 +7,7 @@
         "bio": "lorem",
         "cv-fr": "etienne-cv-fr.pdf",
         "cv-en": "etienne-cv-en.pdf",
-        "fonction-fr": "Membre",
-        "fonction-en": "Member",
+        "fonction": "label.perso.member",
         "metier": "label.perso.dev.web",
         "socials": [
             {

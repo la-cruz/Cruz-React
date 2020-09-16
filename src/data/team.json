@@ -1,0 +1,72 @@
+[
+    {
+      "img-src": "",
+      "name": "Alves",
+      "firstname": "Mickael",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.president"
+    },
+    {
+      "img-src": "",
+      "name": "Audart",
+      "firstname": "Lucas",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.treasurer"
+    },
+    {
+      "img-src": "",
+      "name": "Bruneau",
+      "firstname": "Richard",
+      "metier": "label.perso.dev.polyvalent",
+      "role": "label.perso.secretary"
+    },
+    {
+      "img-src": "",
+      "name": "Givord",
+      "firstname": "Lucas",
+      "metier": "label.perso.dev.jv",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "img-src": "",
+      "name": "Idoux",
+      "firstname": "Etienne",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member"
+    },
+    {
+      "img-src": "",
+      "name": "Renaudier",
+      "firstname": "Tristan",
+      "metier": "label.perso.admin.sys",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "img-src": "",
+      "name": "Riche",
+      "firstname": "Amélie",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "img-src": "",
+      "name": "Robert",
+      "firstname": "Nicolas",
+      "metier": "label.perso.dev.jv",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "img-src": "",
+      "name": "Sabard",
+      "firstname": "Pierre",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member"
+    },
+    {
+      "img-src": "",
+      "name": "Tirvaudey",
+      "firstname": "Florent",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member.founder"
+    }
+]
