@@ -1,0 +1,63 @@
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 470px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+    inset -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.3),
+    -5px -5px 15px rgba(255,255,255,0.1);
+
+    .content-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+        align-items: center;
+        width: 85%;
+        height: 420px;
+        border-radius: 15px;
+        border-color: $cruz-color-dark-grey;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        background-color: $cruz-color-light-grey;
+        transition: 0.5s;
+        padding: 3rem 0;
+    
+        img {
+            width: 120px;
+        }
+
+        &:hover {
+            transition: 0.5s;
+            transform: translateY(-40px);
+            box-shadow: 0,40px 70px rgba(0,0,0,0.5);
+        }
+
+        p {
+            width: 90%;
+            text-align: justify;
+            color: #828181;
+            font-weight: bold;
+            font-size: 1.3rem;
+            line-height: 1.7rem;
+        }
+
+        .btn-card {
+            padding: 1.3rem 2rem;
+            background: $cruz-color-yellow-dark;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

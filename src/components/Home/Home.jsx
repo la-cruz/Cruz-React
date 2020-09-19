@@ -4,7 +4,6 @@ import Particles from 'react-particles-js'
 import particlesOptions from '../../data/particles.json'
 import {ReactComponent as ReactLogo} from '../../assets/images/undraw_progressive_app_m9ms_grey.svg';
 import tools from "../../data/tools.json"
-import projects from "../../data/projects.json"
 import useSessionStorage from '../../lib/useSessionStorage'
 import handleScroll from '../../lib/handleScroll'
 import { Link } from 'react-router-dom';
@@ -12,6 +11,8 @@ import { TimelineMax, Power2 } from 'gsap/gsap-core';
 import { CSSPlugin } from 'gsap';
 import gsap from 'gsap/gsap-core';
 import { isSafari } from 'react-device-detect';
+import SlickLink from '../Basic/SlickLink'
+
 
 function Home() {
     const [isAnimation, setIsAnimation] = useSessionStorage('animation', false)
@@ -107,18 +108,14 @@ function Home() {
                     </label>
                 </div>
                 <section className="production-list production-list-web wow fadeInUp">
-                    {
-                        projects.filter(elem => elem.is_home && elem.category === "web").map(project => (
-                            <div key={project.name}>Card projet à faire</div>
-                        ))
-                    }
+                    <SlickLink />
                 </section>
                 <section className="production-list production-list-jv wow fadeInUp">
-                    {
-                        projects.filter(elem => elem.is_home && elem.category === "jv").map(project => (
-                            <div key={project.name}>Card projet à faire</div>
+                    {/* {
+                        projectsWeb.filter(elem => elem.is_home && elem.category === "jv").map(project => (
+                            <Card key={project.name} data={project} />
                         ))
-                    }
+                    } */}
                 </section>
             </section>
 

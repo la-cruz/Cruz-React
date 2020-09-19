@@ -1,0 +1,50 @@
+[
+    {
+        "is_home": true,
+        "name": "onlyvert",
+        "description": "Application web et back office, réalisée en React JS pour la startup Onlyvert. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. ",
+        "img": "onlyvert.png",
+        "link_website": "only-vert",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "saphir",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "saphir.png",
+        "link_website": "saphir",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "health eat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "healtheat.png",
+        "link_website": "health-eat",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "lacruz",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "lacruz.png",
+        "link_website": "la-cruz",
+        "other_link": ""
+    },
+    {       
+        "is_home": true,
+        "name": "eva dalla costa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "eva.png",
+        "link_website": "eva-dalla-costa",
+        "other_link": ""
+    },
+    {       
+        "is_home": true,
+        "name": "speed race",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "speedrace.png",
+        "link_website": "speed-race",
+        "other_link": ""
+    }
+]

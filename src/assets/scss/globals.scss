@@ -190,3 +190,72 @@ h3 {
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
   }
 }
+
+.hover-shadow {
+  display: inline-block;
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+
+  &:before {
+      pointer-events: none;
+      position: absolute;
+      z-index: -1;
+      content: "";
+      top: 100%;
+      left: 5%;
+      height: 10px;
+      width: 90%;
+      opacity: 0;
+      background: radial-gradient(
+          ellipse at center,
+          rgba(252, 252, 252, 0.35) 0%,
+          rgba(0, 0, 0, 0) 80%
+      );
+      transition-duration: 0.3s;
+      transition-property: transform opacity;
+  }
+
+  &:hover {
+      transform: translateY(-6px);
+      animation-name: hover;
+      animation-duration: 1.5s;
+      animation-delay: 0.3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  }
+
+  &:hover:before {
+      opacity: 0.4;
+      transform: translateY(6px);
+      animation-name: hover-shadow;
+      animation-duration: 1.5s;
+      animation-delay: 0.3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  }
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 5rem;
+  color: $cruz-color-yellow-dark;
+  margin: 0 2rem;
+  cursor: pointer;
+  
+  &:hover {
+    
+    &.fa-chevron-right {
+      animation: bounceRight 0.7s;
+    }
+    
+    &.fa-chevron-left {
+      animation: bounceLeft 0.7s;
+    }
+  }
+}
