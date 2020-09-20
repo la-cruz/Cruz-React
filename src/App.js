@@ -21,14 +21,9 @@ import {
 // Projects
 import projects from "./lib/projects";
 
-
-
-
-
 function App() {
   const { i18n } = useTranslation()
   i18n.changeLanguage("fr")
-  console.log(projects);
 
   return (
     <Router>
@@ -44,7 +39,7 @@ function App() {
         {
           projects.map( (project) => {
             return (
-              <Route path={"/" + project.name} key={project.name}>
+              <Route path={"/project/" + project.name} key={project.name}>
                 <Project data={project} />
               </Route>
             )
