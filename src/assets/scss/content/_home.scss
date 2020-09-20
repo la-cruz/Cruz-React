@@ -149,7 +149,7 @@
     }
     
     &.safari {
-        height: 80rem;
+        height: 60rem;
         background-image: url("../../images/groupe.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -241,13 +241,16 @@
                     display: flex;
                     height: fit-content;
                     width: 10%;
+                    padding: 1rem 0;
 
                     &.slick-prev {
                         text-align: right;
+                        margin-left: 2rem;
                     }
 
                     &.slick-next {
                         text-align: left;
+                        margin-right: 2rem;
                     }
 
                     &.slick-disabled {
