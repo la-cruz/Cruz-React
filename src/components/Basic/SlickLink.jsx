@@ -23,12 +23,23 @@ function SamplePrevArrow(props) {
 }
 
 function SlickLink({category}) {
-    console.log(category);
+    function checkSlidesToShow() {
+        if (category === "jv") {
+            return projectsJV.filter(elem => elem.is_home).length < 4 ?
+            projectsJV.filter(elem => elem.is_home).length : 4;
+        } else {
+            return 4;
+        }
+
+    } 
+    
+    var styleCardSmaller = checkSlidesToShow() !== 4 ? true : false;
+
     var settings = {
         infinite: false,
         autospeed: 200,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: checkSlidesToShow(),
         slidesToScroll: 1,
         cssEase: "linear",
         arrows: true,
@@ -64,7 +75,7 @@ function SlickLink({category}) {
                 ))
                 :
                 projectsJV.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project} />
+                    <Card key={project.name} data={project}  styleCardSmaller={styleCardSmaller}/>
                 ))
             }
             </Slider>

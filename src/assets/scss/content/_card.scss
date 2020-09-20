@@ -11,6 +11,10 @@
     5px 5px 15px rgba(0,0,0,0.3),
     -5px -5px 15px rgba(255,255,255,0.1);
 
+    &.smaller {
+        width: 400px;
+    }
+
     .content-card {
         display: flex;
         flex-direction: column;
@@ -48,7 +52,7 @@
 
         .btn-card {
             padding: 1.3rem 2rem;
-            background: $cruz-color-yellow-dark;
+            background: $gradient-yellow;
             font-size: 1.3rem;
             font-weight: bold;
             text-transform: uppercase;
@@ -59,7 +63,7 @@
             margin-top: 2rem;
 
             &:hover {
-                cursor: pointer;
+                cursor: not-allowed;
             }
         }
     }
