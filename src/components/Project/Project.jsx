@@ -6,6 +6,7 @@ function Project( {data} ) {
         <div className="project">
             <div className="presentation">
                 <h1>{ data.name }</h1>
+                {/* TODO: ADDED IMG TO ASSETS & DELETE CONDITION */}
                 <img src={data.image === "" ? "https://via.placeholder.com/624x395" : data.image} alt="img-pres" />
                 <h2> { data.date_fr + " - " + data.type.elem_fr } </h2>
                 <p className="description"> { data.desc_fr } </p>
@@ -26,6 +27,7 @@ function Project( {data} ) {
                 {
                     data.features.map( (elem,i) => (
                         <div className="card-feature" key={i}>
+                            {/* TODO: ADDED IMG TO ASSETS & DELETE CONDITION */}
                             <img src={elem.image === "" ? "https://via.placeholder.com/50x100" : elem.image} alt="img-card" />
                             <h3> { elem.title_fr } </h3>
                             <p> { elem.description_fr } </p>
@@ -38,7 +40,7 @@ function Project( {data} ) {
                 <h2>Technologies</h2>
                 {
                     data.technologies.map( (technology, i) => (
-                        <img src={require('../../assets/images/tools/' + technology.toLowerCase() + ".svg")} alt="img-techno" height="100px" width="100px" />
+                        <img src={require('../../assets/images/tools/' + technology.toLowerCase() + ".svg")} alt="img-techno" height="100px" width="100px" key={i} />
                     ))
                 }
             </div>
@@ -47,6 +49,7 @@ function Project( {data} ) {
                 <h2>Equipe</h2>
                 {
                     data.team.map( (member, i) => {
+                        {/* TODO: ADDED IMG TO ASSETS & DELETE CONDITION */}
                         var img = "";
                         try{
                             img = require('../../assets/images/team/' + member.image);
@@ -60,7 +63,7 @@ function Project( {data} ) {
                                 <ul>
                                     {
                                         member.roles.map( (role, i) => (
-                                            <li> {role.text_fr} </li>
+                                            <li key={i}> {role.text_fr} </li>
                                         ))
                                     }
                                 </ul>

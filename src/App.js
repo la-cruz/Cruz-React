@@ -39,7 +39,7 @@ function App() {
         {
           projects.map( (project) => {
             return (
-              <Route path={"/project/" + project.name} key={project.name}>
+              <Route path={"/project/" + project.name.replace(' ', "-").toLowerCase()} key={project.name}>
                 <Project data={project} />
               </Route>
             )
