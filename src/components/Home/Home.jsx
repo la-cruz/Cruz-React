@@ -108,14 +108,10 @@ function Home() {
                     </label>
                 </div>
                 <section className="production-list production-list-web wow fadeInUp">
-                    <SlickLink />
+                    <SlickLink category="web"/>
                 </section>
                 <section className="production-list production-list-jv wow fadeInUp">
-                    {/* {
-                        projectsWeb.filter(elem => elem.is_home && elem.category === "jv").map(project => (
-                            <Card key={project.name} data={project} />
-                        ))
-                    } */}
+                    <SlickLink category="jv"/>
                 </section>
             </section>
 

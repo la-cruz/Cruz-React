@@ -7,7 +7,7 @@ function Card({data}) {
                 <img src={require(`../../assets/images/projects/${data.img}`)} alt=""/>
                 <h3>{data.name}</h3>
                 <p>{data.description}</p>
-                <a className="btn-card" href="">En savoir plus</a>
+                <a className="btn-card hover-shadow" href="">En savoir plus</a>
             </div>
         </div>
     );

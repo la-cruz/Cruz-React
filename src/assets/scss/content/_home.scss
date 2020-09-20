@@ -168,6 +168,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    margin-bottom: 3rem;
     
     * {
         position: relative;
@@ -220,7 +221,10 @@
         display: flex;
         justify-content: center;
         position: relative;
-        padding-bottom: 3rem;
+        transition: opacity 1s;
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
         
         .container-slider {
             width: 100%;
@@ -232,6 +236,29 @@
                 width: 100%;
                 display: flex;
                 justify-content: center;
+
+                button {
+                    display: flex;
+                    height: fit-content;
+                    width: 10%;
+
+                    &.slick-prev {
+                        text-align: right;
+                    }
+
+                    &.slick-next {
+                        text-align: left;
+                    }
+
+                    &.slick-disabled {
+                        opacity: 0;
+                    }
+
+                    &:before {
+                        color: $cruz-color-yellow-dark;
+                        font-size: 5rem;
+                    }
+                }
 
                 span {
                     width: 10%;
