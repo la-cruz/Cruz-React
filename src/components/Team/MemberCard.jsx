@@ -20,7 +20,7 @@ function MemberCard({data}) {
                             ))
                             :
                             <div className="btn-more">
-                                <a href="" className="hover-shadow">Voir profil</a>
+                                <a className="hover-shadow">Page profil à venir !</a>
                             </div>
                         }
                     </div>

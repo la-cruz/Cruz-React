@@ -1,0 +1,50 @@
+[
+    {
+        "is_home": true,
+        "name": "onlyvert",
+        "description": "Only-vert est une start-up lyonnaise qui travaille dans le tri-selectif pour qui nous avons réalisé un site vitrine et un back-office relié à leur base de données. ",
+        "img": "onlyvert.png",
+        "link_website": "only-vert",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "saphir",
+        "description": "Le projet Saphir est un projet réalisé dans le cadre de notre master. Nous devions réalisé une progressive web app éducative en relation étroite avec la fondation Albatross.",
+        "img": "saphir.png",
+        "link_website": "saphir",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "health eat",
+        "description": "Le projet Health-eat est un site réalisé dans le cadre de Licence. Après avoir scrapé differents sites de recettes, ce site génère un menu pour la semaine.",
+        "img": "healtheat.png",
+        "link_website": "health-eat",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "lacruz",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "lacruz.png",
+        "link_website": "la-cruz",
+        "other_link": ""
+    },
+    {       
+        "is_home": true,
+        "name": "eva dalla costa",
+        "description": "Eva Dalla Costa est une photographe lyonnaise pour qui nous avons réalisé un site vitrine avec un back-office. Ainsi, elle peut gérer le contenu de ses galeries en toute autonomie.",
+        "img": "eva.png",
+        "link_website": "eva-dalla-costa",
+        "other_link": ""
+    },
+    {       
+        "is_home": true,
+        "name": "speed race",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "img": "speedrace.png",
+        "link_website": "speed-race",
+        "other_link": ""
+    }
+]
