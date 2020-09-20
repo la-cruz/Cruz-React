@@ -1,55 +1,55 @@
 [
     {
-      "img-src": "mickael.jpg",
+      "imgsrc": "mickael.jpg",
       "name": "Alves",
       "firstname": "Mickael",
       "metier": "label.perso.dev.web",
       "role": "label.perso.president"
     },
     {
-      "img-src": "lucasa.jpg",
+      "imgsrc": "lucasa.jpg",
       "name": "Audart",
       "firstname": "Lucas",
       "metier": "label.perso.dev.web",
       "role": "label.perso.treasurer"
     },
     {
-      "img-src": "richard.jpg",
+      "imgsrc": "richard.jpg",
       "name": "Bruneau",
       "firstname": "Richard",
       "metier": "label.perso.dev.polyvalent",
       "role": "label.perso.secretary"
     },
     {
-      "img-src": "lucasg.jpg",
+      "imgsrc": "lucasg.jpg",
       "name": "Givord",
       "firstname": "Lucas",
       "metier": "label.perso.dev.jv",
       "role": "label.perso.member.founder"
     },
     {
-      "img-src": "avatar.png",
+      "imgsrc": "avatar.png",
       "name": "Idoux",
       "firstname": "Etienne",
       "metier": "label.perso.dev.web",
       "role": "label.perso.member"
     },
     {
-      "img-src": "avatar.png",
+      "imgsrc": "avatar.png",
       "name": "Renaudier",
       "firstname": "Tristan",
       "metier": "label.perso.admin.sys",
       "role": "label.perso.member.founder"
     },
     {
-      "img-src": "amelie.jpg",
+      "imgsrc": "amelie.jpg",
       "name": "Riche",
       "firstname": "Amélie",
       "metier": "label.perso.dev.web",
       "role": "label.perso.member.founder"
     },
     {
-      "img-src": "nicolas.jpg",
+      "imgsrc": "nicolas.jpg",
       "name": "Robert",
       "firstname": "Nicolas",
       "metier": "label.perso.dev.jv",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "img-src": "avatar.png",
+      "imgsrc": "avatar.png",
       "name": "Sabard",
       "firstname": "Pierre",
       "metier": "label.perso.dev.web",
@@ -87,7 +87,7 @@
     ]
     },
     {
-      "img-src": "florent.jpg",
+      "imgsrc": "florent.jpg",
       "name": "Tirvaudey",
       "firstname": "Florent",
       "metier": "label.perso.dev.web",
