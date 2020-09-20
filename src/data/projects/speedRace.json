@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Speed Race",
+        "image": "",
+        "category": "web",
+        "date-fr": "2020",
+        "date-en": "2020",
+        "desc-fr": "lorem",
+        "desc-en": "lorem",
+        "short-desc-fr": "lorem",
+        "short-desc-en": "lorem",
+        "is_home": true,
+        "links": [
+            {
+                "link": "lien git",
+                "icon": "fab fa-github"
+            }
+        ],
+        "type": [
+            {
+                "elem-fr":"Application web",
+                "elem-en":"Web application"
+            },
+            {
+                "elem-fr":"Back office",
+                "elem-en":"Back office"
+            } 
+        ],
+        "features": [
+            {
+                "image": "xxx.png",
+                "title-fr": "Site responsive",
+                "title-en": "Responsive website",
+                "description-fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+                "description-en": "The website is available on all platform, from the desktop to mobile phone"
+            },
+            {
+                "image": "xxx.svg",
+                "title-fr": "Back office personnalisé",
+                "title-en": "Personalized back office",
+                "description-fr": "L'application web est accompagné d'un back office afin de gérer toute la configuration d'une partie.",
+                "description-en": "The website comes with a back office in order to manage the data of the site and their mobile application."
+            },
+            {
+                "image": "firebase.svg",
+                "title-fr": "Liaison avec Firebase",
+                "title-en": "Built with Firebase",
+                "description-fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
+                "description-en": "Built with Firebase, we use the same data as used in the app"
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "Firebase"
+        ],
+        "team": [
+            {
+                "name": "Alves Mickael",
+                "roles": [
+                    {
+                        "elem-fr": "Développement",
+                        "elem-en": "development"
+                    },
+                    {
+                        "elem-fr": "Design",
+                        "elem-en": "Design"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    }
+                ]
+            },
+            {
+                "name": "Audart Lucas",
+                "roles": [
+                    {
+                        "elem-fr": "Développement",
+                        "elem-en": "Development"
+                    },
+                    {
+                        "elem-fr": "Design",
+                        "elem-en": "Design"
+                    },
+                    {
+                        "elem-fr": "Gestion de projet",
+                        "elem-en": "Project management"
+                    }
+                ]
+            }
+        ]
+    }
+]
