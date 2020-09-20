@@ -56,7 +56,6 @@
   .page-header {
     h1 {
       font-size: 11rem;
-      padding-left: 5rem;
     }
 
     p {
@@ -90,6 +89,18 @@
       padding: 0 2rem;
       font-size: 3rem;
     }
+
+    .production-list {
+      .container-slider {
+        .slick-slider {
+          button {
+            &::before {
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -102,6 +113,26 @@
 @media (max-width: 600px) {
   .img-group {
     height: 40rem;
+  }
+
+  .production {
+    .production-list {
+      .container-slider {
+        .slick-slider {
+          button {
+              margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .page-header {
+    h1 {
+      padding-left: 5rem;
+    }
   }
 }
 
