@@ -1,0 +1,150 @@
+[
+    {
+        "name": "BRUNEAU", 
+        "firstname": "Richard",
+        "image": "mickael.png",
+        "thumbnail": "mickael-thumbnail.png",
+        "bio": "label.perso.bio.bruneau",
+        "cv-fr": "cv-site-Bruneau.pdf",
+        "cv-en": "cv-site-Bruneau.pdf",
+        "fonction": "label.perso.secretary",
+        "metier": "label.perso.dev.polyvalent",
+        "socials": [
+            {
+                "name": "mail",
+                "link": "bruneau.rich@gmail.com",
+                "icon": "fas fa-envelope"
+            },
+            {
+                "name": "tel",
+                "link": "0648482177",
+                "icon": "fas fa-phone"
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/B2RJ",
+                "icon": "fab fa-github"
+            },
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/richard-bruneau-173439155",
+                "icon": "fab fa-linkedin"
+            }
+        ],
+        "studies": [
+            {
+                "title": "label.perso.studies.title.master2.ia",
+                "date": "label.perso.date.2020.2021",
+                "location": "label.perso.location.lyon1",
+                "logo": "",
+                "list": []
+            },
+            {
+                "title": "label.perso.studies.title.master1",
+                "date": "label.perso.date.2019.2020",
+                "location": "label.perso.location.lyon1",
+                "logo": "",
+                "list": [
+                    "label.perso.elem.project.management",
+                    "label.perso.elem.dev.prolog",
+                    "label.perso.elem.dev.java",
+                    "label.perso.elem.dev.c++",
+                    "label.perso.elem.dev.netlogo",
+                    "label.perso.elem.dev.python",
+                    "label.perso.elem.dev.d"
+                ]
+            },
+            {
+                "title": "label.perso.studies.title.bachelor",
+                "date": "label.perso.date.2015.2019",
+                "location": "label.perso.location.lyon1",
+                "logo": "",
+                "list": []
+            }
+            
+        ],
+        "experiences": [
+            {
+                "title": "label.perso.secretary",
+                "date": "label.perso.date.since.2019",
+                "company": "Association La Cruz",
+                "logo": "",
+                "list": [
+                    "label.perso.elem.administration"
+                ]
+            },
+            {
+                "title": "label.perso.exp.title.dev.intern",
+                "date": "label.perso.date.may.august.2019",
+                "company": "Sword Group",
+                "logo": "sword.png",
+                "list": [
+                    "label.perso.elem.facturx",
+                    "label.perso.elem.dev.python.vba"
+                ]
+            },
+            {
+                "title": "label.perso.exp.title.hotel.receptionnist",
+                "date": "label.perso.date.summer.2017.2018",
+                "company": "Les Dryades Hotel**** - Golf & Spa",
+                "logo": "les_dryades.png",
+                "list": [
+                  "label.perso.elem.checkin",
+                  "label.perso.elem.yield",
+                  "label.perso.elem.sale.stay",
+                  "label.perso.elem.reservation"
+                ]
+            },
+            {
+                "title": "label.perso.exp.title.shelf.employee",
+                "date": "label.perso.date.july.august.2015",
+                "company": "Carrefour Market",
+                "logo": "market.png",
+                "list": [
+                    "label.perso.elem.putting.shelves",
+                    "label.perso.elem.order.reception"
+                ]
+            },
+            {
+                "title": "label.perso.exp.title.industrial.designer",
+                "date": "label.perso.date.may.june.2014",
+                "company": "Drone Centre",
+                "logo": "drone-centre.png",
+                "list": [
+                    "label.perso.elem.solidworks"
+                ]
+            }
+        ],
+        "technologies": [
+            "C++",
+            "Java",
+            "VBA",
+            "Python",
+            "C#"
+        ],
+        "tools": [
+            "Git",
+            "Netlogo",
+            "Unity",
+            "JUnit"
+        ],
+        "qualities": [
+            {
+                "tilte": "label.perso.elem.teamwork",
+                "image": ""
+            },
+            {
+                "tilte": "label.perso.elem.leadership",
+                "image": ""
+            },
+            {
+                "tilte": "label.perso.elem.loyal",
+                "image": ""
+            },
+            {
+                "tilte": "label.perso.elem.attentive",
+                "image": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+      "imgsrc": "mickael.jpg",
+      "name": "Alves",
+      "firstname": "Mickael",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.president"
+    },
+    {
+      "imgsrc": "lucasa.jpg",
+      "name": "Audart",
+      "firstname": "Lucas",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.treasurer"
+    },
+    {
+      "imgsrc": "richard.jpg",
+      "name": "Bruneau",
+      "firstname": "Richard",
+      "metier": "label.perso.dev.polyvalent",
+      "role": "label.perso.secretary"
+    },
+    {
+      "imgsrc": "lucasg.jpg",
+      "name": "Givord",
+      "firstname": "Lucas",
+      "metier": "label.perso.dev.jv",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "imgsrc": "avatar.png",
+      "name": "Idoux",
+      "firstname": "Etienne",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member"
+    },
+    {
+      "imgsrc": "avatar.png",
+      "name": "Renaudier",
+      "firstname": "Tristan",
+      "metier": "label.perso.admin.sys",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "imgsrc": "amelie.jpg",
+      "name": "Riche",
+      "firstname": "Amélie",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member.founder"
+    },
+    {
+      "imgsrc": "nicolas.jpg",
+      "name": "Robert",
+      "firstname": "Nicolas",
+      "metier": "label.perso.dev.jv",
+      "role": "label.perso.member.founder",
+      "socials": [
+          {
+              "name": "linkedin",
+              "link": "https://www.linkedin.com/in/nicolas-robert-869294132/",
+              "class": "fab fa-linkedin"
+          },
+          {
+              "name": "git",
+              "link": "https://github.com/Hyrastios",
+              "class": "fab fa-github"
+          }
+      ]
+    },
+    {
+      "imgsrc": "avatar.png",
+      "name": "Sabard",
+      "firstname": "Pierre",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member",
+      "socials": [
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/pierre-sabard-001bb5174/",
+            "class": "fab fa-linkedin"
+        },
+        {
+            "name": "git",
+            "link": "https://github.com/Sporard",
+            "class": "fab fa-github"
+        }
+    ]
+    },
+    {
+      "imgsrc": "florent.jpg",
+      "name": "Tirvaudey",
+      "firstname": "Florent",
+      "metier": "label.perso.dev.web",
+      "role": "label.perso.member.founder",
+      "socials": [
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/florent-tirvaudey-649187172/",
+            "class": "fab fa-linkedin"
+        }
+      ]
+    }
+]

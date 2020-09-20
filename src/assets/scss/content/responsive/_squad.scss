@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+    .main-squad {
+        .squad {
+            .card-member {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .main-squad {
+        .squad {
+            .card-member {
+                width: 95%;
+            }
+        }    
+    }
+}

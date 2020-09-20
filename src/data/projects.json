@@ -2,13 +2,14 @@
     {
         "name": "Only Vert",
         "image": "",
+        "category": "web",
         "date-fr": "2020",
         "date-en": "2020",
         "desc-fr": "lorem",
         "desc-en": "lorem",
         "short-desc-fr": "lorem",
         "short-desc-en": "lorem",
-        "in-home": true,
+        "is_home": true,
         "links": [
             {
                 "link": "",

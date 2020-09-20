@@ -7,6 +7,11 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Project from './components/Project/Project'
+import Legal from './components/Legal/Legal'
+import Team from './components/Team/Team'
+import Contact from './components/Contact/Contact'
+
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,6 +35,9 @@ function App() {
       <ScrollToTop />
       <Header />
       <Switch>
+        <Route exact path="/legal">
+          <Legal />
+        </Route>
         <Route exact path="/">
           <Home />
         </Route>
@@ -42,6 +50,12 @@ function App() {
             )
           })
         }
+        <Route exact path="/team">
+          <Team />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
         <Route>
           <Error404 />
         </Route>
