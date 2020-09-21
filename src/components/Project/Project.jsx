@@ -3,7 +3,6 @@ import Presentation from './Presentation';
 import Features from './Features';
 
 function Project( {data} ) {   
-    console.log(data);
     return (
         <div className="project">
             <Presentation data={data.presentation} />

@@ -1,6 +1,4 @@
 import React from 'react'
-import projectsWeb from "../../data/projectsWeb.json"
-import projectsJV from "../../data/projectsJV.json"
 import Slider from 'react-slick'
 import Card from './Card';
 
@@ -22,24 +20,17 @@ function SamplePrevArrow(props) {
     );
 }
 
-function SlickLink({category}) {
-    function checkSlidesToShow() {
-        if (category === "jv") {
-            return projectsJV.filter(elem => elem.is_home).length < 4 ?
-            projectsJV.filter(elem => elem.is_home).length : 4;
-        } else {
-            return 4;
-        }
-
-    } 
+function SlickLink({data, type}) {
     
-    var styleCardSmaller = checkSlidesToShow() !== 4 ? true : false;
+    var nbSlides = data.filter(elem => elem.is_home).length < 4 
+    ? data.filter(elem => elem.is_home).length : 4;
+
 
     var settings = {
         infinite: false,
         autospeed: 200,
         speed: 500,
-        slidesToShow: checkSlidesToShow(),
+        slidesToShow: nbSlides,
         slidesToScroll: 1,
         cssEase: "linear",
         arrows: true,
@@ -65,18 +56,19 @@ function SlickLink({category}) {
         ]
     };
 
+    console.log(data);
     return (
         <div className="container-slider">
             <Slider {...settings}>
             {
-                category === "web" ?
-                projectsWeb.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project} />
-                ))
+                type === "project" ?
+                    data.filter(elem => elem.is_home).map(project => (
+                        <Card key={project.name} data={project} type={type}/>
+                    ))
                 :
-                projectsJV.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project}  styleCardSmaller={styleCardSmaller}/>
-                ))
+                    data.map(feature => (
+                        <Card key={feature.title_fr} data={feature} type={type}/>
+                    ))
             }
             </Slider>
         </div>

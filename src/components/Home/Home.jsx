@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import { Trans } from 'react-i18next'
 import Particles from 'react-particles-js'
 import particlesOptions from '../../data/particles.json'
+import projectsWeb from "../../data/projectsWeb.json"
+import projectsJV from "../../data/projectsJV.json"
 import {ReactComponent as ReactLogo} from '../../assets/images/undraw_progressive_app_m9ms_grey.svg';
 import tools from "../../data/tools.json"
 import useSessionStorage from '../../lib/useSessionStorage'
@@ -108,10 +110,10 @@ function Home() {
                     </label>
                 </div>
                 <section className="production-list production-list-web wow fadeInUp">
-                    <SlickLink category="web"/>
+                    <SlickLink data={projectsWeb} type="project"/>
                 </section>
                 <section className="production-list production-list-jv wow fadeInUp">
-                    <SlickLink category="jv"/>
+                    <SlickLink data={projectsJV} type="project"/>
                 </section>
             </section>
 

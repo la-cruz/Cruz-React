@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Card({data, styleCardSmaller}) {
-    var style = styleCardSmaller ? "smaller" : ";"
+function Card({data, type}) {
+    console.log(data.img);
     return (
-        <div className={`container-card ${style}`}>
+        <div className={`container-card ${type}`}>
             <div className="content-card">
                 <img src={require(`../../assets/images/projects/${data.img}`)} alt=""/>
                 <h3>{data.name}</h3>

@@ -14,7 +14,7 @@ function Presentation({data}) {
                     <div className="links">
                         {
                             data.links.map((elem, i) => (
-                                <a href={elem.link} key={i} >
+                                <a className="hover-shadow" href={elem.link} key={i} >
                                     <i className={elem.icon} alt="link-img" />
                                     { elem.text_fr}
                                 </a>

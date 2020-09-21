@@ -29,24 +29,24 @@
     ],
     "features": [
         {
-            "image": "xxx.png",
-            "title_fr": "Site responsive",
+            "img": "responsive.png",
+            "name": "Site responsive",
             "title_en": "Responsive website",
-            "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
             "description_en": "The website is available on all platform, from the desktop to mobile phone"
         },
         {
-            "image": "xxx.svg",
-            "title_fr": "Back office personnalisé",
+            "img": "bo.png",
+            "name": "Back office personnalisé",
             "title_en": "Personalized back office",
-            "description_fr": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
+            "description": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
             "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
         },
         {
-            "image": "firebase.svg",
-            "title_fr": "Liaison avec Firebase",
+            "img": "firebase.png",
+            "name": "Liaison avec Firebase",
             "title_en": "Built with Firebase",
-            "description_fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
+            "description": "Contruit avec Firebase, les données sont communes avec celles de l'application",
             "description_en": "Built with Firebase, we use the same data as used in the app"
         }
     ],
