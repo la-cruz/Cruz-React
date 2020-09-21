@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Card({data, styleCardSmaller}) {
-    var style = styleCardSmaller ? "smaller" : ";"
+function Card({data}) {
     return (
         <div className={`container-card`}>
             <div className="content-card">

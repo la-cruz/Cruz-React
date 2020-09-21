@@ -33,8 +33,6 @@ function SlickLink({category}) {
 
     } 
     
-    var styleCardSmaller = checkSlidesToShow() !== 4 ? true : false;
-
     var settings = {
         infinite: false,
         autospeed: 200,
@@ -75,7 +73,7 @@ function SlickLink({category}) {
                 ))
                 :
                 projectsJV.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project}  styleCardSmaller={styleCardSmaller}/>
+                    <Card key={project.name} data={project} />
                 ))
             }
             </Slider>
