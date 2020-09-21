@@ -3,28 +3,19 @@
     "image": "",
     "is_home": true,
     "category": "game",
-    "date-fr": "2020",
-    "date-en": "2020",
-    "desc-fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week-end. Nous avons mit nos compétences ainsi que nos nerfs à rude épreuve et c'est ainsi que Beautiful lives est né.",
-    "desc-en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" ! This game jam was supposed to last a week but we tried to develop a game with a small team of 4 people in a single week-end. We have put our skills and nerves to the tests and Beautiful lives was born !",
-    "short-desc-fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 !",
-    "short-desc-en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" !",
+    "date": "2020",
+    "desc": "label.project.desc.beautiful.lives",
     "type": [
-        {
-            "elem-fr": "Jeu vidéo",
-            "elem-en": "Video game"
-        }
+      "label.project.type.jv"
     ],
     "links": [
         {
-            "text-fr": "Voir le projet",
-            "text-en": "See the project",
+            "text": "label.project.see",
             "link": "https://slocaly.itch.io/beautiful-lives",
             "icon": "fab fa-itch-io"
         },
         {
-            "text-fr": "Voir sur github",
-            "text-en": "Check on github",
+            "text": "label.project.check.github",
             "link": "https://github.com/LA-CRUZ/game-jam-aout",
             "icon": "fab fa-github"
         }
@@ -32,17 +23,13 @@
     "features": [
         {
             "image": "",
-            "title-fr": "La mort... encore !",
-            "title-en": "Die... again !",
-            "description-fr": "Basé sur un système de \"Die & Tryhard\", ce jeu vous demendera de faire des sacrifices pour terminer et désceller certains niveaux.",
-            "description-en": "Based on a Die & Tryhard system, this game will ask you to make sacrifices to finish and unseal some levels."
+            "title": "label.project.feature.title.die.again",
+            "description": "label.project.feature.desc.die.again"
         },
         {
             "image": "",
-            "title-fr": "Tutoriels",
-            "title-en": "Tutorials",
-            "description-fr": "Un hologramme sympathique vous accompagnera dans les premiers niveaux pour tout vous expliquer : commandes, mécaniques, vous allez tout connaître !",
-            "description-en": "A nice hologram will assist you in the first levels to explain everything : keys, mechanics, you will know all of it !"
+            "title": "label.project.feature.title.tuto",
+            "description": "label.project.feature.desc.tuto.bl"
         }
     ],
     "technologies": [
@@ -55,61 +42,37 @@
             "image": "audart.png",
             "name": "AUDART Lucas",
             "roles": [
-                {
-                    "text-fr": "Développeur",
-                    "text-en": "Developper"
-                },
-                {
-                    "text-fr": "Game Designer",
-                    "text-en": "Game Designer"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.game.designer"
             ],
-            "profil": "/audart.lucas"
+            "profil": "/audart_lucas"
         },
         {
             "image": "givord.png",
             "name": "GIVORD Lucas",
             "roles": [
-                {
-                    "text-fr": "Développeur",
-                    "text-en": "Developper"
-                },
-                {
-                    "text-fr": "Game Designer",
-                    "text-en": "Game Designer"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.game.designer"
             ],
-            "profil": "/givord.lucas"
+            "profil": "none"
         },
         {
             "image": "idoux.png",
             "name": "IDOUX Etienne",
             "roles": [
-                {
-                    "text-fr": "Développeur",
-                    "text-en": "Developper"
-                },
-                {
-                    "text-fr": "Game Designer",
-                    "text-en": "Game Designer"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.game.designer"
             ],
-            "profil": "/idoux.etienne"
+            "profil": "/idoux_etienne"
         },
         {
             "image": "robert.png",
             "name": "ROBERT Nicolas",
             "roles": [
-                {
-                    "text-fr": "Développeur",
-                    "text-en": "Developper"
-                },
-                {
-                    "text-fr": "Game Designer",
-                    "text-en": "Game Designer"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.game.designer"
             ],
-            "profil": "/robert.nicolas"
+            "profil": "/robert_nicolas"
         }
     ]
 }

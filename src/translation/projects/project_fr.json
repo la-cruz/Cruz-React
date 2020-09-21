@@ -1,3 +1,13 @@
 {
-  
+  "label.project.desc.beautiful.lives": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week-end. Nous avons mit nos compétences ainsi que nos nerfs à rude épreuve et c'est ainsi que Beautiful lives est né.",
+  "label.project.short.desc.beautiful.lives": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 !",
+  "label.project.see": "Voir le projet",
+  "label.project.check.github": "Voir sur Github",
+  "label.project.feature.title.die.again": "La mort... encore !",
+  "label.project.feature.desc.die.again": "Basé sur un système de \"Die & Tryhard\", ce jeu vous demendera de faire des sacrifices pour terminer et désceller certains niveaux.",
+  "label.project.feature.title.tuto": "Tutoriel",
+  "label.project.feature.desc.tuto.bl": "Un hologramme sympathique vous accompagnera dans les premiers niveaux pour tout vous expliquer : commandes, mécaniques, vous allez tout connaître !",
+  "label.project.team.role.dev": "Développeur",
+  "label.project.team.role.game.designer": "Game Designer",
+  "label.project.type.jv": "Jeu vidéo"
 }

@@ -1,3 +1,13 @@
 {
-  
+  "label.project.desc.beautiful.lives": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" ! This game jam was supposed to last a week but we tried to develop a game with a small team of 4 people in a single week-end. We have put our skills and nerves to the tests and Beautiful lives was born !",
+  "label.project.short.desc.beautiful.lives": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" !",
+  "label.project.see": "Go to project",
+  "label.project.check.github": "Check on Github",
+  "label.project.feature.title.die.again": "Die... again !",
+  "label.project.feature.desc.die.again": "Based on a Die & Tryhard system, this game will ask you to make sacrifices to finish and unseal some levels.",
+  "label.project.feature.title.tuto": "Tutorials",
+  "label.project.feature.desc.tuto.bl": "A nice hologram will assist you in the first levels to explain everything : keys, mechanics, you will know all of it !",
+  "label.project.team.role.dev": "Developper",
+  "label.project.team.role.game.designer": "Game Designer",
+  "label.project.type.jv": "Video game"
 }
