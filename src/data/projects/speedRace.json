@@ -1,93 +1,92 @@
-[
+{
+    "presentation":
     {
         "name": "Speed Race",
         "image": "",
         "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "lorem",
+        "desc_en": "lorem",
+        "short-desc_fr": "lorem",
+        "short-desc_en": "lorem",
         "is_home": true,
         "links": [
             {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
                 "link": "lien git",
                 "icon": "fab fa-github"
             }
-        ],
-        "type": [
-            {
-                "elem-fr":"Application web",
-                "elem-en":"Web application"
-            },
-            {
-                "elem-fr":"Back office",
-                "elem-en":"Back office"
-            } 
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-                "description-en": "The website is available on all platform, from the desktop to mobile phone"
-            },
-            {
-                "image": "xxx.svg",
-                "title-fr": "Back office personnalisé",
-                "title-en": "Personalized back office",
-                "description-fr": "L'application web est accompagné d'un back office afin de gérer toute la configuration d'une partie.",
-                "description-en": "The website comes with a back office in order to manage the data of the site and their mobile application."
-            },
-            {
-                "image": "firebase.svg",
-                "title-fr": "Liaison avec Firebase",
-                "title-en": "Built with Firebase",
-                "description-fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
-                "description-en": "Built with Firebase, we use the same data as used in the app"
-            }
-        ],
-        "technologies": [
-            "ReactJS",
-            "Firebase"
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            },
-            {
-                "name": "Audart Lucas",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "Development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            }
         ]
-    }
-]
+    },
+    "type": {
+        "elem_fr":"Site vitrine / Back office",
+        "elem_en":"Showcase site / Back office"
+    },
+    "features": [
+        {
+            "image": "xxx.png",
+            "title_fr": "Site responsive",
+            "title_en": "Responsive website",
+            "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description_en": "The website is available on all platform, from the desktop to mobile phone."
+        },
+        {
+            "image": "xxx.svg",
+            "title_fr": "Back office personnalisé",
+            "title_en": "Personalized back office",
+            "description_fr": "L'application web est accompagné d'un back office afin de gérer toute la configuration d'une partie.",
+            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
+        },
+        {
+            "image": "firebase.svg",
+            "title_fr": "Liaison avec Firebase",
+            "title_en": "Built with Firebase",
+            "description_fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
+            "description_en": "Built with Firebase, we use the same data as used in the app"
+        }
+    ],
+    "technologies": [
+        "React",
+        "Firebase"
+    ],
+    "team": [
+        {
+            "image": "mickael.jpg",
+            "name": "Alves Mickael",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "lucasa.jpg",
+            "name": "Audart Lucas",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        }
+    ]
+}

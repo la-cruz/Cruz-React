@@ -1,0 +1,26 @@
+[
+    {
+        "is_home": true,
+        "name": "Fix-it",
+        "description": "Ce jeu a été développé durant la GGJ 2020 sur le thème \"Repair\" ! Ceci est un prototype proposant un 1 contre 1 dans une arène. Le premier qui arrive à réparer tout les objets avec les pièces semées un peu partout remporte la manche, et le joueur avec 3 manches gagnées remporte le duel.",
+        "img": "fixit.png",
+        "link_website": "fix-it",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "Eco-potager",
+        "description": "Serious game dans le cadre de l'UE M1IF28 - Logiciel Educatif (UCBL 1) sur le thème de la sensibilisation à l'écologie via la découverte de la physique et la chimie, à travers la gestion d'un potager éco responsable.",
+        "img": "ecoPotager.png",
+        "link_website": "eco-potager",
+        "other_link": ""
+    },
+    {
+        "is_home": true,
+        "name": "Beautiful lives",
+        "description": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week-end.",
+        "img": "beautifulLives.png",
+        "link_website": "beautiful-lives",
+        "other_link": ""
+    }
+]

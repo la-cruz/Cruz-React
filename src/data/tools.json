@@ -13,11 +13,12 @@
     { "name": "C++", "url" : "http://www.cplusplus.com/", "img_src": "c++.svg", "is_home": true, "category": "jv" },
     { "name": "Unity", "url" : "https://unity.com/", "img_src": "unity.svg", "is_home": true, "category": "jv" },
     { "name": "Blender", "url" : "https://www.blender.org/", "img_src": "blender.svg", "is_home": true, "category": "jv" },
-    { "name": "C", "url" : "https://en.wikipedia.org/wiki/C_(programming_language)", "img_src": "c.svg", "is_home": true, "category": "jv" },
+    { "name": "C", "url" : "https://en.wikipedia.org/wiki/C_(programming_language)", "img_src": "c.svg", "is_home": false, "category": "jv" },
     { "name": "Java", "url" : "https://www.java.com/", "img_src": "java.svg", "is_home": true, "category": "jv" },
     { "name": "Unreal", "url" : "https://www.unrealengine.com/", "img_src": "unreal.svg", "is_home": true, "category": "jv" },
     { "name": "Git", "url" : "https://git-scm.com/", "img_src": "git.svg", "is_home": true, "category": "both" },
     { "name": "VSCode", "url" : "https://code.visualstudio.com", "img_src": "vscode.svg", "is_home": false, "category": "both" },
+    { "name": "C#", "url" : "https://wikipedia.org/wiki/C_sharp", "img_src": "c.svg", "is_home": true, "category": "jv" },
     { "name": "Spring", "url" : "https://spring.io/", "img_src": "spring.svg", "is_home": false, "category": "web" },
     { "name": "SQL", "url" : "https://wikipedia.org/wiki/Structured_Query_Language", "img_src": "sql.svg", "is_home": false, "category": "web" },
     { "name": "Gitlab", "url" : "https://about.gitlab.com/", "img_src": "gitlab.svg", "is_home": false, "category": "web" },
@@ -28,5 +29,8 @@
     { "name": "Firebase", "url" : "https://firebase.google.com/", "img_src": "firebase.svg", "is_home": false, "category": "web" },
     { "name": "Figma", "url" : "https://www.figma.com/", "img_src": "figma.svg", "is_home": false, "category": "web" },
     { "name": "Photoshop", "url" : "https://www.adobe.com/fr/products/photoshop.html", "img_src": "photoshop.svg", "is_home": false, "category": "both" },
-    { "name": "Linux", "url" : "https://wikipedia.org/wiki/Linux", "img_src": "linux.svg", "is_home": false, "category": "web" }
+    { "name": "Linux", "url" : "https://wikipedia.org/wiki/Linux", "img_src": "linux.svg", "is_home": false, "category": "web" },
+    { "name": "VBA", "url" : "https://fr.wikipedia.org/wiki/Visual_Basic_for_Applications", "img_src": "vba.png", "is_home": false, "category": "both" },
+    { "name": "Netlogo", "url" : "https://ccl.northwestern.edu/netlogo/", "img_src": "netlogo.png", "is_home": false, "category": "ia" },
+    { "name": "JUnit", "url" : "https://fr.wikipedia.org/wiki/JUnit", "img_src": "JUnit.png", "is_home": false, "category": "both" }
 ]

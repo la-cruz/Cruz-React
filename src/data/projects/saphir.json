@@ -1,96 +1,99 @@
-[
+{
+    "presentation":
     {
         "name": "Saphir",
         "image": "",
         "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "lorem",
+        "desc_en": "lorem",
+        "short-desc_fr": "lorem",
+        "short-desc_en": "lorem",
         "is_home": true,
         "links": [
             {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
                 "link": "https://projet.liris.cnrs.fr/SAPHIR/",
                 "icon": "fas fa-link"
             }
-        ],
-        "type": [
-            {
-                "elem-fr":"Application Web Educative",
-                "elem-en":"Educative Web App"
-            }
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Progressive Web App",
-                "title-en": "Progressive Web App",
-                "description-fr": "Saphir est une PWA, ce qui lui permet d'être téléchargé comme une application sur tout les dispositif et disponnible hors connexion",
-                "description-en": "Saphir is a PWA, you can download it as an desktop or mobile application, and it will be available without connexion"
-            },
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "L'application est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-                "description-en": "The application is available on all platform, from the desktop to mobile phone"
-            },
-            {
-                "image": "xxx.png",
-                "title-fr": "Éducatif",
-                "title-en": "Educative",
-                "description-fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
-                "description-en": "The application is made to work in school with young learner"
-            },
-            {
-                "image": "xxx.png",
-                "title-fr": "Mise en place d'un expérience",
-                "title-en": "Setting up an experiment",              
-                "description-fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
-                "description-en": "The application is made to work in school with young learner"
-            }
-        ],
-        "technologies": [
-            "ReactJS",
-            "Firebase"
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            },
-            {
-                "name": "Audart Lucas",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "Development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            }
         ]
-    }
-]
+    },
+    "type": {
+        "elem_fr":"Application Web Educative",
+        "elem_en":"Educative Web App"
+    },
+    "features": [
+        {
+            "image": "xxx.png",
+            "title_fr": "Progressive Web App",
+            "title_en": "Progressive Web App",
+            "description_fr": "Saphir est une PWA, ce qui lui permet d'être téléchargé comme une application sur tout les dispositif et disponnible hors connexion",
+            "description_en": "Saphir is a PWA, you can download it as an desktop or mobile application, and it will be available without connexion"
+        },
+        {
+            "image": "xxx.png",
+            "title_fr": "Site responsive",
+            "title_en": "Responsive website",
+            "description_fr": "L'application est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description_en": "The application is available on all platform, from the desktop to mobile phone"
+        },
+        {
+            "image": "xxx.png",
+            "title_fr": "Éducatif",
+            "title_en": "Educative",
+            "description_fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
+            "description_en": "The application is made to work in school with young learner"
+        },
+        {
+            "image": "xxx.png",
+            "title_fr": "Mise en place d'un expérience",
+            "title_en": "Setting up an experiment",              
+            "description_fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
+            "description_en": "The application is made to work in school with young learner"
+        }
+    ],
+    "technologies": [
+        "React",
+        "Firebase"
+    ],
+    "team": [
+        {
+            "image": "mickael.jpg",
+            "name": "Alves Mickael",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "lucasa.jpg",
+            "name": "Audart Lucas",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        }
+    ]
+}
