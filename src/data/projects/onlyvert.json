@@ -1,26 +1,32 @@
 {
-    "name": "Only Vert",
-    "image": "",
-    "category": "web",
-    "date_fr": "2020",
-    "date_en": "2020",
-    "desc_fr": "lorem",
-    "desc_en": "lorem",
-    "short-desc_fr": "lorem",
-    "short-desc_en": "lorem",
-    "is_home": true,
-    "links": [
+    "presentation":
+    {
+        "name": "Only Vert",
+        "image": "ov-mockup.png",
+        "category": "web",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "Only vert est une start-up lyonnaise qui travaille dans le domaine de la protection de l'environnement. Suite au lancement de leur application d'aide au tri sélectif, nous avons tout d'abord travaillé sur le développement d'un site vitrine afin de présenter la start-up et les différents membres. Nous avons par la suite développé une partie back-office qui permet dans un premier temps à Only vert de gérer certaines données de leur site et de leur application, et dans un second temps de mettre à disposition de leurs partenaires un espace privé et personnalisé.",
+        "desc_en": "Only vert is a Lyon-based start-up working in the field of environmental protection. After the launch of their selective sorting application, we first worked on the development of a showcase site to present the start-up and the different members. We then developed a back-office part that allows Only vert to manage some data from their site and application, and then to provide their partners with a private and personalized space.",
+        "links": [
+            {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
+                "link": "https://onlyvert.fr",
+                "icon": "fas fa-link"
+            }
+        ]
+    },
+    "type": [
         {
-            "text_fr": "Voir le projet",
-            "text_en": "See the project",
-            "link": "https://onlyvert.fr",
-            "icon": "fas fa-link"
+            "elem_fr": "Site vitrine",
+            "elem_en": "Showcase site"
+        },
+        {
+            "elem_fr": "Back-office",
+            "elem_en": "Back-office"
         }
     ],
-    "type": {
-        "elem_fr":"Site vitrine / Back office",
-        "elem_en":"Showcase site / Back office"
-    },
     "features": [
         {
             "image": "xxx.png",
@@ -46,11 +52,11 @@
     ],
     "technologies": [
         "React",
-        "Firebase"
+        "Firebase",
+        "sass"
     ],
     "team": [
         {
-            "image": "mickael.jpg",
             "name": "Alves Mickael",
             "roles": [
                 {
@@ -68,7 +74,6 @@
             ]
         },
         {
-            "image": "lucasa.jpg",
             "name": "Audart Lucas",
             "roles": [
                 {
@@ -78,6 +83,19 @@
                 {
                     "elem_fr": "Design",
                     "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "name": "Idoux Étienne",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
                 },
                 {
                     "elem_fr": "Gestion de projet",

@@ -1,22 +1,25 @@
 {
-    "name": "La Cruz",
-    "image": "",
-    "category": "web",
-    "date_fr": "2020",
-    "date_en": "2020",
-    "desc_fr": "lorem",
-    "desc_en": "lorem",
-    "short-desc_fr": "lorem",
-    "short-desc_en": "lorem",
-    "is_home": true,
-    "links": [
-        {
-            "text-fr": "Voir le projet",
-            "text-en": "See the project",
-            "link": "https://lacruz.org",
-            "icon": "fas fa-link"
-        }
-    ],
+    "presentation":
+    {
+        "name": "La Cruz",
+        "image": "",
+        "category": "web",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "lorem",
+        "desc_en": "lorem",
+        "short-desc_fr": "lorem",
+        "short-desc_en": "lorem",
+        "is_home": true,
+        "links": [
+            {
+                "text-fr": "Voir le projet",
+                "text-en": "See the project",
+                "link": "https://lacruz.org",
+                "icon": "fas fa-link"
+            }
+        ]
+    },
     "type":
     {
         "elem_fr":"Site vitrine",
