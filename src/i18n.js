@@ -1,6 +1,30 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import resources from './data/translation'
+import teamFr from './translation/team/team_fr.json'
+import teamEn from './translation/team/team_en.json'
+import projectsEn from './translation/projects/project_en.json'
+import projectsFr from './translation/projects/project_fr.json'
+import globalsFr from './translation/global_fr.json'
+import globalsEn from './translation/global_en.json'
+
+var resources = {
+  "fr": {
+    "translation": {
+      ...globalsFr,
+      ...teamFr,
+      ...projectsFr
+    }
+  },
+  "en": {
+    "translation": {
+      ...globalsEn,
+      ...teamEn,
+      ...projectsEn
+    }
+  }
+}
+
+console.log(resources)
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
