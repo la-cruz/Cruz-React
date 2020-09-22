@@ -3,33 +3,30 @@
     {
         "name": "Beautiful Lives",
         "image": "beautifulLives.png",
-        "is_home": true,
         "category": "game",
         "date_fr": "2020",
         "date_en": "2020",
         "desc_fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week_end. Nous avons mit nos compétences ainsi que nos nerfs à rude épreuve et c'est ainsi que Beautiful lives est né.",
         "desc_en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" ! This game jam was supposed to last a week but we tried to develop a game with a small team of 4 people in a single week_end. We have put our skills and nerves to the tests and Beautiful lives was born !",
-        "short_desc_fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 !",
-        "short_desc_en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" !",
         "type": {
             "elem_fr": "Jeu vidéo",
             "elem_en": "Video game"
-        }
-    },
-    "links": [
-        {
-            "text_fr": "Voir le projet",
-            "text_en": "See the project",
-            "link": "https://slocaly.itch.io/beautiful-lives",
-            "icon": "fab fa-itch-io"
         },
-        {
-            "text_fr": "Voir sur github",
-            "text_en": "Check on github",
-            "link": "https://github.com/LA-CRUZ/game-jam-aout",
-            "icon": "fab fa-github"
-        }
-    ],
+        "links": [
+            {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
+                "link": "https://slocaly.itch.io/beautiful-lives",
+                "icon": "fab fa-itch-io"
+            },
+            {
+                "text_fr": "Voir sur github",
+                "text_en": "Check on github",
+                "link": "https://github.com/LA-CRUZ/game-jam-aout",
+                "icon": "fab fa-github"
+            }
+        ]
+    },
     "features": [
         {
             "image": "",

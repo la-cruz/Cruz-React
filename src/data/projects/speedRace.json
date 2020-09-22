@@ -6,23 +6,20 @@
         "category": "web",
         "date_fr": "2020",
         "date_en": "2020",
-        "desc_fr": "lorem",
-        "desc_en": "lorem",
-        "short-desc_fr": "lorem",
-        "short-desc_en": "lorem",
-        "is_home": true,
+        "desc_fr": "SpeedRace est un jeu réalisé dans le cadre de l'unité d'enseignement Web Avancé de l'université Lyon 1. Le jeu tourne autour le la géolocalisation en temps réel des joueurs, et le but est pour ces derniers d'atteindre une cible présente sur la carte le plus vite possible. Un back office permet à l'admininistrateur du jeu de modifier chaque paramètre de la partie, comme le temps de vie d'un joueur ou la position de la carte.",
+        "desc_en": "SpeedRace is a game realized within the framework of the Advanced Web teaching unit of the university Lyon 1. The game revolves around the real-time geolocation of the players, and the goal is for them to reach a target on the map as quickly as possible. A back office allows the game administrator to modify each parameter of the game, such as the time of life of a player or the position of the map.",
+        "type": {
+            "elem_fr":"Application web / Jeu en ligne",
+            "elem_en":"Web application / Online game"
+        },
         "links": [
             {
                 "text_fr": "Voir le projet",
-                "text_en": "See the project",
+                "text_en": "Check on github",
                 "link": "lien git",
                 "icon": "fab fa-github"
             }
         ]
-    },
-    "type": {
-        "elem_fr":"Site vitrine / Back office",
-        "elem_en":"Showcase site / Back office"
     },
     "features": [
         {
@@ -34,17 +31,17 @@
         },
         {
             "image": "xxx.svg",
-            "title_fr": "Back office personnalisé",
-            "title_en": "Personalized back office",
-            "description_fr": "L'application web est accompagné d'un back office afin de gérer toute la configuration d'une partie.",
-            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
+            "title_fr": "Géolocalisation en temps réel",
+            "title_en": "Realtime geolocation",
+            "description_fr": "Le jeu est orienté autour de la géolocalisation en temps réel des joueurs, ainsi que d'une cible à atteindre",
+            "description_en": "The game is based on the geolocation of all the differents players, as well as a target to reach"
         },
         {
             "image": "firebase.svg",
-            "title_fr": "Liaison avec Firebase",
-            "title_en": "Built with Firebase",
-            "description_fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
-            "description_en": "Built with Firebase, we use the same data as used in the app"
+            "title_fr": "Back office personnalisé",
+            "title_en": "Personalized back office",
+            "description_fr": "Le jeu est accompagné d'un back office permetant de modifier la plupart des options du jeu",
+            "description_en": "The game comes with a back office where you can change almost every options of the game"
         }
     ],
     "technologies": [
@@ -77,10 +74,6 @@
                 {
                     "elem_fr": "Développement",
                     "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
                 },
                 {
                     "elem_fr": "Gestion de projet",
