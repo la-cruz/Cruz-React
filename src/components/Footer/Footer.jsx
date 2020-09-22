@@ -6,7 +6,7 @@ function Footer() {
     const location = useLocation()
 
     useEffect(() => {
-        if(location.pathname === "/") {
+        if(location.pathname === "/" || location.pathname.indexOf("/project/") == 0) {
             document.querySelector(".links-footer").style.boxShadow = 'none';
         }
     }, [])
