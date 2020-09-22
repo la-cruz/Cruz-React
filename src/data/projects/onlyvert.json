@@ -15,18 +15,12 @@
                 "link": "https://onlyvert.fr",
                 "icon": "fas fa-link"
             }
-        ]
-    },
-    "type": [
-        {
-            "elem_fr": "Site vitrine",
-            "elem_en": "Showcase site"
-        },
-        {
-            "elem_fr": "Back-office",
-            "elem_en": "Back-office"
+        ],
+        "type": {
+            "elem_fr": "Site vitrine / Back-office",
+            "elem_en": "Showcase site / Back-office"
         }
-    ],
+    },
     "features": [
         {
             "img": "responsive.png",

@@ -10,7 +10,7 @@ function Presentation({data}) {
             <div className="presentation-infos">
                 <img src={require('../../assets/images/projects/' + data.image)} alt="img-logo" className="presentation-img" />
                 <div className="presentation-text">
-                    {/* <h2> { data.date_fr + " - " + data.type.elem_fr } </h2> */}
+                    <h3> { data.date_fr + " - " + data.type.elem_fr } </h3>
                     <p className="description"> {data.desc_fr} </p>
                     <div className="links">
                         {
