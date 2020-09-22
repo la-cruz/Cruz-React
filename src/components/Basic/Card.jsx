@@ -7,7 +7,10 @@ function Card({data, type}) {
                 <img src={require(`../../assets/images/projects/${data.img}`)} alt=""/>
                 <h3>{data.name}</h3>
                 <p>{data.description}</p>
-                <a className="btn-card hover-shadow">Page projet à venir !</a>
+                {
+                    type !== "feature" &&
+                    <a className="btn-card hover-shadow">Page projet à venir !</a>
+                }
             </div>
         </div>
     );
