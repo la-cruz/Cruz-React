@@ -8,7 +8,9 @@ import Home from './components/Home/Home'
 import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
+import Perso from './components/Perso/Perso'
 
+import members from './lib/team'
 
 import {
   BrowserRouter as Router,
@@ -37,6 +39,13 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        {
+          members.map(member => (
+            <Route path={`/perso/${member.name}`} key={member.name}>
+              <Perso data={member} />
+            </Route>
+          ))
+        }
         <Route>
           <Error404 />
         </Route>

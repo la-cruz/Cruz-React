@@ -1,190 +1,188 @@
-[
-    {
-        "name": "Alves", 
-        "firstname": "Mickaël",
-        "image": "mickael.png",
-        "thumbnail": "mickael-thumbnail.png",
-        "bio": "lorem",
-        "cv-fr": "mickael-cv-fr.pdf",
-        "cv-en": "mickael-cv-en.pdf",
-        "fonction": "label.perso.president",
-        "metier": "label.perso.dev.web",
-        "socials": [
-            {
-                "name": "mail",
-                "link": "alves.mckl@gmail.com",
-                "icon": "fas fa-envelope"
-            },
-            {
-                "name": "tel",
-                "link": "0650034154",
-                "icon": "fas fa-phone"
-            },
-            {
-                "name": "github",
-                "link": "https://github.com/Cruz-Azul",
-                "icon": "fab fa-github"
-            },
-            {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/mickael-alves-7a0810171",
-                "icon": "fab fa-linkedin"
-            }
-        ],
-        "studies": [
-            {
-                "title": "label.perso.studies.title.master2.tiw",
-                "date": "label.perso.date.2020.2021",
-                "location": "label.perso.location.lyon1",
-                "logo": "",
-                "list": []
-            },
-            {
-                "title": "label.perso.studies.title.master1",
-                "date": "label.perso.date.2019.2020",
-                "location": "label.perso.location.lyon1",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.dev.react",
-                    "label.perso.elem.dev.vue",
-                    "label.perso.elem.dev.node",
-                    "label.perso.elem.dev.symfony",
-                    "label.perso.elem.dev.python",
-                    "label.perso.elem.project.management",
-                    "label.perso.elem.info.night.2019"
-                ]
-            },
-            {
-                "title": "label.perso.elem.studies.bachelor",
-                "date": "label.perso.date.2016.2019",
-                "location": "label.perso.location.lyon1",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.dev.symfony",
-                    "label.perso.elem.dev.c++",
-                    "label.perso.elem.web.jv.project",
-                    "label.perso.elem.info.night.2018",
-                    "label.perso.elem.c2i"
-                ]
-            },
-            {
-                "title": "label.perso.studies.title.bac",
-                "date": "label.perso.date.2016",
-                "location": "label.perso.location.ambroise.croizat",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.svt",
-                    "label.perso.elem.spe.physics"
-                ]
-            }
-        ],
-        "experiences": [
-            {
-                "title": "label.perso.dev.web.president",
-                "date": "label.perso.date.since.2019",
-                "company": "Association La Cruz",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.association.management",
-                    "label.perso.elem.web.project",
-                    "label.perso.elem.project.management",
-                    "label.perso.elem.teamwork"
-                ]
-            },
-            {
-                "title": "label.perso.exp.title.dev.web.intern",
-                "date": "label.perso.date.may.july.2019.month",
-                "company": "Pentalog Innovation ( Soluti )",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.project.symfony",
-                    "label.perso.elem.web.maintenance",
-                    "label.perso.elem.scrum",
-                    "label.perso.elem.teamwork"
-                ]
-            },
-            {
-                "title": "label.perso.exp.title.assistant.intern",
-                "date": "label.perso.date.july.august.2017",
-                "company": "Topastuces Informatique",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.computer.maintenance",
-                    "label.perso.elem.web.maintenance.company",
-                    "label.perso.elem.network.management"
-                ]
-            },
-            {
-                "title": "label.perso.exp.title.assistant.intern",
-                "date": "label.perso.date.2013.month",
-                "company": "TEAMINFO",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.computer.maintenance"
-                ]
-            },
-            {
-                "title": "label.perso.exp.title.volunteer",
-                "date-fr": "label.perso.date.june.2010.2012.year",
-                "company": "Les Restos du Coeur",
-                "logo": "",
-                "list": [
-                    "label.perso.elem.project.management",
-                    "label.perso.elem.fundraising"
-                ]
-            }
-        ],
-        "technologies": [
-            "ReactJS",
-            "VueJS",
-            "NodeJS",
-            "JS",
-            "Symfony",
-            "Laravel",
-            "PHP",
-            "SQL",
-            "Sass",
-            "CSS",
-            "Bootstrap",
-            "HTML",
-            "Twig",
-            "Python",
-            "Java",
-            "C++",
-            "Git"
-        ],
-        "tools": [
-            "Github",
-            "Gitlab",
-            "Suite Atlassian",
-            "Linux",
-            "Firebase",
-            "MySQL",
-            "Postman",
-            "VSCode",
-            "Figma",
-            "Netlify",
-            "Nginx",
-            "Apache",
-            "Photoshop"
-        ],
-        "qualities": [
-            {
-                "title": "label.perso.elem.project.management.agile",
-                "image": ""
-            },
-            {
-                "tilte": "label.perso.elem.teamwork",
-                "image": ""
-            },
-            {
-                "title": "label.perso.elem.team.management",
-                "image": ""
-            },
-            {
-                "title": "label.perso.elem.autonomy",
-                "image": ""
-            }
-        ]
-    }
-]
+{
+    "name": "Alves", 
+    "firstname": "Mickaël",
+    "image": "mickael.png",
+    "thumbnail": "mickael-thumbnail.png",
+    "bio": "lorem",
+    "cv-fr": "mickael-cv-fr.pdf",
+    "cv-en": "mickael-cv-en.pdf",
+    "fonction": "label.perso.president",
+    "metier": "label.perso.dev.web",
+    "socials": [
+        {
+            "name": "mail",
+            "link": "alves.mckl@gmail.com",
+            "icon": "fas fa-envelope"
+        },
+        {
+            "name": "tel",
+            "link": "0650034154",
+            "icon": "fas fa-phone"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/Cruz-Azul",
+            "icon": "fab fa-github"
+        },
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/mickael-alves-7a0810171",
+            "icon": "fab fa-linkedin"
+        }
+    ],
+    "studies": [
+        {
+            "title": "label.perso.studies.title.master2.tiw",
+            "date": "label.perso.date.2020.2021",
+            "location": "label.perso.location.lyon1",
+            "logo": "",
+            "list": []
+        },
+        {
+            "title": "label.perso.studies.title.master1",
+            "date": "label.perso.date.2019.2020",
+            "location": "label.perso.location.lyon1",
+            "logo": "",
+            "list": [
+                "label.perso.elem.dev.react",
+                "label.perso.elem.dev.vue",
+                "label.perso.elem.dev.node",
+                "label.perso.elem.dev.symfony",
+                "label.perso.elem.dev.python",
+                "label.perso.elem.project.management",
+                "label.perso.elem.info.night.2019"
+            ]
+        },
+        {
+            "title": "label.perso.elem.studies.bachelor",
+            "date": "label.perso.date.2016.2019",
+            "location": "label.perso.location.lyon1",
+            "logo": "",
+            "list": [
+                "label.perso.elem.dev.symfony",
+                "label.perso.elem.dev.c++",
+                "label.perso.elem.web.jv.project",
+                "label.perso.elem.info.night.2018",
+                "label.perso.elem.c2i"
+            ]
+        },
+        {
+            "title": "label.perso.studies.title.bac",
+            "date": "label.perso.date.2016",
+            "location": "label.perso.location.ambroise.croizat",
+            "logo": "",
+            "list": [
+                "label.perso.elem.svt",
+                "label.perso.elem.spe.physics"
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "title": "label.perso.dev.web.president",
+            "date": "label.perso.date.since.2019",
+            "company": "Association La Cruz",
+            "logo": "",
+            "list": [
+                "label.perso.elem.association.management",
+                "label.perso.elem.web.project",
+                "label.perso.elem.project.management",
+                "label.perso.elem.teamwork"
+            ]
+        },
+        {
+            "title": "label.perso.exp.title.dev.web.intern",
+            "date": "label.perso.date.may.july.2019.month",
+            "company": "Pentalog Innovation ( Soluti )",
+            "logo": "",
+            "list": [
+                "label.perso.elem.project.symfony",
+                "label.perso.elem.web.maintenance",
+                "label.perso.elem.scrum",
+                "label.perso.elem.teamwork"
+            ]
+        },
+        {
+            "title": "label.perso.exp.title.assistant.intern",
+            "date": "label.perso.date.july.august.2017",
+            "company": "Topastuces Informatique",
+            "logo": "",
+            "list": [
+                "label.perso.elem.computer.maintenance",
+                "label.perso.elem.web.maintenance.company",
+                "label.perso.elem.network.management"
+            ]
+        },
+        {
+            "title": "label.perso.exp.title.assistant.intern",
+            "date": "label.perso.date.2013.month",
+            "company": "TEAMINFO",
+            "logo": "",
+            "list": [
+                "label.perso.elem.computer.maintenance"
+            ]
+        },
+        {
+            "title": "label.perso.exp.title.volunteer",
+            "date-fr": "label.perso.date.june.2010.2012.year",
+            "company": "Les Restos du Coeur",
+            "logo": "",
+            "list": [
+                "label.perso.elem.project.management",
+                "label.perso.elem.fundraising"
+            ]
+        }
+    ],
+    "technologies": [
+        "ReactJS",
+        "VueJS",
+        "NodeJS",
+        "JS",
+        "Symfony",
+        "Laravel",
+        "PHP",
+        "SQL",
+        "Sass",
+        "CSS",
+        "Bootstrap",
+        "HTML",
+        "Twig",
+        "Python",
+        "Java",
+        "C++",
+        "Git"
+    ],
+    "tools": [
+        "Github",
+        "Gitlab",
+        "Suite Atlassian",
+        "Linux",
+        "Firebase",
+        "MySQL",
+        "Postman",
+        "VSCode",
+        "Figma",
+        "Netlify",
+        "Nginx",
+        "Apache",
+        "Photoshop"
+    ],
+    "qualities": [
+        {
+            "title": "label.perso.elem.project.management.agile",
+            "image": ""
+        },
+        {
+            "tilte": "label.perso.elem.teamwork",
+            "image": ""
+        },
+        {
+            "title": "label.perso.elem.team.management",
+            "image": ""
+        },
+        {
+            "title": "label.perso.elem.autonomy",
+            "image": ""
+        }
+    ]
+}
