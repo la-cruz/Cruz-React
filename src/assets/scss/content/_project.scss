@@ -1,6 +1,11 @@
 .project{
     // margin: 0 6rem;
 
+    .features,
+    .team {
+        position: relative;
+    }
+
     .presentation {
         height: 100vh;
         display: flex;
@@ -87,6 +92,8 @@
         padding-top: 15rem;
 
         h2 {
+            padding-top: 3rem;
+
             strong {
                 color: $cruz-color-grey;
             }
@@ -98,12 +105,12 @@
 
         &:before {
             position: absolute;
-            top: 105%;
+            top: 10%;
             background-color: $cruz-color-grey;
             content: "";
             display: block;
             width: 100%;
-            height: 100%;
+            height: 95%;
             transform: skewY(2deg);
             box-shadow: 0px 0px 20px -13px $cruz-color-white;
         }
@@ -133,12 +140,12 @@
 
         &:before {
             position: absolute;
-            top: 270%;
+            top: 16%;
             background-color: $cruz-color-grey;
             content: "";
             display: block;
             width: 100%;
-            height: 100%;
+            height: 85%;
             transform: skewY(2deg);
             box-shadow: 0px 0px 20px -13px $cruz-color-white;
         }
