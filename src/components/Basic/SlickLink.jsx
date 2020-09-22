@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Slider from 'react-slick'
 import Card from './Card';
 import CardMember from './CardMember';
@@ -23,15 +23,20 @@ function SamplePrevArrow(props) {
 
 function SlickLink({data, type}) {
     
-    var nbSlides = data.filter(elem => elem.is_home).length < 4 
-    ? data.filter(elem => elem.is_home).length : 4;
-
+    function getNbSlides() {
+        if (type === "project") {
+            return data.filter(elem => elem.is_home).length < 4 ?
+            data.filter(elem => elem.is_home).length : 4;
+        } else {
+            return data.length < 4 ? data.length : 4;
+        }
+    }
 
     var settings = {
         infinite: false,
         autospeed: 200,
         speed: 500,
-        slidesToShow: nbSlides,
+        slidesToShow: getNbSlides(),
         slidesToScroll: 1,
         cssEase: "linear",
         arrows: true,
@@ -57,7 +62,6 @@ function SlickLink({data, type}) {
         ]
     };
 
-    console.log(data);
     return (
         <div className="container-slider">
             <Slider {...settings}>
