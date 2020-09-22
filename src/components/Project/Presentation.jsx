@@ -1,12 +1,9 @@
 import React from 'react';
 
 function Presentation({data}) {
-    console.log(data);
     return (
         <div className="presentation">
             <h1>{data.name}</h1>
-            {/* TODO: ADDED IMG TO ASSETS & DELETE CONDITION */}
-            {/* <img src={data.image === "" ? "https://via.placeholder.com/624x395" : data.image} alt="img-pres" /> */}
             <div className="presentation-infos">
                 <img src={require('../../assets/images/projects/' + data.image)} alt="img-logo" className="presentation-img" />
                 <div className="presentation-text">

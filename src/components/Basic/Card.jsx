@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Card({data, type}) {
+function Card({key, data, type}) {
     return (
-        <div className={`container-card ${type}`}>
+        <div className={`container-card ${type}`} key={key}>
             <div className="content-card">
                 <img src={require(`../../assets/images/projects/${data.img}`)} alt=""/>
                 <h3>{data.name}</h3>

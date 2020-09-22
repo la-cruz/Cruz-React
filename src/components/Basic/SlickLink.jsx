@@ -1,25 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Slider from 'react-slick'
 import Card from './Card';
 import CardMember from './CardMember';
-
-function SampleNextArrow(props) {
-    const { onClick } = props;
-    return (
-        <span className="wow bounceInRight" onClick={onClick}>
-          <i className="fas fa-chevron-right"></i>
-        </span>
-    );
-}
-  
-function SamplePrevArrow(props) {
-    const { onClick } = props;
-    return (
-        <span className="wow bounceInLeft" onClick={onClick}>
-            <i className="fas fa-chevron-left"></i>
-        </span>
-    );
-}
 
 function SlickLink({data, type}) {
     
@@ -72,11 +54,11 @@ function SlickLink({data, type}) {
                     ))
                 : type === "feature" ?
                     data.map(feature => (
-                        <Card key={feature.title_fr} data={feature} type={type}/>
+                        <Card key={feature.name} data={feature} type={type}/>
                     ))
                 : 
-                    data.map(feature => (
-                        <CardMember key={feature.title_fr} data={feature} type={type}/>
+                    data.map(member => (
+                        <CardMember key={member.name} data={member} type={type}/>
                     ))
             }
             </Slider>

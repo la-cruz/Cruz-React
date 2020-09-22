@@ -6,9 +6,10 @@ function Footer() {
     const location = useLocation()
 
     useEffect(() => {
-        if(location.pathname === "/" || location.pathname.indexOf("/project/") == 0) {
+        if(location.pathname === "/" || location.pathname.indexOf("/project/") === 0) {
             document.querySelector(".links-footer").style.boxShadow = 'none';
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps 
     }, [])
 
     return (

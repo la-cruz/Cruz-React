@@ -8,7 +8,6 @@ import {ReactComponent as ReactLogo} from '../../assets/images/undraw_progressiv
 import tools from "../../data/tools.json"
 import useSessionStorage from '../../lib/useSessionStorage'
 import handleScroll from '../../lib/handleScroll'
-import { Link } from 'react-router-dom';
 import { TimelineMax, Power2 } from 'gsap/gsap-core';
 import { CSSPlugin } from 'gsap';
 import gsap from 'gsap/gsap-core';
@@ -73,6 +72,7 @@ function Home() {
                 }
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps 
     }, [])
 
     return (
@@ -132,8 +132,8 @@ function Home() {
                 <section className="tools-list tools-list-web wow fadeInUp">
                     {
                         tools.filter(elem => elem.is_home && (elem.category === "web" || elem.category === "both" )).map(tool => (
-                            <a href={tool.url} className="logo-tool" target="_blank" rel="noopener" aria-label={`logo for ${tool.name}`} key={tool.name}>
-                                <img src={ require(`../../assets/images/tools/${tool.img_src}`) } />
+                            <a href={tool.url} className="logo-tool" target="_blank" rel="noopener noreferrer" aria-label={`logo for ${tool.name}`} key={tool.name}>
+                                <img src={ require(`../../assets/images/tools/${tool.img_src}`) } alt={`${tool.name}`}/>
                             </a>
                         ))
                     }
@@ -141,8 +141,8 @@ function Home() {
                 <section className="tools-list tools-list-jv wow fadeInUp">
                     {
                         tools.filter(elem => elem.is_home && (elem.category === "jv" || elem.category === "both" )).map(tool => (
-                            <a href={tool.url} className="logo-tool" target="_blank" rel="noopener" aria-label={`logo for ${tool.name}`} key={tool.name}>
-                                <img src={ require(`../../assets/images/tools/${tool.img_src}`) } />
+                            <a href={tool.url} className="logo-tool" target="_blank" rel="noopener noreferrer" aria-label={`logo for ${tool.name}`} key={tool.name}>
+                                <img src={ require(`../../assets/images/tools/${tool.img_src}`) } alt={`${tool.name}`}/>
                             </a>
                         ))
                     }

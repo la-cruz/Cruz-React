@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function MemberCard({data}) {
     return (
@@ -16,7 +16,7 @@ function MemberCard({data}) {
                         {
                             data.socials ?
                             data.socials.map(social => (
-                                <a href={ social.link } target="_blank"><i className={social.class}></i></a>
+                                <a href={ social.link } target="_blank" rel="noopener noreferrer"><i className={social.class}></i></a>
                             ))
                             :
                             <div className="btn-more">
