@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Presentation({data}) {
+    console.log(data);
     return (
         <div className="presentation">
             <h1>{data.name}</h1>
