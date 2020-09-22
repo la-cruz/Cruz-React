@@ -12,8 +12,8 @@ function SlickLink({data, type}) {
         } else {
             return data.length < 4 ? data.length : 4;
         }
-    }
-
+    } 
+    
     var settings = {
         infinite: false,
         autospeed: 200,
