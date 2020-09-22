@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
 import Card from './Card';
+import CardMember from './CardMember';
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -65,9 +66,13 @@ function SlickLink({data, type}) {
                     data.filter(elem => elem.is_home).map(project => (
                         <Card key={project.name} data={project} type={type}/>
                     ))
-                :
+                : type === "feature" ?
                     data.map(feature => (
                         <Card key={feature.title_fr} data={feature} type={type}/>
+                    ))
+                : 
+                    data.map(feature => (
+                        <CardMember key={feature.title_fr} data={feature} type={type}/>
                     ))
             }
             </Slider>

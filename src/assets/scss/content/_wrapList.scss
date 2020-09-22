@@ -1,0 +1,20 @@
+.container-wrap-list {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .logo-tools {
+        width: 100px;
+        height: 100px;
+        margin: 3rem;
+        transition: 0.5s;
+
+        &:hover {
+            animation: tilt 0.5s;
+            transition: 0.5s;
+        }
+    }
+}

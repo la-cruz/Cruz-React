@@ -57,6 +57,7 @@
     ],
     "team": [
         {
+            "image": "mickael.jpg",
             "name": "Alves Mickael",
             "roles": [
                 {
@@ -74,6 +75,7 @@
             ]
         },
         {
+            "image": "lucasa.jpg",
             "name": "Audart Lucas",
             "roles": [
                 {
@@ -91,6 +93,7 @@
             ]
         },
         {
+            "image": "idoux.jpg",
             "name": "Idoux Étienne",
             "roles": [
                 {

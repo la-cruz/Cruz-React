@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Card({data, type}) {
-    console.log(data.img);
     return (
         <div className={`container-card ${type}`}>
             <div className="content-card">
