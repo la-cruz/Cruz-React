@@ -1,43 +1,24 @@
 import React from 'react'
-import projectsWeb from "../../data/projectsWeb.json"
-import projectsJV from "../../data/projectsJV.json"
 import Slider from 'react-slick'
 import Card from './Card';
+import CardMember from './CardMember';
 
-function SampleNextArrow(props) {
-    const { onClick } = props;
-    return (
-        <span className="wow bounceInRight" onClick={onClick}>
-          <i className="fas fa-chevron-right"></i>
-        </span>
-    );
-}
-  
-function SamplePrevArrow(props) {
-    const { onClick } = props;
-    return (
-        <span className="wow bounceInLeft" onClick={onClick}>
-            <i className="fas fa-chevron-left"></i>
-        </span>
-    );
-}
-
-function SlickLink({category}) {
-    function checkSlidesToShow() {
-        if (category === "jv") {
-            return projectsJV.filter(elem => elem.is_home).length < 4 ?
-            projectsJV.filter(elem => elem.is_home).length : 4;
+function SlickLink({data, type}) {
+    
+    function getNbSlides() {
+        if (type === "project") {
+            return data.filter(elem => elem.is_home).length < 4 ?
+            data.filter(elem => elem.is_home).length : 4;
         } else {
-            return 4;
+            return data.length < 4 ? data.length : 4;
         }
-
     } 
     
     var settings = {
         infinite: false,
         autospeed: 200,
         speed: 500,
-        slidesToShow: checkSlidesToShow(),
+        slidesToShow: getNbSlides(),
         slidesToScroll: 1,
         cssEase: "linear",
         arrows: true,
@@ -67,14 +48,18 @@ function SlickLink({category}) {
         <div className="container-slider">
             <Slider {...settings}>
             {
-                category === "web" ?
-                projectsWeb.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project} />
-                ))
-                :
-                projectsJV.filter(elem => elem.is_home).map(project => (
-                    <Card key={project.name} data={project} />
-                ))
+                type === "project" ?
+                    data.filter(elem => elem.is_home).map(project => (
+                        <Card key={project.name} data={project} type={type}/>
+                    ))
+                : type === "feature" ?
+                    data.map(feature => (
+                        <Card key={feature.name} data={feature} type={type}/>
+                    ))
+                : 
+                    data.map(member => (
+                        <CardMember key={member.name} data={member} type={type}/>
+                    ))
             }
             </Slider>
         </div>

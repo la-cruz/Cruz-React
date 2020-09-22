@@ -1,13 +1,16 @@
 import React from 'react';
 
-function Card({data}) {
+function Card({key, data, type}) {
     return (
-        <div className={`container-card`}>
+        <div className={`container-card ${type}`} key={key}>
             <div className="content-card">
                 <img src={require(`../../assets/images/projects/${data.img}`)} alt=""/>
                 <h3>{data.name}</h3>
                 <p>{data.description}</p>
-                <a className="btn-card hover-shadow">Page projet à venir !</a>
+                {
+                    type !== "feature" &&
+                    <a className="btn-card hover-shadow">Page projet à venir !</a>
+                }
             </div>
         </div>
     );
