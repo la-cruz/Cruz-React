@@ -17,8 +17,8 @@ function CardMember({data, type}) {
                 </div>
                 <ul>
                     {
-                        data.roles.map( role => (
-                            <li>{role.elem_fr}</li>
+                        data.roles.map( (role, i) => (
+                            <li key={i}>{role.elem_fr}</li>
                         ))
                     }
                 </ul>
