@@ -1,91 +1,96 @@
-[
+{
+    "presentation":
     {
         "name": "La Cruz",
         "image": "",
         "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "lorem",
+        "desc_en": "lorem",
+        "short-desc_fr": "lorem",
+        "short-desc_en": "lorem",
         "is_home": true,
         "links": [
             {
+                "text-fr": "Voir le projet",
+                "text-en": "See the project",
                 "link": "https://lacruz.org",
                 "icon": "fas fa-link"
             }
-        ],
-        "type": [
-            {
-                "elem-fr":"Site vitrine",
-                "elem-en":"Showcase site"
-            }
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-                "description-en": "The website is available on all platform, from the desktop to mobile phone"
-            }
-        ],
-        "technologies": [
-            "ReactJS"
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            },
-            {
-                "name": "Audart Lucas",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "Development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            },
-            {
-                "name": "Idoux Etienne",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "Development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            }
         ]
-    }
-]
+    },
+    "type":
+    {
+        "elem_fr":"Site vitrine",
+        "elem_en":"Showcase site"
+    },
+    "features": [
+        {
+            "image": "xxx.png",
+            "title_fr": "Site responsive",
+            "title_en": "Responsive website",
+            "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description_en": "The website is available on all platform, from the desktop to mobile phone"
+        }
+    ],
+    "technologies": [
+        "React"
+    ],
+    "team": [
+        {
+            "image": "mickael.jpg",
+            "name": "Alves Mickael",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "lucasa.jpg",
+            "name": "Audart Lucas",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "etienne.jpg",
+            "name": "Idoux Etienne",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        }
+    ]
+}
