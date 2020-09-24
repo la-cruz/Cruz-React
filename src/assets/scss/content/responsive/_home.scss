@@ -146,6 +146,7 @@
     left: 0;
     opacity: 0;
     transition: 1s;
+    z-index: 100;
   }
 
   .page-header {
@@ -208,6 +209,12 @@
 @media (max-width: 450px) {
   .img-group {
     height: 30rem;
+
+    &.safari,
+    &::before {
+      background-size: contain;
+      background-position-y: 5rem;
+    }
   }
 }
 

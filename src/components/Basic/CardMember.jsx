@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CardMember({data, type}) {
+function CardMember({key, data, type}) {
     var img = "";
     try {
         img = require('../../assets/images/team/' + data.image);
@@ -9,7 +9,7 @@ function CardMember({data, type}) {
     }
 
     return (
-        <div className={`container-card ${type}`}>
+        <div className={`container-card ${type}`} key={key}>
             <div className="content-card">
                 <div className="content-member">
                     <img src={img} alt=""/>

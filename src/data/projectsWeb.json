@@ -2,7 +2,7 @@
     {
         "is_home": true,
         "name": "onlyvert",
-        "description": "Only-vert est une start-up lyonnaise qui travaille dans le tri-selectif pour qui nous avons réalisé un site vitrine et un back-office relié à leur base de données. ",
+        "description": "Only-vert est une start-up lyonnaise qui travaille dans le tri-selectif pour qui nous avons réalisé un site vitrine et un back-office avec un espace de gestion pour eux, et un pour leurs partenaires. ",
         "img": "onlyvert.png",
         "link_website": "only-vert",
         "other_link": ""
@@ -10,7 +10,7 @@
     {
         "is_home": true,
         "name": "saphir",
-        "description": "Le projet Saphir est un projet réalisé dans le cadre de notre master. Nous devions réalisé une progressive web app éducative en relation étroite avec la fondation Albatross.",
+        "description": "Saphir est une progressive web app éducative sur le thème de l'eau réalisée en étroite collaboration avec la fondation Albatross, afin de sensibiliser des élèves à la protection de l'environnement.",
         "img": "saphir.png",
         "link_website": "saphir",
         "other_link": ""
@@ -18,7 +18,7 @@
     {
         "is_home": true,
         "name": "health eat",
-        "description": "Le projet Health-eat est un site réalisé dans le cadre de Licence. Après avoir scrapé differents sites de recettes, ce site génère un menu pour la semaine.",
+        "description": "Healteat est un diététicien en ligne, permettant aux utilisateurs de suivre leur progression et de générer des programmes alimentaires en fonction de leurs informations personnelles.",
         "img": "healtheat.png",
         "link_website": "health-eat",
         "other_link": ""
@@ -26,7 +26,7 @@
     {
         "is_home": true,
         "name": "lacruz",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "description": "Site vitrine de l'association, afin de présenter plus en détail l'association, les différents membres qui la composent, ainsi que les différents projets que nous avons réalisé",
         "img": "lacruz.png",
         "link_website": "la-cruz",
         "other_link": ""
@@ -42,7 +42,7 @@
     {       
         "is_home": true,
         "name": "speed race",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim imperdiet, commodo felis eu, sagittis nisl. Nullam pulvinar urna ac feugiat vehicula. ",
+        "description": "Speed Race est une application réalisée sous forme de jeu de géolocalisation ou le but est d'être le premier à atteindre une cible. L'application est accompagnée d'un back-office pour la gestion du jeu.",
         "img": "speedrace.png",
         "link_website": "speed-race",
         "other_link": ""
