@@ -3,7 +3,6 @@
     {
         "name": "Only Vert",
         "image": "ov-mockup.png",
-        "category": "web",
         "date_fr": "2020",
         "date_en": "2020",
         "desc_fr": "Only vert est une start-up lyonnaise qui travaille dans le domaine de la protection de l'environnement. Suite au lancement de leur application d'aide au tri sélectif, nous avons tout d'abord travaillé sur le développement d'un site vitrine afin de présenter la start-up et les différents membres. Nous avons par la suite développé une partie back-office qui permet dans un premier temps à Only vert de gérer certaines données de leur site et de leur application, et dans un second temps de mettre à disposition de leurs partenaires un espace privé et personnalisé.",

@@ -3,7 +3,6 @@
     {
         "name": "Saphir",
         "image": "",
-        "category": "web",
         "date_fr": "2020",
         "date_en": "2020",
         "desc_fr": "Saphir est une application éducative ayant pour but d'accompagner de jeunes apprenant dans la compréhension des différents cycles de l'eau et plus précisément de sa filtration. Nous avons pour cela développé une Progressive Web App, ce qui permet à l'application d'être téléchargeable sur téléphone et tablette en plus d'être accessible sans connexion internet. En plus de cela, elle est disponible en 3 langues différentes, ce qui la rend d'autant plus accessible. Elle a été réalisée dans le cadre de l'unité d'enseignement Projet d'Orientation Master, encadré par Mme Stéphanie Jean Daubias et partenariat avec l'association Franco-chinoise Albatross Foundation, qui a pour vocation de promouvoir une éducation gratuite pour tous et de construire une organisation globale pour une éducation au développement durable de la jeunesse avec des outils innovants interactifs et ludiques.",

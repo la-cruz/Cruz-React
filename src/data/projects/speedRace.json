@@ -3,7 +3,6 @@
     {
         "name": "Speed Race",
         "image": "",
-        "category": "web",
         "date_fr": "2020",
         "date_en": "2020",
         "desc_fr": "SpeedRace est un jeu réalisé dans le cadre de l'unité d'enseignement Web Avancé de l'université Lyon 1. Le jeu tourne autour le la géolocalisation en temps réel des joueurs, et le but est pour ces derniers d'atteindre une cible présente sur la carte le plus vite possible. Un back office permet à l'admininistrateur du jeu de modifier chaque paramètre de la partie, comme le temps de vie d'un joueur ou la position de la carte.",
