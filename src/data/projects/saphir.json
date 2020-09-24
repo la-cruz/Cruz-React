@@ -24,21 +24,21 @@
     "features": [
         {
             "image": "xxx.png",
-            "title_fr": "Progressive Web App",
+            "name": "Progressive Web App",
             "title_en": "Progressive Web App",
             "description_fr": "Saphir est une PWA, ce qui lui permet d'être téléchargé comme une application sur tout les dispositif et disponnible hors connexion",
             "description_en": "Saphir is a PWA, you can download it as an desktop or mobile application, and it will be available without connexion"
         },
         {
             "image": "xxx.png",
-            "title_fr": "Site responsive",
+            "name": "Site responsive",
             "title_en": "Responsive website",
             "description_fr": "L'application est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
             "description_en": "The application is available on all platform, from the desktop to mobile phone"
         },
         {
             "image": "xxx.png",
-            "title_fr": "Éducatif",
+            "name": "Éducatif",
             "title_en": "Educative",
             "description_fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
             "description_en": "The application is made to work in school with young learner"

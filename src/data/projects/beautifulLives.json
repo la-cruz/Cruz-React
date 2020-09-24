@@ -30,14 +30,14 @@
     "features": [
         {
             "image": "",
-            "title_fr": "La mort... encore !",
+            "name": "La mort... encore !",
             "title_en": "Die... again !",
             "description_fr": "Basé sur un système de \"Die & Tryhard\", ce jeu vous demendera de faire des sacrifices pour terminer et désceller certains niveaux.",
             "description_en": "Based on a Die & Tryhard system, this game will ask you to make sacrifices to finish and unseal some levels."
         },
         {
             "image": "",
-            "title_fr": "Tutoriels",
+            "name": "Tutoriels",
             "title_en": "Tutorials",
             "description_fr": "Un hologramme sympathique vous accompagnera dans les premiers niveaux pour tout vous expliquer : commandes, mécaniques, vous allez tout connaître !",
             "description_en": "A nice hologram will assist you in the first levels to explain everything : keys, mechanics, you will know all of it !"

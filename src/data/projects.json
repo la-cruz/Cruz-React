@@ -1,60 +1,52 @@
-[
+{
+    "presentation":
     {
-        "name": "Only Vert",
+        "name": "",
         "image": "",
-        "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
-        "is_home": true,
+        "category": "",
+        "date_fr": "",
+        "date_en": "",
+        "desc_fr": "",
+        "desc_en": "",
+        "type": {
+            "elem_fr": "",
+            "elem_en": ""
+        },
         "links": [
             {
+                "text_fr": "",
+                "text_en": "",
                 "link": "",
                 "icon": ""
             }
-        ],
-        "type": [
-            {
-                "elem-fr":"Site vitrine",
-                "elem-en":"Pareil en"
-            },
-            {
-                "elem-fr":"Back office",
-                "elem-en":"Pareil en"
-            } 
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "Lorem",
-                "description-en": "Lorem"
-            }
-        ],
-        "technologies": [
-            {
-                "name": "ReactJS",
-                "logo": ""
-            }
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Pareil en anglais"
-                    }
-                ]
-            }
         ]
-    }
-]
+    },
+    "features": [
+        {
+            "img": "",
+            "name": "",
+            "title_en": "",
+            "description": "",
+            "description_en": ""
+        }
+    ],
+    "technologies": [
+        ""
+    ],
+    "team": [
+        {
+            "image": "",
+            "name": "",
+            "roles": [
+                {
+                    "elem_fr": "",
+                    "elem_en": ""
+                },
+                {
+                    "elem_fr": "",
+                    "elem_en": ""
+                }
+            ]
+        }
+    ]
+}

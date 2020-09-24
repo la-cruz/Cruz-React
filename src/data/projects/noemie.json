@@ -1,0 +1,104 @@
+{
+    "presentation":
+    {
+        "name": "Only Vert",
+        "image": "ov-mockup.png",
+        "category": "web",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "Noémie Vargas est une make-up artiste lyonnaise qui ",
+        "desc_en": "Only vert is a Lyon-based start-up working in the field of environmental protection. After the launch of their selective sorting application, we first worked on the development of a showcase site to present the start-up and the different members. We then developed a back-office part that allows Only vert to manage some data from their site and application, and then to provide their partners with a private and personalized space.",
+        "type": {
+            "elem_fr": "Site vitrine / Back-office",
+            "elem_en": "Showcase site / Back-office"
+        },
+        "links": [
+            {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
+                "link": "https://onlyvert.fr",
+                "icon": "fas fa-link"
+            }
+        ]
+    },
+    "features": [
+        {
+            "img": "responsive.png",
+            "name": "Site responsive",
+            "title_en": "Responsive website",
+            "description": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description_en": "The website is available on all platform, from the desktop to mobile phone"
+        },
+        {
+            "img": "bo.png",
+            "name": "Back office personnalisé",
+            "title_en": "Personalized back office",
+            "description": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
+            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
+        },
+        {
+            "img": "firebase.png",
+            "name": "Liaison avec Firebase",
+            "title_en": "Built with Firebase",
+            "description": "Contruit avec Firebase, les données sont communes avec celles de l'application",
+            "description_en": "Built with Firebase, we use the same data as used in the app"
+        }
+    ],
+    "technologies": [
+        "React",
+        "Firebase",
+        "sass"
+    ],
+    "team": [
+        {
+            "image": "mickael.jpg",
+            "name": "Alves Mickael",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "lucasa.jpg",
+            "name": "Audart Lucas",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "idoux.jpg",
+            "name": "Idoux Étienne",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        }
+    ]
+}

@@ -24,21 +24,21 @@
     "features": [
         {
             "image": "xxx.png",
-            "title_fr": "Site responsive",
+            "name": "Site responsive",
             "title_en": "Responsive website",
             "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
             "description_en": "The website is available on all platform, from the desktop to mobile phone."
         },
         {
             "image": "xxx.svg",
-            "title_fr": "Géolocalisation en temps réel",
+            "name": "Géolocalisation en temps réel",
             "title_en": "Realtime geolocation",
             "description_fr": "Le jeu est orienté autour de la géolocalisation en temps réel des joueurs, ainsi que d'une cible à atteindre",
             "description_en": "The game is based on the geolocation of all the differents players, as well as a target to reach"
         },
         {
             "image": "firebase.svg",
-            "title_fr": "Back office personnalisé",
+            "name": "Back office personnalisé",
             "title_en": "Personalized back office",
             "description_fr": "Le jeu est accompagné d'un back office permetant de modifier la plupart des options du jeu",
             "description_en": "The game comes with a back office where you can change almost every options of the game"

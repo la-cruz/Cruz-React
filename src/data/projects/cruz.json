@@ -28,7 +28,7 @@
     "features": [
         {
             "image": "xxx.png",
-            "title_fr": "Site responsive",
+            "name": "Site responsive",
             "title_en": "Responsive website",
             "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
             "description_en": "The website is available on all platform, from the desktop to mobile phone"
