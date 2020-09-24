@@ -11,6 +11,7 @@
         height: 100px;
         margin: 3rem;
         transition: 0.5s;
+        object-fit: contain;
 
         &:hover {
             animation: tilt 0.5s;

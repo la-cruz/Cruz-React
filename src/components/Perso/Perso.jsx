@@ -4,9 +4,10 @@ import Presentation from './Presentation'
 import Studies from './Studies'
 import Experiences from './Experiences'
 import RelatedProject from './RelatedProject'
-import RelatedTechno from './RelatedTechno'
 import RelatedTools from './RelatedTools'
 import RelatedSkills from './RelatedSkills'
+
+import getRelatedProject from '../../lib/getRelatedProject'
 
 function Perso({ data }) {
   return (
@@ -15,10 +16,10 @@ function Perso({ data }) {
         <About bio={data.bio} />
         <Studies studies={data.studies} />
         <Experiences experiences={data.experiences} />
-        <RelatedProject />
-        <RelatedTechno />
-        <RelatedTools />
-        <RelatedSkills />
+        <RelatedProject projects={getRelatedProject(data.projects)} />
+        <RelatedTools title="label.perso.technologies" data={data.technologies} skew/>
+        <RelatedTools title="label.perso.tools" data={data.tools} />
+        <RelatedSkills skills={data.qualities} />
       </>
   )
 }

@@ -8,7 +8,7 @@ function Experiences({ experiences }) {
       <h2><Trans>label.perso.experiences</Trans></h2>
       {
         experiences.map(exp => (
-          <ExperienceCard data={exp} />
+          <ExperienceCard data={exp} key={exp.title}/>
         ))
       }
     </section>

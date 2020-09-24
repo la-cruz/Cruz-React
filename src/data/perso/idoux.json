@@ -35,14 +35,14 @@
       "title": "label.perso.studies.title.master2",
       "date": "label.perso.date.2020.2021",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": []
     },
     {
       "title": "label.perso.studies.title.master1",
       "date": "label.perso.date.2019.2020",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": [
         "label.perso.elem.dev.vue",
         "label.perso.elem.dev.node",
@@ -54,8 +54,8 @@
     {
       "title": "label.perso.studies.title.bachelor",
       "date": "label.perso.date.2015.2019",
-      "location": "label.perso.location.lyon1",
-      "logo": "",
+      "location": "label.perso.location.orleans",
+      "logo": "orleans.png",
       "list": [
         "label.perso.elem.dev.java.spring",
         "label.perso.elem.dev.symfony",
@@ -76,7 +76,7 @@
       "title": "label.perso.dev.web",
       "date": "label.perso.date.since.2020",
       "company": "Association La Cruz",
-      "logo": "",
+      "logo": "cruz.png",
       "list": [
         "label.perso.elem.web.project",
         "label.perso.elem.project.management",
@@ -84,36 +84,10 @@
       ]
     },
     {
-      "title-fr": "Développeur jeux-vidéo",
-      "title-en": "Game developper",
-      "date-fr": "Janvier 2020",
-      "date-en": "January 2020",
-      "company": "Global Game Jam 2020",
-      "logo": "",
-      "list": [
-        {
-          "elem-fr": "Réalisation d'un jeu en 48h",
-          "elem-en": "Production of a game in 48h"
-        },
-        {
-          "elem-fr": "Game Design",
-          "elem-en": "Game Design"
-        },
-        {
-          "elem-fr": "Gestion de projet",
-          "elem-en": "Project management"
-        },
-        {
-          "elem-fr": "Travail en équipe",
-          "elem-en": "Teamwork"
-        }
-      ]
-    },
-    {
       "title": "label.perso.exp.title.dev.intern",
       "date": "label.perso.date.march.august.2019",
       "company": "Qualnet",
-      "logo": "",
+      "logo": "qualNet.png",
       "list": [
         "label.perso.elem.scrum",
         "label.perso.elem.dotnet",
@@ -132,6 +106,15 @@
       ]
     }
   ],
+  "projects": [
+    "Only Vert",
+    "Eva Dalla Costa",
+    "Nova",
+    "La Cruz",
+    "Beautiful Lives",
+    "Eco-potager",
+    "Fix-it"
+  ],
   "technologies": [
     "ReactJS",
     "VueJS",
@@ -139,7 +122,7 @@
     "SASS",
     "HTML",
     "CSS",
-    "JS",
+    "JavaScript",
     "Git",
     "Java",
     "Spring",

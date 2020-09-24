@@ -1,12 +1,15 @@
 import React from 'react'
 import { Trans } from 'react-i18next'
+import WrapList from '../Basic/WrapList'
 
+function RelatedTools({ title, data, skew }) {
 
-function RelatedTools() {
+  var classname = skew ? "related-tools skew" : "related-tools";
+
   return (
-    <section className="related-tools">
-      <h2><Trans>label.perso.tools</Trans></h2>
-
+    <section className={classname}>
+      <h2><Trans>{title}</Trans></h2>
+      <WrapList data={data}/>
     </section>
   )
 }

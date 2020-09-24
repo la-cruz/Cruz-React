@@ -36,14 +36,14 @@
       "title": "label.perso.studies.title.master2.tiw",
       "date": "label.perso.date.2020.2021",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": []
     },
     {
       "title": "label.perso.studies.title.master1",
       "date": "label.perso.date.2019.2020",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": [
         "label.perso.elem.dev.react",
         "label.perso.elem.dev.vue",
@@ -58,7 +58,7 @@
       "title": "label.perso.elem.studies.bachelor",
       "date": "label.perso.date.2016.2019",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": [
         "label.perso.elem.dev.symfony",
         "label.perso.elem.dev.c++",
@@ -71,7 +71,7 @@
       "title": "label.perso.studies.title.bac",
       "date": "label.perso.date.2016",
       "location": "label.perso.location.ambroise.croizat",
-      "logo": "",
+      "logo": "croizat.png",
       "list": [
         "label.perso.elem.svt",
         "label.perso.elem.spe.physics"
@@ -83,7 +83,7 @@
       "title": "label.perso.dev.web.president",
       "date": "label.perso.date.since.2019",
       "company": "Association La Cruz",
-      "logo": "",
+      "logo": "cruz.png",
       "list": [
         "label.perso.elem.association.management",
         "label.perso.elem.web.project",
@@ -95,7 +95,7 @@
       "title": "label.perso.exp.title.dev.web.intern",
       "date": "label.perso.date.may.july.2019.month",
       "company": "Pentalog Innovation ( Soluti )",
-      "logo": "",
+      "logo": "pentalog.png",
       "list": [
         "label.perso.elem.project.symfony",
         "label.perso.elem.web.maintenance",
@@ -107,7 +107,7 @@
       "title": "label.perso.exp.title.assistant.intern",
       "date": "label.perso.date.july.august.2017",
       "company": "Topastuces Informatique",
-      "logo": "",
+      "logo": "topastuces.png",
       "list": [
         "label.perso.elem.computer.maintenance",
         "label.perso.elem.web.maintenance.company",
@@ -118,7 +118,7 @@
       "title": "label.perso.exp.title.assistant.intern",
       "date": "label.perso.date.2013.month",
       "company": "TEAMINFO",
-      "logo": "",
+      "logo": "teaminfo.png",
       "list": [
         "label.perso.elem.computer.maintenance"
       ]
@@ -127,18 +127,27 @@
       "title": "label.perso.exp.title.volunteer",
       "date-fr": "label.perso.date.june.2010.2012.year",
       "company": "Les Restos du Coeur",
-      "logo": "",
+      "logo": "restauDuCoeur.png",
       "list": [
         "label.perso.elem.project.management",
         "label.perso.elem.fundraising"
       ]
     }
   ],
+  "projects": [
+    "Only Vert",
+    "Saphir",
+    "Eva Dalla Costa",
+    "Nova",
+    "La Cruz",
+    "Speed Race",
+    "Healtheat"
+  ],
   "technologies": [
     "ReactJS",
     "VueJS",
     "NodeJS",
-    "JS",
+    "JavaScript",
     "Symfony",
     "Laravel",
     "PHP",

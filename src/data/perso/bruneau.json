@@ -35,14 +35,14 @@
       "title": "label.perso.studies.title.master2.ia",
       "date": "label.perso.date.2020.2021",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": []
     },
     {
       "title": "label.perso.studies.title.master1",
       "date": "label.perso.date.2019.2020",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": [
         "label.perso.elem.project.management",
         "label.perso.elem.dev.prolog",
@@ -57,7 +57,7 @@
       "title": "label.perso.studies.title.bachelor",
       "date": "label.perso.date.2015.2019",
       "location": "label.perso.location.lyon1",
-      "logo": "",
+      "logo": "lyon1.png",
       "list": []
     }
     
@@ -67,7 +67,7 @@
       "title": "label.perso.secretary",
       "date": "label.perso.date.since.2019",
       "company": "Association La Cruz",
-      "logo": "",
+      "logo": "cruz.png",
       "list": [
         "label.perso.elem.administration"
       ]
@@ -113,6 +113,9 @@
         "label.perso.elem.solidworks"
       ]
     }
+  ],
+  "projects": [
+    "Eva Dalla Costa"
   ],
   "technologies": [
     "C++",

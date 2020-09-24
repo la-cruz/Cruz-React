@@ -3,7 +3,7 @@ import { Trans } from 'react-i18next'
 
 function About({ bio }) {
   return (
-    <section className="about">
+    <section className="about-perso">
       <h2><Trans>label.perso.about</Trans></h2>
       <p><Trans>{bio}</Trans></p>
     </section>

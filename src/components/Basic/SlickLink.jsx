@@ -4,7 +4,6 @@ import Card from './Card';
 import CardMember from './CardMember';
 
 function SlickLink({data, type}) {
-    
     function getNbSlides() {
         if (type === "project") {
             return data.filter(elem => elem.is_home).length < 4 ?
@@ -56,7 +55,11 @@ function SlickLink({data, type}) {
                     data.map(feature => (
                         <Card key={feature.name} data={feature} type={type}/>
                     ))
-                : 
+                : type === "project-perso" ?
+                    data.map(project => (
+                      <Card key={project.name} data={project} type={type} />
+                    ))
+                :
                     data.map(member => (
                         <CardMember key={member.name} data={member} type={type}/>
                     ))

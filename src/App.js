@@ -12,8 +12,6 @@ import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
 
-import members from './lib/team'
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +20,7 @@ import {
 
 // Projects
 import projects from "./lib/projects";
+import members from './lib/team'
 
 function App() {
   const { i18n } = useTranslation()
