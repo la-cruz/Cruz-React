@@ -23,7 +23,10 @@ function WrapList({data}) {
         <div className="container-wrap-list">
             {
                 data.map( (technology, i) => (
-                    <img className="logo-tools" src={getImage(technology)} alt={`img-techno ${technology}`} key={i} />
+                    <div className="wrap-list-elem" key={`${technology}-${i}`}>
+                      <h5>{technology}</h5>
+                      <img className="logo-tools" src={getImage(technology)} alt={`img-techno ${technology}`} />
+                    </div>
                 ))
             }
         </div>
