@@ -1,21 +1,21 @@
 {
     "presentation":
     {
-        "name": "Only Vert",
+        "name": "Eva Dalla Costa",
         "image": "ov-mockup.png",
         "date_fr": "2020",
         "date_en": "2020",
-        "desc_fr": "Only vert est une start-up lyonnaise qui travaille dans le domaine de la protection de l'environnement. Suite au lancement de leur application d'aide au tri sélectif, nous avons tout d'abord travaillé sur le développement d'un site vitrine afin de présenter la start-up et les différents membres. Nous avons par la suite développé une partie back-office qui permet dans un premier temps à Only vert de gérer certaines données de leur site et de leur application, et dans un second temps de mettre à disposition de leurs partenaires un espace privé et personnalisé.",
-        "desc_en": "Only vert is a Lyon-based start-up working in the field of environmental protection. After the launch of their selective sorting application, we first worked on the development of a showcase site to present the start-up and the different members. We then developed a back-office part that allows Only vert to manage some data from their site and application, and then to provide their partners with a private and personalized space.",
+        "desc_fr": "Eva Dalla Costa est une photographe lyonnaise pour qui nous avons réalisé un site vitrine lui permettant d'afficher ses créations. Nous lui avons aussi mis à disposition un back office afin qu'elle puisse ajouter, supprimer et ordonner directement le contenu de son site vitrine.",
+        "desc_en": "Eva Dalla Costa is a photographer from Lyon for whom we have created a showcase site allowing her to display her creations. We also provided her with a back office so that she can directly add, delete and order the content of her showcase site.",
         "type": {
             "elem_fr": "Site vitrine / Back-office",
             "elem_en": "Showcase site / Back-office"
         },
         "links": [
             {
-                "text_fr": "Voir le projet",
-                "text_en": "See the project",
-                "link": "https://onlyvert.fr",
+                "text_fr": "Voir le site",
+                "text_en": "Go to website",
+                "link": "https://website-eva.netlify.app",
                 "icon": "fas fa-link"
             }
         ]
@@ -44,7 +44,7 @@
         }
     ],
     "technologies": [
-        "ReactJS",
+        "React",
         "Firebase",
         "sass"
     ],

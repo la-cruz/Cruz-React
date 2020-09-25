@@ -1,12 +1,12 @@
 {
     "presentation":
     {
-        "name": "Beautiful Lives",
-        "image": "beautifulLives.png",
+        "name": "Fix it",
+        "image": "fixit.png",
         "date_fr": "2020",
         "date_en": "2020",
-        "desc_fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week_end. Nous avons mit nos compétences ainsi que nos nerfs à rude épreuve et c'est ainsi que Beautiful lives est né.",
-        "desc_en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" ! This game jam was supposed to last a week but we tried to develop a game with a small team of 4 people in a single week_end. We have put our skills and nerves to the tests and Beautiful lives was born !",
+        "desc_fr": "Ce jeu a été développé lors de la Global Game Jam 2020 sur le thème de la \"réparation\" ! Dans ce prototype, vous pouvez jouer contre votre ami dans une arène et essayer de réparer plus de choses que lui ! Vous devrez collecter des pièces, envoyées dans l'arène, afin de réparer votre objet actuel donné par la foule en arrière-plan (qui vous remonte le moral !). Le premier à compléter 3 objets gagne !",
+        "desc_en": "This game was developed during the GGJ 2020 on the theme \"Repair\" ! In this prototype you can play against your friend in an arena and try to repair more things than him ! You will have to collect pieces, dispatched in the arena, in order to repair your current object, given by the crowd in the background (that cheers you up !). The first to complete 3 objects wins !",
         "type": {
             "elem_fr": "Jeu vidéo",
             "elem_en": "Video game"
@@ -15,13 +15,13 @@
             {
                 "text_fr": "Voir le projet",
                 "text_en": "See the project",
-                "link": "https://slocaly.itch.io/beautiful-lives",
+                "link": "https://rascaleuh.itch.io/fix-it",
                 "icon": "fab fa-itch-io"
             },
             {
                 "text_fr": "Voir sur github",
                 "text_en": "Check on github",
-                "link": "https://github.com/LA-CRUZ/game-jam-aout",
+                "link": "https://gitlab.com/Rascaleuh/ggj-2020",
                 "icon": "fab fa-github"
             }
         ]
@@ -29,17 +29,24 @@
     "features": [
         {
             "image": "",
-            "name": "La mort... encore !",
-            "title_en": "Die... again !",
-            "description_fr": "Basé sur un système de \"Die & Tryhard\", ce jeu vous demendera de faire des sacrifices pour terminer et désceller certains niveaux.",
-            "description_en": "Based on a Die & Tryhard system, this game will ask you to make sacrifices to finish and unseal some levels."
+            "name": "Pour la gloire !",
+            "title_en": "For the glory!",
+            "description_fr": "Ne décevez pas la foule en délire qui n'hésitera pas à vous acclamer et à suivre vos mouvements lors de votre combat.",
+            "description_en": "Don't disappoint the crowd who will not hesitate to cheer for you and follow your movements during your fight."
         },
         {
             "image": "",
-            "name": "Tutoriels",
-            "title_en": "Tutorials",
-            "description_fr": "Un hologramme sympathique vous accompagnera dans les premiers niveaux pour tout vous expliquer : commandes, mécaniques, vous allez tout connaître !",
-            "description_en": "A nice hologram will assist you in the first levels to explain everything : keys, mechanics, you will know all of it !"
+            "name": "Multijoueur",
+            "title_en": "Multiplayer",
+            "description_fr": "Vous êtes plusieurs ? Tant mieux ! Fix it va vous permettre d'affronter vos (anciens) amis afin de savoir qui est le meilleur réparateur !",
+            "description_en": "Are there several of you? So much the better! Fix it will allow you to confront your (old) friends to find out who is the best repairman!"
+        },
+        {
+            "image": "",
+            "name": "Musique",
+            "title_en": "Music",
+            "description_fr" : "Le jeu dispose d'une bande-son spécialisement créée lors de la Global Game Jam. Profitez de cette musique qui accompagne la foule pour vaincre son adversaire !",
+            "description_en" : "The game has a soundtrack specially created during the Global Game Jam. Enjoy this music that accompanies the crowd to defeat your opponent!"
         }
     ],
     "technologies": [
