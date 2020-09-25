@@ -269,17 +269,17 @@ h3 {
       button {
           display: flex;
           height: fit-content;
-          width: 10%;
+          width: fit-content;
           padding: 1rem 0;
 
           &.slick-prev {
               text-align: right;
-              margin-left: 2rem;
+              margin-left: 1rem;
           }
 
           &.slick-next {
               text-align: left;
-              margin-right: 2rem;
+              margin-right: 1rem;
           }
 
           &.slick-disabled {
@@ -306,7 +306,7 @@ h3 {
       }
 
       .slick-list {
-          width: 100%;
+          width: 80%;
 
           .slick-track {
               width: 100%;
