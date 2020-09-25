@@ -4,7 +4,7 @@
   "firstname": "Mickaël",
   "image": "mickael.jpg",
   "thumbnail": "mickael-thumbnail.png",
-  "bio": "lorem",
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque ex, blandit fermentum eros mollis, luctus venenatis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat, elit vitae ultrices rhoncus, arcu tellus ultrices elit, tristique ultrices quam ante at sem. Nunc gravida tortor in justo mollis tincidunt. Ut ac dui purus. Curabitur malesuada interdum odio sed pharetra. Vivamus elit nisi, iaculis nec bibendum quis, consequat et est. Aliquam mollis semper magna, sed vulputate erat ultricies ac.",
   "cv-fr": "mickael-cv-fr.pdf",
   "cv-en": "mickael-cv-en.pdf",
   "fonction": "label.perso.president",
