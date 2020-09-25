@@ -32,5 +32,12 @@
   "label.format.email": "Votre email n'est pas au bon format",
   "label.form.error.name.empty": "Cette zone de texte ne peut pas être vide",
   "label.form.error.subject.empty": "Cette zone de texte ne peut pas être vide",
-  "label.form.error.content.empty": "Cette zone de texte ne peut pas être vide"
+  "label.form.error.content.empty": "Cette zone de texte ne peut pas être vide",
+  "label.perso.about": "À propos <strong>de moi</strong>",
+  "label.perso.studies": "Mes <strong>études</strong>",
+  "label.perso.experiences": "Expériences <strong>pro</strong>",
+  "label.perso.projects": "Mes <strong>projets</strong>",
+  "label.perso.technologies": "Techno<strong>logies</strong>",
+  "label.perso.tools": "Out<strong>ils</strong>",
+  "label.perso.skills": "Compét<strong>ences</strong>"
 }

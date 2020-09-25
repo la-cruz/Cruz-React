@@ -10,7 +10,7 @@ import Project from './components/Project/Project'
 import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
-
+import Perso from './components/Perso/Perso'
 
 import {
   BrowserRouter as Router,
@@ -20,6 +20,7 @@ import {
 
 // Projects
 import projects from "./lib/projects";
+import members from './lib/team'
 
 function App() {
   const { i18n } = useTranslation()
@@ -37,9 +38,9 @@ function App() {
           <Home />
         </Route>
         {
-          projects.map( (project, i) => {
+          projects.map(project => {
             return (
-              <Route key={i} path={"/project/" + project.presentation.name.replace(' ', "-").toLowerCase()}>
+              <Route key={project.presentation.name} exact path={"/project/" + project.presentation.name.replace(' ', "-").toLowerCase()}>
                 <Project data={project} />
               </Route>
             )
@@ -51,6 +52,13 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        {
+          members.map(member => (
+            <Route exact path={`/perso/${member.name}`} key={member.name}>
+              <Perso data={member} />
+            </Route>
+          ))
+        }
         <Route>
           <Error404 />
         </Route>
