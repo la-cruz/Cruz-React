@@ -16,22 +16,22 @@
     },
     "features": [
         {
-            "image": "",
+            "img": "",
             "name": "label.project.feature.title.pwa",
             "description": "label.project.feature.desc.pwa"
         },
         {
-            "image": "",
+            "img": "",
             "name": "label.project.feature.title.responsive",
             "description": "label.project.feature.desc.responsive"
         },
         {
-            "image": "",
+            "img": "",
             "name": "label.project.feature.title.educative",
             "description": "label.project.feature.desc.educative"
         },
         {
-            "image": "",
+            "img": "",
             "name": "label.project.feature.desc.experiment",
             "description": "label.project.feature.desc.experiment"
         }

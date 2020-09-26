@@ -11,8 +11,8 @@ function Card({key, data, type}) {
         <div className={`container-card ${type}`} key={key}>
             <div className="content-card">
                 <img src={image} alt=""/>
-                <h3>{data.name}</h3>
-                <p>{data.description}</p>
+                <h3><Trans>{data.name}</Trans></h3>
+                <p><Trans>{data.description}</Trans></p>
                 {
                     type !== "feature" ?
                     data.has_link ?

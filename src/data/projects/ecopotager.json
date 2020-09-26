@@ -1,65 +1,65 @@
 {
-    "presentation":
-    {
-        "name": "Eco-potager",
-        "image": "ecopotager.png",
-        "date": "2020",
-        "desc": "label.project.desc.ecopotager",
-        "type": "label.project.type.jv",
-        "links": [
-            {
-                "text": "label.project.check.github",
-                "link": "https://github.com/LA-CRUZ/Eco-potager",
-                "icon": "fab fa-github"
-            }
-        ]
-    },
-    "features": [
-        {
-            "image": "",
-            "name": "label.project.feature.title.children",
-            "description": "label.project.feature.desc.children"
-        },
-        {
-            "image": "",
-            "name": "label.project.feature.title.tuto",
-            "description": "label.project.feature.desc.tuto.ep"
-        },
-        {
-            "image": "",
-            "name": "label.project.feature.title.process.monitoring",
-            "description" : "label.project.feature.desc.process.monitoring"
-        }
-    ],
-    "technologies": [
-        "Unity",
-        "C",
-        "Git"
-    ],
-    "team": [
-        {
-            "image": "lucasg.jpg",
-            "name": "GIVORD Lucas",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ]
-        },
-        {
-            "image": "idoux.jpg",
-            "name": "IDOUX Etienne",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ]
-        },
-        {
-            "image": "nicolas.jpg",
-            "name": "ROBERT Nicolas",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ]
-        }
+  "presentation":
+  {
+    "name": "Eco-potager",
+    "image": "ecopotager.png",
+    "date": "2020",
+    "desc": "label.project.desc.ecopotager",
+    "type": "label.project.type.jv",
+    "links": [
+      {
+        "text": "label.project.check.github",
+        "link": "https://github.com/LA-CRUZ/Eco-potager",
+        "icon": "fab fa-github"
+      }
     ]
+  },
+  "features": [
+    {
+      "img": "",
+      "name": "label.project.feature.title.children",
+      "description": "label.project.feature.desc.children"
+    },
+    {
+      "img": "",
+      "name": "label.project.feature.title.tuto",
+      "description": "label.project.feature.desc.tuto.ep"
+    },
+    {
+      "img": "",
+      "name": "label.project.feature.title.process.monitoring",
+      "description" : "label.project.feature.desc.process.monitoring"
+    }
+  ],
+  "technologies": [
+    "Unity",
+    "C",
+    "Git"
+  ],
+  "team": [
+    {
+      "image": "lucasg.jpg",
+      "name": "GIVORD Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    },
+    {
+      "image": "idoux.jpg",
+      "name": "IDOUX Etienne",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    },
+    {
+      "image": "nicolas.jpg",
+      "name": "ROBERT Nicolas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    }
+  ]
 }

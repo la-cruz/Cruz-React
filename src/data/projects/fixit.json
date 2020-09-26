@@ -21,17 +21,17 @@
   },
   "features": [
     {
-      "image": "",
+      "img": "",
       "name": "label.project.feature.title.glory",
       "description_fr": "label.project.feature.desc.glory"
     },
     {
-      "image": "",
+      "img": "",
       "name": "label.project.feature.title.multi",
       "description": "label.project.feature.desc.multi"
     },
     {
-      "image": "",
+      "img": "",
       "name": "label.project.feature.title.music",
       "description" : "label.project.feature.desc.music"
     }
