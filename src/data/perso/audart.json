@@ -3,7 +3,7 @@
     "firstname": "Lucas",
     "image": "lucas.png",
     "thumbnail": "lucas-thumbnail.png",
-    "bio": "",
+    "bio": "label.perso.bio.bruneau",
     "cv-fr": "cv-lucas-fr.pdf",
     "cv-en": "cv-lucas-en.pdf",
     "fonction": "label.perso.treasurer",
@@ -32,17 +32,17 @@
     ],
     "studies": [
         {
-            "title": "label.perso.studies.title.master.2.tiw",
+            "title": "label.perso.studies.title.master2.tiw",
             "date": "label.perso.date.2020.2021",
             "location": "label.perso.location.lyon1",
-            "logo": "",
+            "logo": "lyon1.png",
             "list": []
         },
         {
             "title": "label.perso.studies.title.master1",
             "date": "label.perso.date.2019.2020",
             "location": "label.perso.location.lyon1",
-            "logo": "",
+            "logo": "lyon1.png",
             "list": [
                 "label.perso.elem.dev.react",
                 "label.perso.elem.dev.vue",
@@ -55,7 +55,7 @@
             "title": "label.perso.studies.title.bachelor",
             "date": "label.perso.date.2015.2019",
             "location": "label.perso.location.lyon1",
-            "logo": "",
+            "logo": "lyon1.png",
             "list": [
                 "label.perso.elem.dev.symfony",
                 "label.perso.elem.dev.c++",
@@ -79,7 +79,7 @@
             "title": "label.perso.dev.web.treasurer",
             "date": "label.perso.date.since.2019",
             "company": "Association La Cruz",
-            "logo": "",
+            "logo": "cruz.png",
             "list": [
                 "label.elem.perso.web.project",
                 "label.elem.perso.association.management",
@@ -91,7 +91,7 @@
             "title": "label.perso.exp.title.director.productor",
             "date": "label.perso.date.since.2018",
             "company": "Association Rital Prod",
-            "logo": "",
+            "logo": "rital.png",
             "list": [
                 "label.perso.elem.audiovisual.project",
                 "label.perso.elem.shooting.organization",
@@ -102,7 +102,7 @@
             "title": "label.perso.exp.title.symfony.dev.intern",
             "date": "label.perso.date.may.august.2019",
             "company": "IDCI Consulting",
-            "logo": "",
+            "logo": "idci.png",
             "list": [
                 "label.perso.elem.refactoring.silex",
                 "label.perso.elem.company.adaptation",
@@ -113,7 +113,7 @@
             "title": "label.perso.exp.title.workman",
             "date": "label.perso.date.july.2016",
             "company": "Europoly",
-            "logo": "",
+            "logo": "europoly.png",
             "list": [
                 "label.perso.elem.rigor"
             ]
@@ -122,7 +122,7 @@
             "title": "label.perso.exp.title.communication.assistant",
             "date": "label.perso.date.june.2016",
             "company": "AFAA",
-            "logo": "",
+            "logo": "afaa.png",
             "list": [
                 "label.perso.elem.graphic.design",
                 "label.perso.elem.db.management"
@@ -132,7 +132,7 @@
             "title": "label.perso.exp.title.admin.sys.intern",
             "date": "label.perso.date.july.2014.week",
             "company": "Interface",
-            "logo": "",
+            "logo": "interface.png",
             "list": [
                 "label.perso.elem.base.maintenance"
             ]
@@ -141,12 +141,23 @@
             "title": "label.perso.exp.title.dev.web.intern",
             "date": "label.perso.date.february.2012.week",
             "company": "Danka Studio",
-            "logo": "",
+            "logo": "danka.jpg",
             "list": [
                 "label.perso.elem.base.dev.web",
                 "label.perso.elem.web.project.simple"
             ]
         }
+    ],
+    "projects": [
+      "Only Vert",
+      "Saphir",
+      "Eva Dalla Costa",
+      "Nova",
+      "La Cruz",
+      "Speed Race",
+      "Healtheat",
+      "Beautiful Lives",
+      "LLEI"
     ],
     "technologies": [
         "ReactJS",
@@ -155,7 +166,7 @@
         "Symfony",
         "Twig",
         "SASS",
-        "JS",
+        "JavaScript",
         "HTML",
         "PHP",
         "CSS",
@@ -163,9 +174,11 @@
         "Python",
         "SQL",
         "Git",
-        "C++"
+        "C++",
+        "CSharp",
+        "Spring"
     ],
-    "outils": [
+    "tools": [
         "Github",
         "Gitlab",
         "Firebase",

@@ -1,93 +1,103 @@
-[
+{
+    "presentation":
     {
         "name": "Only Vert",
-        "image": "",
-        "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
-        "is_home": true,
+        "image": "ov-mockup.png",
+        "date_fr": "2020",
+        "date_en": "2020",
+        "desc_fr": "Only vert est une start-up lyonnaise qui travaille dans le domaine de la protection de l'environnement. Suite au lancement de leur application d'aide au tri sélectif, nous avons tout d'abord travaillé sur le développement d'un site vitrine afin de présenter la start-up et les différents membres. Nous avons par la suite développé une partie back-office qui permet dans un premier temps à Only vert de gérer certaines données de leur site et de leur application, et dans un second temps de mettre à disposition de leurs partenaires un espace privé et personnalisé.",
+        "desc_en": "Only vert is a Lyon-based start-up working in the field of environmental protection. After the launch of their selective sorting application, we first worked on the development of a showcase site to present the start-up and the different members. We then developed a back-office part that allows Only vert to manage some data from their site and application, and then to provide their partners with a private and personalized space.",
+        "type": {
+            "elem_fr": "Site vitrine / Back-office",
+            "elem_en": "Showcase site / Back-office"
+        },
         "links": [
             {
+                "text_fr": "Voir le projet",
+                "text_en": "See the project",
                 "link": "https://onlyvert.fr",
                 "icon": "fas fa-link"
             }
-        ],
-        "type": [
-            {
-                "elem-fr":"Site vitrine",
-                "elem-en":"Showcase site"
-            },
-            {
-                "elem-fr":"Back office",
-                "elem-en":"Back office"
-            } 
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-                "description-en": "The website is available on all platform, from the desktop to mobile phone"
-            },
-            {
-                "image": "xxx.svg",
-                "title-fr": "Back office personnalisé",
-                "title-en": "Personalized back office",
-                "description-fr": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
-                "description-en": "The website comes with a back office in order to manage the data of the site and their mobile application."
-            },
-            {
-                "image": "firebase.svg",
-                "title-fr": "Liaison avec Firebase",
-                "title-en": "Built with Firebase",
-                "description-fr": "Contruit avec Firebase, les données sont communes avec celles de l'application",
-                "description-en": "Built with Firebase, we use the same data as used in the app"
-            }
-        ],
-        "technologies": [
-            "ReactJS",
-            "Firebase"
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            },
-            {
-                "name": "Audart Lucas",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "Development"
-                    },
-                    {
-                        "elem-fr": "Design",
-                        "elem-en": "Design"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Project management"
-                    }
-                ]
-            }
         ]
-    }
-]
+    },
+    "features": [
+        {
+            "img": "responsive.png",
+            "name": "Site responsive",
+            "title_en": "Responsive website",
+            "description": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
+            "description_en": "The website is available on all platform, from the desktop to mobile phone"
+        },
+        {
+            "img": "bo.png",
+            "name": "Back office personnalisé",
+            "title_en": "Personalized back office",
+            "description": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
+            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
+        },
+        {
+            "img": "firebase.png",
+            "name": "Liaison avec Firebase",
+            "title_en": "Built with Firebase",
+            "description": "Contruit avec Firebase, les données sont communes avec celles de l'application",
+            "description_en": "Built with Firebase, we use the same data as used in the app"
+        }
+    ],
+    "technologies": [
+        "ReactJS",
+        "Firebase",
+        "sass"
+    ],
+    "team": [
+        {
+            "image": "mickael.jpg",
+            "name": "Alves Mickael",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "lucasa.jpg",
+            "name": "Audart Lucas",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Design",
+                    "elem_en": "Design"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        },
+        {
+            "image": "idoux.jpg",
+            "name": "Idoux Étienne",
+            "roles": [
+                {
+                    "elem_fr": "Développement",
+                    "elem_en": "Development"
+                },
+                {
+                    "elem_fr": "Gestion de projet",
+                    "elem_en": "Project management"
+                }
+            ]
+        }
+    ]
+}

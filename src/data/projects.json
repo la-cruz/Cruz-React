@@ -1,60 +1,83 @@
 [
-    {
-        "name": "Only Vert",
-        "image": "",
-        "category": "web",
-        "date-fr": "2020",
-        "date-en": "2020",
-        "desc-fr": "lorem",
-        "desc-en": "lorem",
-        "short-desc-fr": "lorem",
-        "short-desc-en": "lorem",
-        "is_home": true,
-        "links": [
-            {
-                "link": "",
-                "icon": ""
-            }
-        ],
-        "type": [
-            {
-                "elem-fr":"Site vitrine",
-                "elem-en":"Pareil en"
-            },
-            {
-                "elem-fr":"Back office",
-                "elem-en":"Pareil en"
-            } 
-        ],
-        "features": [
-            {
-                "image": "xxx.png",
-                "title-fr": "Site responsive",
-                "title-en": "Responsive website",
-                "description-fr": "Lorem",
-                "description-en": "Lorem"
-            }
-        ],
-        "technologies": [
-            {
-                "name": "ReactJS",
-                "logo": ""
-            }
-        ],
-        "team": [
-            {
-                "name": "Alves Mickael",
-                "roles": [
-                    {
-                        "elem-fr": "Développement",
-                        "elem-en": "development"
-                    },
-                    {
-                        "elem-fr": "Gestion de projet",
-                        "elem-en": "Pareil en anglais"
-                    }
-                ]
-            }
-        ]
-    }
+  {
+    "is_home": true,
+    "name": "Fix-it",
+    "description": "Ce jeu a été développé durant la GGJ 2020 sur le thème \"Repair\" ! Ceci est un prototype proposant un 1 contre 1 dans une arène. Le premier qui arrive à réparer tout les objets avec les pièces semées un peu partout remporte la manche, et le joueur avec 3 manches gagnées remporte le duel.",
+    "img": "fixit.png",
+    "other_link": "",
+    "type": "jv",
+    "has_link": false
+  },
+  {
+    "is_home": true,
+    "name": "Eco-potager",
+    "description": "Serious game dans le cadre de l'UE M1IF28 - Logiciel Educatif (UCBL 1) sur le thème de la sensibilisation à l'écologie via la découverte de la physique et la chimie, à travers la gestion d'un potager éco responsable.",
+    "img": "ecoPotager.png",
+    "other_link": "",
+    "type": "jv",
+    "has_link": false
+  },
+  {
+    "is_home": true,
+    "name": "Beautiful Lives",
+    "description": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week-end.",
+    "img": "beautifulLives.png",
+    "other_link": "",
+    "type": "jv",
+    "has_link": false
+  },
+  {
+    "is_home": true,
+    "name": "Only Vert",
+    "description": "Only-vert est une start-up lyonnaise qui travaille dans le tri-selectif pour qui nous avons réalisé un site vitrine et un back-office avec un espace de gestion pour eux, et un pour leurs partenaires. ",
+    "img": "onlyvert.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": true
+  },
+  {
+    "is_home": true,
+    "name": "Saphir",
+    "description": "Saphir est une progressive web app éducative sur le thème de l'eau réalisée en étroite collaboration avec la fondation Albatross, afin de sensibiliser des élèves à la protection de l'environnement.",
+    "img": "saphir.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": false
+  },
+  {
+    "is_home": true,
+    "name": "Healtheat",
+    "description": "Healteat est un diététicien en ligne, permettant aux utilisateurs de suivre leur progression et de générer des programmes alimentaires en fonction de leurs informations personnelles.",
+    "img": "healtheat.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": false
+  },
+  {
+    "is_home": true,
+    "name": "La Cruz",
+    "description": "Site vitrine de l'association, afin de présenter plus en détail l'association, les différents membres qui la composent, ainsi que les différents projets que nous avons réalisé",
+    "img": "lacruz.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": false
+  },
+  {       
+    "is_home": true,
+    "name": "Eva Dalla Costa",
+    "description": "Eva Dalla Costa est une photographe lyonnaise pour qui nous avons réalisé un site vitrine avec un back-office. Ainsi, elle peut gérer le contenu de ses galeries en toute autonomie.",
+    "img": "eva.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": false
+  },
+  {       
+    "is_home": true,
+    "name": "Speed Race",
+    "description": "Speed Race est une application réalisée sous forme de jeu de géolocalisation ou le but est d'être le premier à atteindre une cible. L'application est accompagnée d'un back-office pour la gestion du jeu.",
+    "img": "speedrace.png",
+    "other_link": "",
+    "type": "web",
+    "has_link": false
+  }
 ]

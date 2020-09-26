@@ -1,4 +1,6 @@
 {
+  "presentation": 
+  {
     "name": "Beautiful lives",
     "image": "",
     "is_home": true,
@@ -9,70 +11,71 @@
       "label.project.type.jv"
     ],
     "links": [
-        {
-            "text": "label.project.see",
-            "link": "https://slocaly.itch.io/beautiful-lives",
-            "icon": "fab fa-itch-io"
-        },
-        {
-            "text": "label.project.check.github",
-            "link": "https://github.com/LA-CRUZ/game-jam-aout",
-            "icon": "fab fa-github"
-        }
-    ],
-    "features": [
-        {
-            "image": "",
-            "title": "label.project.feature.title.die.again",
-            "description": "label.project.feature.desc.die.again"
-        },
-        {
-            "image": "",
-            "title": "label.project.feature.title.tuto",
-            "description": "label.project.feature.desc.tuto.bl"
-        }
-    ],
-    "technologies": [
-        "Unity",
-        "C#",
-        "Git"
-    ],
-    "team": [
-        {
-            "image": "audart.png",
-            "name": "AUDART Lucas",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ],
-            "profil": "/audart_lucas"
-        },
-        {
-            "image": "givord.png",
-            "name": "GIVORD Lucas",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ],
-            "profil": "none"
-        },
-        {
-            "image": "idoux.png",
-            "name": "IDOUX Etienne",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ],
-            "profil": "/idoux_etienne"
-        },
-        {
-            "image": "robert.png",
-            "name": "ROBERT Nicolas",
-            "roles": [
-              "label.project.team.role.dev",
-              "label.project.team.role.game.designer"
-            ],
-            "profil": "/robert_nicolas"
-        }
+      {
+        "text": "label.project.see",
+        "link": "https://slocaly.itch.io/beautiful-lives",
+        "icon": "fab fa-itch-io"
+      },
+      {
+        "text": "label.project.check.github",
+        "link": "https://github.com/LA-CRUZ/game-jam-aout",
+        "icon": "fab fa-github"
+      }
     ]
+  },
+  "features": [
+    {
+      "image": "",
+      "title": "label.project.feature.title.die.again",
+      "description": "label.project.feature.desc.die.again"
+    },
+    {
+      "image": "",
+      "title": "label.project.feature.title.tuto",
+      "description": "label.project.feature.desc.tuto.bl"
+    }
+  ],
+  "technologies": [
+    "Unity",
+    "C",
+    "Git"
+  ],
+  "team": [
+    {
+      "image": "lucasa.jpg",
+      "name": "AUDART Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ],
+      "profil": "/audart_lucas"
+    },
+    {
+      "image": "lucasg.jpg",
+      "name": "GIVORD Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ],
+      "profil": "none"
+    },
+    {
+      "image": "idoux.jpg",
+      "name": "IDOUX Etienne",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ],
+      "profil": "/idoux_etienne"
+    },
+    {
+      "image": "nicolas.jpg",
+      "name": "ROBERT Nicolas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ],
+      "profil": "/robert_nicolas"
+    }
+  ]
 }

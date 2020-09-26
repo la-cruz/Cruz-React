@@ -86,17 +86,17 @@ h3 {
   .flash-message {
     color: white;
     font-size: 2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.60);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     margin: 1rem 0;
   }
-  
+
   &.alert-success {
     background: linear-gradient(45deg, rgb(70, 192, 70), rgb(92, 189, 73));
     animation: fadeAway 5s forwards;
   }
 
   &.alert-error {
-    background: linear-gradient(45deg, #EC360F, #DB6146);
+    background: linear-gradient(45deg, #ec360f, #db6146);
   }
 }
 
@@ -159,17 +159,17 @@ h3 {
   .flash-message {
     color: white;
     font-size: 2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.60);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     margin: 1rem 0;
   }
-  
+
   &.alert-success {
     background: linear-gradient(45deg, rgb(70, 192, 70), rgb(92, 189, 73));
     animation: fadeAway 5s forwards;
   }
 
   &.alert-error {
-    background: linear-gradient(45deg, #EC360F, #DB6146);
+    background: linear-gradient(45deg, #ec360f, #db6146);
   }
 }
 
@@ -187,7 +187,7 @@ h3 {
     padding: 0.3rem 0.8rem;
     margin-right: 0.5rem;
     border-radius: 50px;
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
   }
 }
 
@@ -201,43 +201,39 @@ h3 {
   box-shadow: 0 0 1px transparent;
 
   &:before {
-      pointer-events: none;
-      position: absolute;
-      z-index: -1;
-      content: "";
-      top: 100%;
-      left: 5%;
-      height: 10px;
-      width: 90%;
-      opacity: 0;
-      background: radial-gradient(
-          ellipse at center,
-          rgba(252, 252, 252, 0.35) 0%,
-          rgba(0, 0, 0, 0) 80%
-      );
-      transition-duration: 0.3s;
-      transition-property: transform opacity;
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(252, 252, 252, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    transition-duration: 0.3s;
+    transition-property: transform opacity;
   }
 
   &:hover {
-      transform: translateY(-6px);
-      animation-name: hover;
-      animation-duration: 1.5s;
-      animation-delay: 0.3s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+    transform: translateY(-6px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
   &:hover:before {
-      opacity: 0.4;
-      transform: translateY(6px);
-      animation-name: hover-shadow;
-      animation-duration: 1.5s;
-      animation-delay: 0.3s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+    opacity: 0.4;
+    transform: translateY(6px);
+    animation-name: hover-shadow;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 }
 
@@ -247,15 +243,85 @@ h3 {
   color: $cruz-color-yellow-dark;
   margin: 0 2rem;
   cursor: pointer;
-  
+
   &:hover {
-    
     &.fa-chevron-right {
       animation: bounceRight 0.7s;
     }
-    
+
     &.fa-chevron-left {
       animation: bounceLeft 0.7s;
     }
+  }
+}
+
+.container-slider {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .slick-slider {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      button {
+          display: flex;
+          height: fit-content;
+          width: fit-content;
+          padding: 1rem 0;
+
+          &.slick-prev {
+              text-align: right;
+              margin-left: 1rem;
+          }
+
+          &.slick-next {
+              text-align: left;
+              margin-right: 1rem;
+          }
+
+          &.slick-disabled {
+              opacity: 0;
+          }
+
+          &::before {
+              color: $cruz-color-yellow-dark;
+              font-size: 5rem;
+              opacity: 1;
+          }
+      }
+
+      span {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          i {
+              color: $cruz-color-yellow-dark;
+              font-size: 6rem;
+          }
+      }
+
+      .slick-list {
+          width: 80%;
+
+          .slick-track {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .slick-slide {
+                  div {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                  }
+              }
+          }
+      }
   }
 }
