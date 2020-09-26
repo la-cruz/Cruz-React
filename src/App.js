@@ -12,6 +12,8 @@ import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
 
+import toKebabCase from './lib/toKebabCase'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -40,7 +42,7 @@ function App() {
         {
           projects.map(project => {
             return (
-              <Route key={project.presentation.name} exact path={"/projects/" + project.presentation.name.replace(' ', "-").toLowerCase()}>
+              <Route key={project.presentation.name} exact path={`/projects/${toKebabCase(project.presentation.name)}`}>
                 <Project data={project} />
               </Route>
             )

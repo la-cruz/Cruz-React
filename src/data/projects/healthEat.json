@@ -1,7 +1,7 @@
 {
   "presentation":
   {
-    "name": "Health Eat",
+    "name": "Healtheat",
     "image": "",
     "category": "web",
     "date": "2019",
@@ -17,12 +17,12 @@
   "type": "label.project.type.appweb",
   "features": [
     {
-      "image": "",
+      "img": "",
       "title": "label.project.feature.desc.program",
       "description": "label.project.feature.desc.program"
     },
     {
-      "image": "",
+      "img": "",
       "title_fr": "label.project.feature.title.followup",
       "description": "label.project.feature.desc.followup"
     }

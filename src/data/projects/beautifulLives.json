@@ -23,12 +23,12 @@
   },
   "features": [
     {
-      "image": "",
+      "img": "",
       "title": "label.project.feature.title.die.again",
       "description": "label.project.feature.desc.die.again"
     },
     {
-      "image": "",
+      "img": "",
       "title": "label.project.feature.title.tuto",
       "description": "label.project.feature.desc.tuto.bl"
     }

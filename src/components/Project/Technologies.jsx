@@ -1,10 +1,11 @@
 import React from 'react';
+import { Trans } from 'react-i18next';
 import WrapList from '../Basic/WrapList';
 
 function Technologies({data}) {
     return (
         <div className="technologies">
-            <h2>Techno<strong>logies</strong></h2>
+            <h2><Trans>label.project.technologies</Trans></h2>
             <WrapList data={data} />
         </div>
     );

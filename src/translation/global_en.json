@@ -43,5 +43,8 @@
   "label.page.perso.unavailable": "Perso page unavailable",
   "label.see.page.perso": "See perso page",
   "label.page.project.unavailable": "Project page unavailable",
-  "label.see.page.project": "See project page"
+  "label.see.page.project": "See project page",
+  "label.project.features": "Feat<strong>ures</strong>",
+  "label.project.technologies": "Techno<strong>logies</strong>",
+  "label.project.team": "Te<strong>am</strong>"
 }

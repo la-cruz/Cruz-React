@@ -43,5 +43,8 @@
   "label.page.perso.unavailable": "Page perso à venir",
   "label.see.page.perso": "Voir la page perso",
   "label.page.project.unavailable": "Page projet à venir",
-  "label.see.page.project": "Voir la page projet"
+  "label.see.page.project": "Voir la page projet",
+  "label.project.features": "Fonction<strong>nalités</strong>",
+  "label.project.technologies": "Techno<strong>logies</strong>",
+  "label.project.team": "Équ<strong>ipe</strong>"
 }

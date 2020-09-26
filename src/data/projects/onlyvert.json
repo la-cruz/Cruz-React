@@ -16,17 +16,17 @@
   },
   "features": [
     {
-      "image": "responsive.png",
-      "title": "label.project.feature.title.responsive",
+      "img": "responsive.png",
+      "name": "label.project.feature.title.responsive",
       "description": "label.project.feature.desc.responsive"
     },
     {
-      "image": "bo.png",
+      "img": "bo.png",
       "name": "label.project.feature.title.bo",
       "description": "label.project.feature.desc.bo.ov"
     },
     {
-      "image": "firebase.png",
+      "img": "firebase.png",
       "name": "label.project.feature.title.firebase",
       "description": "label.project.feature.desc.firebase.ov"
     }
