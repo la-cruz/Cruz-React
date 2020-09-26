@@ -1,109 +1,64 @@
 {
-    "presentation":
-    {
-        "name": "Health Eat",
-        "image": "",
-        "category": "web",
-        "date_fr": "2019",
-        "date_en": "2019",
-        "desc_fr": "Healteat est un diététicien en ligne, qui permet aux utilisateurs de générer des programmes alimentaires en fonction de leurs informations personnelles. Les utilisateurs mettent à jour leurs données personnelles tout au long du programme, et l'application leur permet d'en avoir un visuel, notamment sous forme de graphique, tout en donnant aussi quelques conseils.",
-        "desc_en": "Healteat is an online dietician, which allows users to generate dietary programmes based on their personal information. Users update their personal data throughout the programme, and the application allows them to have a visual display of it, especially in graphic form, while also giving some tips.",
-        "links": [
-            {
-                "text_fr": "Voir le projet",
-                "text_en": "See the project",
-                "link": "lien git",
-                "icon": "fab fa-github"
-            },
-            {
-                "text_fr": "Voir sur github",
-                "text_en": "Check on github",
-                "link": "https://github.com/LA-CRUZ/game-jam-aout",
-                "icon": "fab fa-github"
-            }
-        ]
-    },
-    "type": {
-        "elem_fr":"Application web",
-        "elem_en":"Web application"
-    },
-    "features": [
-        {
-            "image": "xxx.png",
-            "title_fr": "Programme personnalisé",
-            "title_en": "Personalised programme",
-            "description_fr": "L'application génère pour chaque utilisateur des programmes personnalisé à partir de données de scraping",
-            "description_en": "The application generates personalised programmes for each user based on scraping data."
-        },
-        {
-            "image": "xxx.svg",
-            "title_fr": "Suivi personnel",
-            "title_en": "Personal follow-up",
-            "description_fr": "L'application web est accompagné d'une partie de suivi personnel qui donne un visuel graphique grâce à Chart.js.",
-            "description_en": "The web application is accompanied by a personal monitoring part that gives a graphical visual thanks to Chart.js."
-        }
-    ],
-    "technologies": [
-        "Symfony",
-        "Twig",
-        "Bootstrap",
-        "MySQL",
-        "Chart.JS"
-    ],
-    "team": [
-        {
-            "image": "mickael.jpg",
-            "name": "Alves Mickael",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "lucasa.jpg",
-            "name": "Audart Lucas",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "florent.jpg",
-            "name": "Tirvaudey",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        }
+  "presentation":
+  {
+    "name": "Health Eat",
+    "image": "",
+    "category": "web",
+    "date": "2019",
+    "desc": "label.project.desc.healtheat",
+    "links": [
+      {
+        "text": "label.project.check.github",
+        "link": "https://github.com/LA-CRUZ/Healtheat",
+        "icon": "fab fa-github"
+      }
     ]
+  },
+  "type": "label.project.type.appweb",
+  "features": [
+    {
+      "image": "",
+      "title": "label.project.feature.desc.program",
+      "description": "label.project.feature.desc.program"
+    },
+    {
+      "image": "",
+      "title_fr": "label.project.feature.title.followup",
+      "description": "label.project.feature.desc.followup"
+    }
+  ],
+  "technologies": [
+    "Symfony",
+    "Twig",
+    "Bootstrap",
+    "MySQL",
+    "Chart.JS"
+  ],
+  "team": [
+    {
+      "image": "mickael.jpg",
+      "name": "Alves Mickael",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.design",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "lucasa.jpg",
+      "name": "Audart Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "florent.jpg",
+      "name": "Tirvaudey",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    }
+  ]
 }

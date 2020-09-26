@@ -1,103 +1,67 @@
 {
-    "presentation":
-    {
-        "name": "Only Vert",
-        "image": "ov-mockup.png",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "Only vert est une start-up lyonnaise qui travaille dans le domaine de la protection de l'environnement. Suite au lancement de leur application d'aide au tri sélectif, nous avons tout d'abord travaillé sur le développement d'un site vitrine afin de présenter la start-up et les différents membres. Nous avons par la suite développé une partie back-office qui permet dans un premier temps à Only vert de gérer certaines données de leur site et de leur application, et dans un second temps de mettre à disposition de leurs partenaires un espace privé et personnalisé.",
-        "desc_en": "Only vert is a Lyon-based start-up working in the field of environmental protection. After the launch of their selective sorting application, we first worked on the development of a showcase site to present the start-up and the different members. We then developed a back-office part that allows Only vert to manage some data from their site and application, and then to provide their partners with a private and personalized space.",
-        "type": {
-            "elem_fr": "Site vitrine / Back-office",
-            "elem_en": "Showcase site / Back-office"
-        },
-        "links": [
-            {
-                "text_fr": "Voir le projet",
-                "text_en": "See the project",
-                "link": "https://onlyvert.fr",
-                "icon": "fas fa-link"
-            }
-        ]
-    },
-    "features": [
-        {
-            "img": "responsive.png",
-            "name": "Site responsive",
-            "title_en": "Responsive website",
-            "description": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-            "description_en": "The website is available on all platform, from the desktop to mobile phone"
-        },
-        {
-            "img": "bo.png",
-            "name": "Back office personnalisé",
-            "title_en": "Personalized back office",
-            "description": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
-            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
-        },
-        {
-            "img": "firebase.png",
-            "name": "Liaison avec Firebase",
-            "title_en": "Built with Firebase",
-            "description": "Contruit avec Firebase, les données sont communes avec celles de l'application",
-            "description_en": "Built with Firebase, we use the same data as used in the app"
-        }
-    ],
-    "technologies": [
-        "ReactJS",
-        "Firebase",
-        "sass"
-    ],
-    "team": [
-        {
-            "image": "mickael.jpg",
-            "name": "Alves Mickael",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "lucasa.jpg",
-            "name": "Audart Lucas",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "idoux.jpg",
-            "name": "Idoux Étienne",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        }
+  "presentation":
+  {
+    "name": "Only Vert",
+    "image": "ov-mockup.png",
+    "date": "2020",
+    "desc": "label.project.desc.onlyvert",
+    "type": "label.project.type.showcase.bo",
+    "links": [
+      {
+        "text": "label.project.see",
+        "link": "https://onlyvert.fr",
+        "icon": "fas fa-link"
+      }
     ]
+  },
+  "features": [
+    {
+      "image": "responsive.png",
+      "title": "label.project.feature.title.responsive",
+      "description": "label.project.feature.desc.responsive"
+    },
+    {
+      "image": "bo.png",
+      "name": "label.project.feature.title.bo",
+      "description": "label.project.feature.desc.bo.ov"
+    },
+    {
+      "image": "firebase.png",
+      "name": "label.project.feature.title.firebase",
+      "description": "label.project.feature.desc.firebase.ov"
+    }
+  ],
+  "technologies": [
+    "ReactJS",
+    "Firebase",
+    "Sass"
+  ],
+  "team": [
+    {
+      "image": "mickael.jpg",
+      "name": "Alves Mickael",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.design",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "lucasa.jpg",
+      "name": "Audart Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.design",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "idoux.jpg",
+      "name": "Idoux Étienne",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    }
+  ]
 }

@@ -3,44 +3,32 @@
     {
         "name": "Speed Race",
         "image": "",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "SpeedRace est un jeu réalisé dans le cadre de l'unité d'enseignement Web Avancé de l'université Lyon 1. Le jeu tourne autour le la géolocalisation en temps réel des joueurs, et le but est pour ces derniers d'atteindre une cible présente sur la carte le plus vite possible. Un back office permet à l'admininistrateur du jeu de modifier chaque paramètre de la partie, comme le temps de vie d'un joueur ou la position de la carte.",
-        "desc_en": "SpeedRace is a game realized within the framework of the Advanced Web teaching unit of the university Lyon 1. The game revolves around the real-time geolocation of the players, and the goal is for them to reach a target on the map as quickly as possible. A back office allows the game administrator to modify each parameter of the game, such as the time of life of a player or the position of the map.",
-        "type": {
-            "elem_fr":"Application web / Jeu en ligne",
-            "elem_en":"Web application / Online game"
-        },
+        "date": "2020",
+        "desc": "label.project.desc.speedrace",
+        "type": "label.project.type.appweb.online.game",
         "links": [
             {
-                "text_fr": "Voir le projet",
-                "text_en": "Check on github",
-                "link": "lien git",
+                "text": "label.project.check.github",
+                "link": "",
                 "icon": "fab fa-github"
             }
         ]
     },
     "features": [
         {
-            "image": "xxx.png",
-            "name": "Site responsive",
-            "title_en": "Responsive website",
-            "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-            "description_en": "The website is available on all platform, from the desktop to mobile phone."
+            "image": "",
+            "name": "label.project.feature.title.responsive",
+            "description": "label.project.feature.desc.responsive"
         },
         {
-            "image": "xxx.svg",
-            "name": "Géolocalisation en temps réel",
-            "title_en": "Realtime geolocation",
-            "description_fr": "Le jeu est orienté autour de la géolocalisation en temps réel des joueurs, ainsi que d'une cible à atteindre",
-            "description_en": "The game is based on the geolocation of all the differents players, as well as a target to reach"
+            "image": "",
+            "name": "label.project.feature.title.geolocation",
+            "description": "label.project.feature.desc.geolocation"
         },
         {
-            "image": "firebase.svg",
-            "name": "Back office personnalisé",
-            "title_en": "Personalized back office",
-            "description_fr": "Le jeu est accompagné d'un back office permetant de modifier la plupart des options du jeu",
-            "description_en": "The game comes with a back office where you can change almost every options of the game"
+            "image": "",
+            "name": "label.project.feature.title.bo",
+            "description": "label.project.feature.title.bo.sr"
         }
     ],
     "technologies": [
@@ -52,32 +40,17 @@
             "image": "mickael.jpg",
             "name": "Alves Mickael",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         },
         {
             "image": "lucasa.jpg",
             "name": "Audart Lucas",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.project.management"
             ]
         }
     ]

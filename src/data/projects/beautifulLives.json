@@ -7,9 +7,7 @@
     "category": "game",
     "date": "2020",
     "desc": "label.project.desc.beautiful.lives",
-    "type": [
-      "label.project.type.jv"
-    ],
+    "type": "label.project.type.jv",
     "links": [
       {
         "text": "label.project.see",
@@ -47,8 +45,7 @@
       "roles": [
         "label.project.team.role.dev",
         "label.project.team.role.game.designer"
-      ],
-      "profil": "/audart_lucas"
+      ]
     },
     {
       "image": "lucasg.jpg",
@@ -56,8 +53,7 @@
       "roles": [
         "label.project.team.role.dev",
         "label.project.team.role.game.designer"
-      ],
-      "profil": "none"
+      ]
     },
     {
       "image": "idoux.jpg",
@@ -65,8 +61,7 @@
       "roles": [
         "label.project.team.role.dev",
         "label.project.team.role.game.designer"
-      ],
-      "profil": "/idoux_etienne"
+      ]
     },
     {
       "image": "nicolas.jpg",
@@ -74,8 +69,7 @@
       "roles": [
         "label.project.team.role.dev",
         "label.project.team.role.game.designer"
-      ],
-      "profil": "/robert_nicolas"
+      ]
     }
   ]
 }

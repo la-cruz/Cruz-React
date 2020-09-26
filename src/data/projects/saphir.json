@@ -3,18 +3,12 @@
     {
         "name": "Saphir",
         "image": "",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "Saphir est une application éducative ayant pour but d'accompagner de jeunes apprenant dans la compréhension des différents cycles de l'eau et plus précisément de sa filtration. Nous avons pour cela développé une Progressive Web App, ce qui permet à l'application d'être téléchargeable sur téléphone et tablette en plus d'être accessible sans connexion internet. En plus de cela, elle est disponible en 3 langues différentes, ce qui la rend d'autant plus accessible. Elle a été réalisée dans le cadre de l'unité d'enseignement Projet d'Orientation Master, encadré par Mme Stéphanie Jean Daubias et partenariat avec l'association Franco-chinoise Albatross Foundation, qui a pour vocation de promouvoir une éducation gratuite pour tous et de construire une organisation globale pour une éducation au développement durable de la jeunesse avec des outils innovants interactifs et ludiques.",
-        "desc_en": "Saphir is an educational application designed to accompany young learners in understanding the different cycles of water and more specifically its filtration. We have developed a Progressive Web App, which allows the application to be downloaded to a phone and tablet and is accessible without an internet connection. On top of that, it is available in 3 different languages, which makes it even more accessible. It has been realized within the framework of the teaching unit Projet d'Orientation Master, supervised by Mrs. Stéphanie Jean Daubias and in partnership with the French-Chinese association Albatross Foundation, which aims to promote free education for all and to build a global organization for an education for sustainable development of youth with innovative interactive and playful tools.",
-        "type": {
-            "elem_fr":"Application Web Educative",
-            "elem_en":"Educative Web App"
-        },
+        "date": "2020",
+        "desc": "label.project.desc.saphir",
+        "type": "label.project.type.educative.appweb",
         "links": [
             {
-                "text_fr": "Voir le projet",
-                "text_en": "See the project",
+                "text": "label.project.see",
                 "link": "https://projet.liris.cnrs.fr/SAPHIR/",
                 "icon": "fas fa-link"
             }
@@ -22,32 +16,24 @@
     },
     "features": [
         {
-            "image": "xxx.png",
-            "name": "Progressive Web App",
-            "title_en": "Progressive Web App",
-            "description_fr": "Saphir est une PWA, ce qui lui permet d'être téléchargé comme une application sur tout les dispositif et disponnible hors connexion",
-            "description_en": "Saphir is a PWA, you can download it as an desktop or mobile application, and it will be available without connexion"
+            "image": "",
+            "name": "label.project.feature.title.pwa",
+            "description": "label.project.feature.desc.pwa"
         },
         {
-            "image": "xxx.png",
-            "name": "Site responsive",
-            "title_en": "Responsive website",
-            "description_fr": "L'application est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-            "description_en": "The application is available on all platform, from the desktop to mobile phone"
+            "image": "",
+            "name": "label.project.feature.title.responsive",
+            "description": "label.project.feature.desc.responsive"
         },
         {
-            "image": "xxx.png",
-            "name": "Éducatif",
-            "title_en": "Educative",
-            "description_fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
-            "description_en": "The application is made to work in school with young learner"
+            "image": "",
+            "name": "label.project.feature.title.educative",
+            "description": "label.project.feature.desc.educative"
         },
         {
-            "image": "xxx.png",
-            "title_fr": "Mise en place d'un expérience",
-            "title_en": "Setting up an experiment",              
-            "description_fr": "L'application est adapté pour une utilisation dans des écoles avec de jeunes apprenants",
-            "description_en": "The application is made to work in school with young learner"
+            "image": "",
+            "name": "label.project.feature.desc.experiment",
+            "description": "label.project.feature.desc.experiment"
         }
     ],
     "technologies": [
@@ -59,36 +45,18 @@
             "image": "mickael.jpg",
             "name": "Alves Mickael",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         },
         {
             "image": "lucasa.jpg",
             "name": "Audart Lucas",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         }
     ]
