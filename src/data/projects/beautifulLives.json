@@ -1,112 +1,75 @@
 {
-    "presentation":
-    {
-        "name": "Beautiful Lives",
-        "image": "beautifulLives.png",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "Beautiful lives est un jeu basé sur le thème \"Rewind\" proposé lors de la Brackeys Game Jam 2020.2 ! Bien que celle-ci devait durer une semaine entière nous avons relever le défis de développer un jeu avec une équipe de 4 en un week_end. Nous avons mit nos compétences ainsi que nos nerfs à rude épreuve et c'est ainsi que Beautiful lives est né.",
-        "desc_en": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" ! This game jam was supposed to last a week but we tried to develop a game with a small team of 4 people in a single week_end. We have put our skills and nerves to the tests and Beautiful lives was born !",
-        "type": {
-            "elem_fr": "Jeu vidéo",
-            "elem_en": "Video game"
-        },
-        "links": [
-            {
-                "text_fr": "Voir le projet",
-                "text_en": "See the project",
-                "link": "https://slocaly.itch.io/beautiful-lives",
-                "icon": "fab fa-itch-io"
-            },
-            {
-                "text_fr": "Voir sur github",
-                "text_en": "Check on github",
-                "link": "https://github.com/LA-CRUZ/game-jam-aout",
-                "icon": "fab fa-github"
-            }
-        ]
-    },
-    "features": [
-        {
-            "image": "",
-            "name": "La mort... encore !",
-            "title_en": "Die... again !",
-            "description_fr": "Basé sur un système de \"Die & Tryhard\", ce jeu vous demendera de faire des sacrifices pour terminer et désceller certains niveaux.",
-            "description_en": "Based on a Die & Tryhard system, this game will ask you to make sacrifices to finish and unseal some levels."
-        },
-        {
-            "image": "",
-            "name": "Tutoriels",
-            "title_en": "Tutorials",
-            "description_fr": "Un hologramme sympathique vous accompagnera dans les premiers niveaux pour tout vous expliquer : commandes, mécaniques, vous allez tout connaître !",
-            "description_en": "A nice hologram will assist you in the first levels to explain everything : keys, mechanics, you will know all of it !"
-        }
-    ],
-    "technologies": [
-        "Unity",
-        "C",
-        "Git"
-    ],
-    "team": [
-        {
-            "image": "lucasa.jpg",
-            "name": "AUDART Lucas",
-            "roles": [
-                {
-                    "text_fr": "Développeur",
-                    "text_en": "Developper"
-                },
-                {
-                    "text_fr": "Game Designer",
-                    "text_en": "Game Designer"
-                }
-            ],
-            "profil": "/audart.lucas"
-        },
-        {
-            "image": "lucasg.jpg",
-            "name": "GIVORD Lucas",
-            "roles": [
-                {
-                    "text_fr": "Développeur",
-                    "text_en": "Developper"
-                },
-                {
-                    "text_fr": "Game Designer",
-                    "text_en": "Game Designer"
-                }
-            ],
-            "profil": "/givord.lucas"
-        },
-        {
-            "image": "idoux.jpg",
-            "name": "IDOUX Etienne",
-            "roles": [
-                {
-                    "text_fr": "Développeur",
-                    "text_en": "Developper"
-                },
-                {
-                    "text_fr": "Game Designer",
-                    "text_en": "Game Designer"
-                }
-            ],
-            "profil": "/idoux.etienne"
-        },
-        {
-            "image": "nicolas.jpg",
-            "name": "ROBERT Nicolas",
-            "roles": [
-                {
-                    "text_fr": "Développeur",
-                    "text_en": "Developper"
-                },
-                {
-                    "text_fr": "Game Designer",
-                    "text_en": "Game Designer"
-                }
-            ],
-            "profil": "/robert.nicolas"
-        }
+  "presentation": 
+  {
+    "name": "Beautiful lives",
+    "image": "",
+    "is_home": true,
+    "category": "game",
+    "date": "2020",
+    "desc": "label.project.desc.beautiful.lives",
+    "type": "label.project.type.jv",
+    "links": [
+      {
+        "text": "label.project.see",
+        "link": "https://slocaly.itch.io/beautiful-lives",
+        "icon": "fab fa-itch-io"
+      },
+      {
+        "text": "label.project.check.github",
+        "link": "https://github.com/LA-CRUZ/game-jam-aout",
+        "icon": "fab fa-github"
+      }
     ]
+  },
+  "features": [
+    {
+      "image": "",
+      "title": "label.project.feature.title.die.again",
+      "description": "label.project.feature.desc.die.again"
+    },
+    {
+      "image": "",
+      "title": "label.project.feature.title.tuto",
+      "description": "label.project.feature.desc.tuto.bl"
+    }
+  ],
+  "technologies": [
+    "Unity",
+    "C",
+    "Git"
+  ],
+  "team": [
+    {
+      "image": "lucasa.jpg",
+      "name": "AUDART Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    },
+    {
+      "image": "lucasg.jpg",
+      "name": "GIVORD Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    },
+    {
+      "image": "idoux.jpg",
+      "name": "IDOUX Etienne",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    },
+    {
+      "image": "nicolas.jpg",
+      "name": "ROBERT Nicolas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.game.designer"
+      ]
+    }
+  ]
 }

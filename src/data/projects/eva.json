@@ -1,103 +1,72 @@
 {
-    "presentation":
-    {
-        "name": "Eva Dalla Costa",
-        "image": "ov-mockup.png",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "Eva Dalla Costa est une photographe lyonnaise pour qui nous avons réalisé un site vitrine lui permettant d'afficher ses créations. Nous lui avons aussi mis à disposition un back office afin qu'elle puisse ajouter, supprimer et ordonner directement le contenu de son site vitrine.",
-        "desc_en": "Eva Dalla Costa is a photographer from Lyon for whom we have created a showcase site allowing her to display her creations. We also provided her with a back office so that she can directly add, delete and order the content of her showcase site.",
-        "type": {
-            "elem_fr": "Site vitrine / Back-office",
-            "elem_en": "Showcase site / Back-office"
-        },
-        "links": [
-            {
-                "text_fr": "Voir le site",
-                "text_en": "Go to website",
-                "link": "https://website-eva.netlify.app",
-                "icon": "fas fa-link"
-            }
-        ]
-    },
-    "features": [
-        {
-            "img": "responsive.png",
-            "name": "Site responsive",
-            "title_en": "Responsive website",
-            "description": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-            "description_en": "The website is available on all platform, from the desktop to mobile phone"
-        },
-        {
-            "img": "bo.png",
-            "name": "Back office personnalisé",
-            "title_en": "Personalized back office",
-            "description": "Le site web est accompagné d'un back office afin de gérer les données du site et leur application mobile.",
-            "description_en": "The website comes with a back office in order to manage the data of the site and their mobile application."
-        },
-        {
-            "img": "firebase.png",
-            "name": "Liaison avec Firebase",
-            "title_en": "Built with Firebase",
-            "description": "Contruit avec Firebase, les données sont communes avec celles de l'application",
-            "description_en": "Built with Firebase, we use the same data as used in the app"
-        }
-    ],
-    "technologies": [
-        "React",
-        "Firebase",
-        "sass"
-    ],
-    "team": [
-        {
-            "image": "mickael.jpg",
-            "name": "Alves Mickael",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "lucasa.jpg",
-            "name": "Audart Lucas",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        },
-        {
-            "image": "idoux.jpg",
-            "name": "Idoux Étienne",
-            "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
-            ]
-        }
+  "presentation":
+  {
+    "name": "Eva Dalla Costa",
+    "image": "ov-mockup.png",
+    "date": "2020",
+    "desc": "label.project.desc.edc",
+    "type": "label.project.type.showcase.bo",
+    "links": [
+      {
+        "text": "label.project.see",
+        "link": "https://www.evadallacosta.fr",
+        "icon": "fas fa-link"
+      }
     ]
+  },
+  "features": [
+    {
+      "img": "",
+      "name": "label.project.feature.title.responsive",
+      "description": "label.project.feature.desc.responsive"
+    },
+    {
+      "img": "",
+      "name": "label.project.feature.title.bo",
+      "description": "label.project.feature.desc.bo"
+    },
+    {
+      "img": "",
+      "name": "label.project.feature.title.firebase",
+      "description": "label.project.feature.desc.firebase"
+    }
+  ],
+  "technologies": [
+    "React",
+    "Firebase",
+    "Sass"
+  ],
+  "team": [
+    {
+      "image": "mickael.jpg",
+      "name": "Alves Mickael",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "lucasa.jpg",
+      "name": "Audart Lucas",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "idoux.jpg",
+      "name": "Idoux Étienne",
+      "roles": [
+        "label.project.team.role.dev",
+        "label.project.team.role.project.management"
+      ]
+    },
+    {
+      "image": "bruneau.jpg",
+      "name": "Bruneau Richard",
+      "roles": [
+        "label.project.team.role.design"
+      ]
+    }
+  ]
 }

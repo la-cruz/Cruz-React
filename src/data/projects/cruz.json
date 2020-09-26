@@ -3,12 +3,9 @@
     {
         "name": "La Cruz",
         "image": "",
-        "date_fr": "2020",
-        "date_en": "2020",
-        "desc_fr": "lorem",
-        "desc_en": "lorem",
-        "short-desc_fr": "lorem",
-        "short-desc_en": "lorem",
+        "category": "web",
+        "date": "2020",
+        "desc-fr": "lorem",
         "is_home": true,
         "links": [
             {
