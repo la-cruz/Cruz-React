@@ -39,5 +39,9 @@
   "label.perso.projects": "Mes <strong>projets</strong>",
   "label.perso.technologies": "Techno<strong>logies</strong>",
   "label.perso.tools": "Out<strong>ils</strong>",
-  "label.perso.skills": "Compét<strong>ences</strong>"
+  "label.perso.skills": "Compét<strong>ences</strong>",
+  "label.page.perso.unavailable": "Page perso à venir",
+  "label.see.page.perso": "Voir la page perso",
+  "label.page.project.unavailable": "Page projet à venir",
+  "label.see.page.project": "Voir la page projet"
 }

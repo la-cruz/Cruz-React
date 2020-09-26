@@ -40,7 +40,7 @@ function App() {
         {
           projects.map(project => {
             return (
-              <Route key={project.presentation.name} exact path={"/project/" + project.presentation.name.replace(' ', "-").toLowerCase()}>
+              <Route key={project.presentation.name} exact path={"/projects/" + project.presentation.name.replace(' ', "-").toLowerCase()}>
                 <Project data={project} />
               </Route>
             )
@@ -54,7 +54,7 @@ function App() {
         </Route>
         {
           members.map(member => (
-            <Route exact path={`/perso/${member.name}`} key={member.name}>
+            <Route exact path={`/team/${member.name.toLowerCase()}-${member.firstname.toLowerCase()}`} key={member.name}>
               <Perso data={member} />
             </Route>
           ))
