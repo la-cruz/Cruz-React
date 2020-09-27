@@ -46,5 +46,8 @@
   "label.see.page.project": "See project page",
   "label.project.features": "Feat<strong>ures</strong>",
   "label.project.technologies": "Techno<strong>logies</strong>",
-  "label.project.team": "Te<strong>am</strong>"
+  "label.project.team": "Te<strong>am</strong>",
+  "label.404.title": "Page not found",
+  "label.404.text": "Ooops, this page has a problem",
+  "label.goto.home": "Return home"
 }

@@ -46,5 +46,8 @@
   "label.see.page.project": "Voir la page projet",
   "label.project.features": "Fonction<strong>nalités</strong>",
   "label.project.technologies": "Techno<strong>logies</strong>",
-  "label.project.team": "Équ<strong>ipe</strong>"
+  "label.project.team": "Équ<strong>ipe</strong>",
+  "label.404.title": "Page non trouvé",
+  "label.404.text": "Ooops, cette page a un petit problème",
+  "label.goto.home": "Retour à l'accueil"
 }
