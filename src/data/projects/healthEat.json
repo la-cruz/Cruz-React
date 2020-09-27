@@ -2,12 +2,16 @@
     "presentation":
     {
         "name": "Health Eat",
-        "image": "",
+        "image": "healtheat-mockup.png",
         "category": "web",
         "date_fr": "2019",
         "date_en": "2019",
         "desc_fr": "Healteat est un diététicien en ligne, qui permet aux utilisateurs de générer des programmes alimentaires en fonction de leurs informations personnelles. Les utilisateurs mettent à jour leurs données personnelles tout au long du programme, et l'application leur permet d'en avoir un visuel, notamment sous forme de graphique, tout en donnant aussi quelques conseils.",
         "desc_en": "Healteat is an online dietician, which allows users to generate dietary programmes based on their personal information. Users update their personal data throughout the programme, and the application allows them to have a visual display of it, especially in graphic form, while also giving some tips.",
+        "type": {
+            "elem_fr":"Application web",
+            "elem_en":"Web application"
+        },
         "links": [
             {
                 "text_fr": "Voir le projet",
@@ -22,10 +26,6 @@
                 "icon": "fab fa-github"
             }
         ]
-    },
-    "type": {
-        "elem_fr":"Application web",
-        "elem_en":"Web application"
     },
     "features": [
         {

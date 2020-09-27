@@ -42,7 +42,7 @@
     "img": "saphir.png",
     "other_link": "",
     "type": "web",
-    "has_link": false
+    "has_link": true
   },
   {
     "is_home": true,
@@ -51,7 +51,7 @@
     "img": "healtheat.png",
     "other_link": "",
     "type": "web",
-    "has_link": false
+    "has_link": true
   },
   {
     "is_home": true,
@@ -69,7 +69,7 @@
     "img": "eva.png",
     "other_link": "",
     "type": "web",
-    "has_link": false
+    "has_link": true
   },
   {       
     "is_home": true,

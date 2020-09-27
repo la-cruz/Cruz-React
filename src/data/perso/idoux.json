@@ -98,7 +98,7 @@
       "title": "label.perso.exp.title.production.agent",
       "date": "label.perso.date.2014.2016",
       "company": "Sermat",
-      "logo": "",
+      "logo": "sermat.png",
       "list": [
         "label.perso.elem.initialization.work.world",
         "label.perso.elem.rigor",
