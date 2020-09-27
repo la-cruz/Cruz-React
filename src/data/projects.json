@@ -6,7 +6,7 @@
     "img": "fixit.png",
     "other_link": "",
     "type": "jv",
-    "has_link": false
+    "has_link": true
   },
   {
     "is_home": true,
@@ -15,7 +15,7 @@
     "img": "ecoPotager.png",
     "other_link": "",
     "type": "jv",
-    "has_link": false
+    "has_link": true
   },
   {
     "is_home": true,
@@ -24,7 +24,7 @@
     "img": "beautifulLives.png",
     "other_link": "",
     "type": "jv",
-    "has_link": false
+    "has_link": true
   },
   {
     "is_home": true,
@@ -78,6 +78,6 @@
     "img": "speedrace.png",
     "other_link": "",
     "type": "web",
-    "has_link": false
+    "has_link": true
   }
 ]
