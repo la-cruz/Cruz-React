@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Trans } from 'react-i18next';
 
 function Presentation({data, scrollToRef}) {

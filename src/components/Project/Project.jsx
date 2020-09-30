@@ -8,7 +8,7 @@ function Project( {data} ) {
     const refToScroll = useRef(null);
 
     const scrollToRef = () => {
-        window.scroll(0, refToScroll.current.offsetTop);
+        refToScroll.current.scrollIntoView({behavior: 'smooth'})
     }
 
     return (
