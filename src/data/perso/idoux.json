@@ -4,8 +4,8 @@
   "image": "etienne.png",
   "thumbnail": "etienne-thumbnail.png",
   "bio": "lorem",
-  "cv-fr": "etienne-cv-fr.pdf",
-  "cv-en": "etienne-cv-en.pdf",
+  "cv_fr": "etienne-cv-fr.pdf",
+  "cv_en": "etienne-cv-en.pdf",
   "fonction": "label.perso.member",
   "metier": "label.perso.dev.web",
   "socials": [

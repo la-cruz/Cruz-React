@@ -5,8 +5,8 @@
         "image": "mickael.jpg",
         "thumbnail": "mickael-thumbnail.png",
         "bio": "lorem",
-        "cv-fr": "mickael-cv-fr.pdf",
-        "cv-en": "mickael-cv-en.pdf",
+        "cv_fr": "mickael-cv-fr.pdf",
+        "cv_en": "mickael-cv-en.pdf",
         "fonction": "Président",
         "metier": "Développeur Web",
         "socials": [
