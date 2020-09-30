@@ -54,6 +54,8 @@
   "label.project.feature.desc.page.project": "Setting up personalized project pages, with all the necessary information for a good understanding of the project, generated from a Json file to be easily editable.",
   "label.project.feature.title.multilingue": "Multilingual",
   "label.project.feature.desc.multilingue": "The website is available in english and in french, which allows it to be more accessible",
+  "label.project.feature.title.auth.eva": "Authentification",
+  "label.project.feature.desc.auth.eva": "The back office is secured by an authentication system, allowing the administrator to access the configuration of his site in complete security.",
   "label.project.team.role.dev": "Developper",
   "label.project.team.role.game.designer": "Game Designer",
   "label.project.team.role.design": "Design",
