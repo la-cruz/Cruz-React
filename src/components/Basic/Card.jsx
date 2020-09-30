@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import toKebabCase from '../../lib/toKebabCase'
 
 function Card({key, data, type}) {
-
+  
     var image = data.img ? require(`../../assets/images/${type}/${data.img}`) : ""
 
     return (

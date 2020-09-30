@@ -17,13 +17,13 @@
   },
   "features": [
     {
-      "img": "",
-      "title": "label.project.feature.desc.program",
+      "img": "menu-healtheat.png",
+      "name": "label.project.feature.title.program",
       "description": "label.project.feature.desc.program"
     },
     {
-      "img": "",
-      "title_fr": "label.project.feature.title.followup",
+      "img": "suivi-healtheat.png",
+      "name": "label.project.feature.title.followup",
       "description": "label.project.feature.desc.followup"
     }
   ],
@@ -32,7 +32,7 @@
     "Twig",
     "Bootstrap",
     "MySQL",
-    "Chart.JS"
+    "ChartJS"
   ],
   "team": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "image": "florent.jpg",
-      "name": "Tirvaudey",
+      "name": "Tirvaudey Florent",
       "roles": [
         "label.project.team.role.dev",
         "label.project.team.role.project.management"

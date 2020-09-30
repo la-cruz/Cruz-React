@@ -57,7 +57,7 @@ function SlickLink({data, type}) {
                     ))
                 : type === "project-perso" ?
                     data.map(project => (
-                      <Card key={project.name} data={project} type={type} />
+                        <Card key={project.name} data={project} type={type}/>
                     ))
                 :
                     data.map(member => (

@@ -16,17 +16,17 @@
   },
   "features": [
     {
-      "img": "",
+      "img": "responsive-eva.png",
       "name": "label.project.feature.title.responsive",
       "description": "label.project.feature.desc.responsive"
     },
     {
-      "img": "",
+      "img": "bo-eva.png",
       "name": "label.project.feature.title.bo",
       "description": "label.project.feature.desc.bo"
     },
     {
-      "img": "",
+      "img": "firebase.png",
       "name": "label.project.feature.title.firebase",
       "description": "label.project.feature.desc.firebase"
     }
