@@ -77,11 +77,15 @@
             }
         }
 
-        picture {
+        .scroll {
+            cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: flex-end;
             margin-bottom: 1rem;
+            animation: bounceUp 4s infinite;
+            transform: translateX(-50%);
+            animation-delay: 1s;
             
             img {
                 width: 9rem;
