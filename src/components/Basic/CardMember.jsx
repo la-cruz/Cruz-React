@@ -12,9 +12,8 @@ function CardMember({key, data, type}) {
         img = require('../../assets/images/team/avatar.png');
     }
 
-    const hasLink = () => {
-      return team.filter(elem => toKebabCase(`${elem.firstname}-${elem.name}`) === toKebabCase(data.name))[0] !== null
-    }
+    const teamMember = team.find( elem => toKebabCase(elem.name + "-" + elem.firstname) === toKebabCase(data.name));
+    const hasLink = teamMember === undefined ? false : teamMember.has_link;
 
     return (
         <div className={`container-card ${type}`} key={key}>
@@ -31,7 +30,7 @@ function CardMember({key, data, type}) {
                     }
                 </ul>
                 {
-                  hasLink() ?
+                  hasLink ?
                   <Link to={`/team/${toKebabCase(data.name)}`} className="btn-card hover-shadow"><Trans>label.see.page.perso</Trans></Link> :
                   <a className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></a>
                 }
