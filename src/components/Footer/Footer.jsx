@@ -7,10 +7,8 @@ function Footer() {
 
     useEffect(() => {
         if(location.pathname === "/" || location.pathname.includes("/projects/") || location.pathname.includes("/team/")) {
-            console.log("/, project or team");
             document.querySelector(".links-footer").style.boxShadow = 'none';
         } else {
-            console.log("other");
             document.querySelector(".links-footer").style.boxShadow = '0px -13px 20px -27px white';
         }
     }, [location])
