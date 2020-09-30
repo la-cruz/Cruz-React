@@ -5,6 +5,9 @@ import toKebabCase from '../../lib/toKebabCase'
 
 function Card({key, data, type}) {
 
+    if (type === "project-perso") {
+        type = "project";
+    }
     var image = data.img ? require(`../../assets/images/${type}/${data.img}`) : ""
 
     return (

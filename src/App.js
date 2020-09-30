@@ -56,7 +56,7 @@ function App() {
         </Route>
         {
           members.map(member => (
-            <Route exact path={`/team/${member.name.toLowerCase()}-${member.firstname.toLowerCase()}`} key={member.name}>
+            <Route exact path={`/team/${member.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}-${member.firstname.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} key={member.name}>
               <Perso data={member} />
             </Route>
           ))
