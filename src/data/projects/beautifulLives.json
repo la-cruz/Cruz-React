@@ -2,9 +2,7 @@
   "presentation": 
   {
     "name": "Beautiful lives",
-    "image": "",
-    "is_home": true,
-    "category": "game",
+    "image": "beautifulLives-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.beautiful.lives",
     "type": "label.project.type.jv",
@@ -23,19 +21,24 @@
   },
   "features": [
     {
-      "img": "",
-      "title": "label.project.feature.title.die.again",
+      "img": "die.png",
+      "name": "label.project.feature.title.die.again",
       "description": "label.project.feature.desc.die.again"
     },
     {
-      "img": "",
-      "title": "label.project.feature.title.tuto",
+      "img": "hologram.png",
+      "name": "label.project.feature.title.tuto",
       "description": "label.project.feature.desc.tuto.bl"
+    },
+    {
+      "img": "type.png",
+      "name": "label.project.feature.title.type.beautifullives",
+      "description": "label.project.feature.desc.type.beautifullives"
     }
   ],
   "technologies": [
     "Unity",
-    "C",
+    "CSharp",
     "Git"
   ],
   "team": [
