@@ -5,87 +5,74 @@
         "image": "lacruz-mockup.png",
         "category": "web",
         "date": "2020",
-        "desc-fr": "lorem",
+        "desc": "label.project.desc.cruz",
         "is_home": true,
         "links": [
             {
-                "text-fr": "Voir le projet",
-                "text-en": "See the project",
+                "text": "label.project.see",
                 "link": "https://lacruz.org",
                 "icon": "fas fa-link"
+            },
+            {
+                "text": "label.project.check.github",
+                "link": "https://github.com/LA-CRUZ",
+                "icon": "fab fa-github"
             }
         ]
     },
-    "type":
-    {
-        "elem_fr":"Site vitrine",
-        "elem_en":"Showcase site"
-    },
+    "type": "label.project.type.showcase",
     "features": [
         {
-            "image": "xxx.png",
-            "name": "Site responsive",
-            "title_en": "Responsive website",
-            "description_fr": "Le site web est adapté à tout les appareils, de l'ordinateur fixe au téléphone mobile",
-            "description_en": "The website is available on all platform, from the desktop to mobile phone"
+            "img": "responsive-lacruz.png",
+            "name": "label.project.feature.title.responsive",
+            "description": "label.project.feature.desc.responsive"
+        },
+        {
+          "img": "multilingue.png",
+          "name": "label.project.feature.title.multilingue",
+          "description": "label.project.feature.desc.multilingue"
+        },
+        {
+          "img": "",
+          "name": "label.project.feature.title.page.perso",
+          "description": "label.project.feature.desc.page.perso"
+        },
+        {
+          "img": "",
+          "name": "label.project.feature.title.page.project",
+          "description": "label.project.feature.desc.page.project"
         }
     ],
     "technologies": [
-        "React"
+        "ReactJs",
+        "Sass"
     ],
     "team": [
         {
             "image": "mickael.jpg",
             "name": "Alves Mickael",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         },
         {
             "image": "lucasa.jpg",
             "name": "Audart Lucas",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         },
         {
             "image": "etienne.jpg",
             "name": "Idoux Etienne",
             "roles": [
-                {
-                    "elem_fr": "Développement",
-                    "elem_en": "Development"
-                },
-                {
-                    "elem_fr": "Design",
-                    "elem_en": "Design"
-                },
-                {
-                    "elem_fr": "Gestion de projet",
-                    "elem_en": "Project management"
-                }
+              "label.project.team.role.dev",
+              "label.project.team.role.design",
+              "label.project.team.role.project.management"
             ]
         }
     ]
