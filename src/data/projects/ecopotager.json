@@ -2,7 +2,7 @@
   "presentation":
   {
     "name": "Eco-potager",
-    "image": "ecopotager.png",
+    "image": "ecopotager-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.ecopotager",
     "type": "label.project.type.jv",
@@ -16,24 +16,29 @@
   },
   "features": [
     {
-      "img": "",
+      "img": "childrens.png",
       "name": "label.project.feature.title.children",
       "description": "label.project.feature.desc.children"
     },
     {
-      "img": "",
+      "img": "tutorial.png",
       "name": "label.project.feature.title.tuto",
       "description": "label.project.feature.desc.tuto.ep"
     },
     {
-      "img": "",
+      "img": "monitoring.png",
       "name": "label.project.feature.title.process.monitoring",
       "description" : "label.project.feature.desc.process.monitoring"
+    },
+    {
+      "img": "type.png",
+      "name": "label.project.feature.title.type.ecopotager",
+      "description" : "label.project.feature.desc.type.ecopotager"
     }
   ],
   "technologies": [
     "Unity",
-    "C",
+    "CSharp",
     "Git"
   ],
   "team": [

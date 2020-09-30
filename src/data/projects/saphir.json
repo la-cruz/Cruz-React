@@ -32,12 +32,12 @@
         },
         {
             "img": "",
-            "name": "label.project.feature.desc.experiment",
+            "name": "label.project.feature.title.experiment",
             "description": "label.project.feature.desc.experiment"
         }
     ],
     "technologies": [
-        "React",
+        "ReactJS",
         "Firebase"
     ],
     "team": [

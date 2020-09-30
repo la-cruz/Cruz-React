@@ -6,7 +6,7 @@ function Presentation({data}) {
         <div className="presentation">
             <h1>{data.name}</h1>
             <div className="presentation-infos">
-                <img src={require(`../../assets/images/projects/${data.image}`)} alt="img-logo" className="presentation-img" />
+                <img src={require(`../../assets/images/project/${data.image}`)} alt="img-logo" className="presentation-img" />
                 <div className="presentation-text">
                     <h3>{data.date} - <Trans>{data.type}</Trans></h3>
                     <p className="description"><Trans>{data.desc}</Trans></p>
