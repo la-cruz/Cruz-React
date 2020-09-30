@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from 'react-i18next';
 
-function Presentation({data}) {
+function Presentation({data, scrollToRef}) {
     return (
         <div className="presentation">
             <h1>{data.name}</h1>
@@ -22,7 +22,7 @@ function Presentation({data}) {
                     </div>
                 </div>
             </div>
-            <picture>
+            <picture className="scroll" onClick={scrollToRef}>
                 <source srcSet={require('../../assets/images/scroll.webp')} type="image/webp" />
                 <img src={require('../../assets/images/scroll.png')} alt="scroll" />
             </picture>
