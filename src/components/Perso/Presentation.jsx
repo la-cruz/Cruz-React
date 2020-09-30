@@ -5,11 +5,13 @@ import i18n from 'i18next';
 function Perso({data}) {
   const language = i18n.language;
   const fileName = language === "fr" ? data.cv_fr : data.cv_en;
-  var resume = null;
+  var resume;
   
   try {
     resume = fileName === "" ? null : require("../../assets/cvs/" + fileName);
-  } catch (error) {};
+  } catch (error) {
+    resume = null;
+  };
 
   return (
     <section className="perso-presentation">
@@ -23,13 +25,11 @@ function Perso({data}) {
               <li key={link.icon}><a href={link.link}><i className={link.icon}></i></a></li>
             ))
           }
-          {
-            resume !== null &&
-            <li>
-              <a href={resume} download={fileName}><i class="fas fa-file-download"></i></a>
-            </li>
-          }
         </ul>
+        {
+          resume !== null &&
+          <a className="hover-shadow cv" download={fileName}><Trans>label.perso.cv</Trans><i class="fas fa-file-download"></i></a>
+        }
       </div>
     </section>
   )
