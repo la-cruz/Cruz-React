@@ -2,7 +2,7 @@
     "presentation":
     {
         "name": "Speed Race",
-        "image": "",
+        "image": "speedrace-mockup.png",
         "date": "2020",
         "desc": "label.project.desc.speedrace",
         "type": "label.project.type.appweb.online.game",

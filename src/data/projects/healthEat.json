@@ -2,7 +2,7 @@
   "presentation":
   {
     "name": "Healtheat",
-    "image": "",
+    "image": "healtheat-mockup.png",
     "category": "web",
     "date": "2019",
     "desc": "label.project.desc.healtheat",
@@ -12,9 +12,9 @@
         "link": "https://github.com/LA-CRUZ/Healtheat",
         "icon": "fab fa-github"
       }
-    ]
+    ],
+    "type": "label.project.type.appweb"
   },
-  "type": "label.project.type.appweb",
   "features": [
     {
       "img": "",

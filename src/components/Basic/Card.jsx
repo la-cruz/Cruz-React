@@ -5,7 +5,7 @@ import toKebabCase from '../../lib/toKebabCase'
 
 function Card({key, data, type}) {
 
-    var image = data.img ? require(`../../assets/images/projects/${data.img}`) : ""
+    var image = data.img ? require(`../../assets/images/${type}/${data.img}`) : ""
 
     return (
         <div className={`container-card ${type}`} key={key}>
