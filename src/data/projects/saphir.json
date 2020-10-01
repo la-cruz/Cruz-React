@@ -32,13 +32,13 @@
         },
         {
             "img": "cours-saphir.png",
-            "name": "label.project.feature.title.cours",
-            "description": "label.project.feature.desc.cours"
+            "name": "label.project.feature.title.course",
+            "description": "label.project.feature.desc.course"
         },
         {
             "img": "quiz-saphir.png",
             "name": "label.project.feature.title.quiz",
-            "description": "label.project.feature.desc.qui"
+            "description": "label.project.feature.desc.quiz"
         },
         {
             "img": "jeux-saphir.png",
@@ -47,8 +47,8 @@
         },
         {
             "img": "mutlilingue-saphir.png",
-            "name": "label.project.feature.title.mutlilingue",
-            "description": "label.project.feature.desc.mutlilingue"
+            "name": "label.project.feature.title.multilingue",
+            "description": "label.project.feature.desc.multilingue.saphir"
         }
     ],
     "technologies": [
