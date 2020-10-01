@@ -26,6 +26,11 @@
             "description": "label.project.feature.desc.geolocation"
         },
         {
+            "img": "auth-speed.png",
+            "name": "label.project.feature.title.auth",
+            "description": "label.project.feature.desc.auth"
+        },
+        {
             "img": "admin-speed.png",
             "name": "label.project.feature.title.bo",
             "description": "label.project.feature.desc.bo.sr"

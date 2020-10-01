@@ -26,14 +26,29 @@
             "description": "label.project.feature.desc.responsive"
         },
         {
-            "img": "cours-saphir.png",
-            "name": "label.project.feature.title.educative",
-            "description": "label.project.feature.desc.educative"
-        },
-        {
             "img": "exp-saphir.png",
             "name": "label.project.feature.title.experiment",
             "description": "label.project.feature.desc.experiment"
+        },
+        {
+            "img": "cours-saphir.png",
+            "name": "label.project.feature.title.course",
+            "description": "label.project.feature.desc.course"
+        },
+        {
+            "img": "quiz-saphir.png",
+            "name": "label.project.feature.title.quiz",
+            "description": "label.project.feature.desc.quiz"
+        },
+        {
+            "img": "jeux-saphir.png",
+            "name": "label.project.feature.title.game",
+            "description": "label.project.feature.desc.game"
+        },
+        {
+            "img": "mutlilingue-saphir.png",
+            "name": "label.project.feature.title.multilingue",
+            "description": "label.project.feature.desc.multilingue.saphir"
         }
     ],
     "technologies": [
