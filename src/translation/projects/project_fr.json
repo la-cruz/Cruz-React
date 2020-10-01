@@ -61,6 +61,8 @@
   "label.project.feature.title.multilingue": "Site multilingue",
   "label.project.feature.desc.multilingue": "Le site est disponnible en français et en anglais, ce qui lui permet d'être plus accessible",
   "label.project.feature.desc.multilingue.saphir": "Le site est disponnible en français, en anglais et en chinois, ce qui lui permet d'être plus accessible dans les différents endroits où l'application est utilisée.",
+  "label.project.feature.title.auth.eva": "Authentification",
+  "label.project.feature.desc.auth.eva": "Le back office est sécurisé par un système d'authentification, permettant à l'administrateur d'accéder à la configuration de son site en toute sécurité.",
   "label.project.team.role.dev": "Développeur",
   "label.project.team.role.game.designer": "Game Designer",
   "label.project.team.role.design": "Design",
