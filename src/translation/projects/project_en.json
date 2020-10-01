@@ -8,7 +8,7 @@
   "label.project.desc.healtheat": "Healteat is an online dietician, which allows users to generate dietary programmes based on their personal information. Users update their personal data throughout the programme, and the application allows them to have a visual display of it, especially in graphic form, while also giving some tips.",
   "label.project.desc.fixit": "This game was developed during the GGJ 2020 on the theme \"Repair\" ! In this prototype you can play against your friend in an arena and try to repair more things than him ! You will have to collect pieces, dispatched in the arena, in order to repair your current object, given by the crowd in the background (that cheers you up !). The first to complete 3 objects wins !",
   "label.project.desc.edc": "Eva Dalla Costa is a photographer from Lyon for whom we have created a showcase site allowing her to display her creations. We also provided her with a back office so that she can directly add, delete and order the content of her showcase site.",
-  "label.project.desc.cruz": "",
+  "label.project.desc.cruz": "La Cruz's website has been created to allow us to present ourselves and our work easily and accurately. After a version developed with Symfony, we chose to rebuild the site under React with configuration files in Json format for the data, which allows us greater flexibility.",
   "label.project.short.desc.beautiful.lives": "Beautiful lives is a game based on the Brackeys Game Jam 2020.2 theme : \"Rewind\" !",
   "label.project.see": "Go to project",
   "label.project.check.github": "Check on Github",

@@ -18,9 +18,9 @@
                 "link": "https://github.com/LA-CRUZ",
                 "icon": "fab fa-github"
             }
-        ]
+        ],
+        "type": "label.project.type.showcase"
     },
-    "type": "label.project.type.showcase",
     "features": [
         {
             "img": "responsive-lacruz.png",
