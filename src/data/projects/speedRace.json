@@ -28,7 +28,7 @@
         {
             "img": "auth-speed.png",
             "name": "label.project.feature.title.auth",
-            "description": "label.project.feature.desc.auth"
+            "description": "label.project.feature.desc.auth.sr"
         },
         {
             "img": "admin-speed.png",
