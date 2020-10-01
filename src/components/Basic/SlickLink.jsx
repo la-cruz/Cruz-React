@@ -23,6 +23,12 @@ function SlickLink({data, type}) {
         arrows: true,
         responsive: [
             {
+                breakpoint: 3000,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1800,
                 settings: {
                     slidesToShow: 3,

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import About from './About'
 import Presentation from './Presentation'
 import Studies from './Studies'
@@ -10,18 +10,24 @@ import RelatedSkills from './RelatedSkills'
 import getRelatedProject from '../../lib/getRelatedProject'
 
 function Perso({ data }) {
-  return (
-      <>
-        <Presentation data={data} />
-        <About bio={data.bio} />
-        <Studies studies={data.studies} />
-        <Experiences experiences={data.experiences} />
-        <RelatedProject projects={getRelatedProject(data.projects)} />
-        <RelatedTools title="label.perso.technologies" data={data.technologies} skew/>
-        <RelatedTools title="label.perso.tools" data={data.tools} />
-        <RelatedSkills skills={data.qualities} />
-      </>
-  )
+    const refToScroll = useRef(null);
+
+    const scrollToRef = () => {
+        refToScroll.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    return (
+        <>
+            <Presentation data={data} scrollToRef={scrollToRef} />
+            <About bio={data.bio} ref={refToScroll} />
+            <Studies studies={data.studies} />
+            <Experiences experiences={data.experiences} />
+            <RelatedProject projects={getRelatedProject(data.projects)} />
+            <RelatedTools title="label.perso.technologies" data={data.technologies} skew />
+            <RelatedTools title="label.perso.tools" data={data.tools} />
+            <RelatedSkills skills={data.qualities} />
+        </>
+    )
 }
 
 export default Perso;
