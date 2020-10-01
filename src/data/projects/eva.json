@@ -32,8 +32,8 @@
     },
     {
       "img": "auth-eva.png",
-      "name": "label.project.feature.title.auth.eva",
-      "description": "label.project.feature.desc.auth.eva"
+      "name": "label.project.feature.title.auth",
+      "description": "label.project.feature.desc.auth"
     }
   ],
   "technologies": [

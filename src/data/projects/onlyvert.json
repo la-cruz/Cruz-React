@@ -16,7 +16,7 @@
   },
   "features": [
     {
-      "img": "responsive.png",
+      "img": "responsive-ov.png",
       "name": "label.project.feature.title.responsive",
       "description": "label.project.feature.desc.responsive"
     },
@@ -29,6 +29,11 @@
       "img": "firebase.png",
       "name": "label.project.feature.title.firebase",
       "description": "label.project.feature.desc.firebase.ov"
+    },
+    {
+      "img": "auth-ov.png",
+      "name": "label.project.feature.title.auth",
+      "description": "label.project.feature.desc.auth"
     }
   ],
   "technologies": [
