@@ -12,7 +12,7 @@
     "is_home": true,
     "name": "Eco-potager",
     "description": "Serious game dans le cadre de l'UE M1IF28 - Logiciel Educatif (UCBL 1) sur le thème de la sensibilisation à l'écologie via la découverte de la physique et la chimie, à travers la gestion d'un potager éco responsable.",
-    "img": "ecoPotager.png",
+    "img": "ecopotager.png",
     "other_link": "",
     "type": "jv",
     "has_link": true

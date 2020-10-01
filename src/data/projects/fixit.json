@@ -2,7 +2,7 @@
   "presentation":
   {
     "name": "Fix it",
-    "image": "fixit.png",
+    "image": "fixit-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.fixit",
     "type": "label.project.type.jv",
@@ -21,24 +21,29 @@
   },
   "features": [
     {
-      "img": "",
+      "img": "glory.png",
       "name": "label.project.feature.title.glory",
-      "description_fr": "label.project.feature.desc.glory"
+      "description": "label.project.feature.desc.glory"
     },
     {
-      "img": "",
+      "img": "multiplayer.png",
       "name": "label.project.feature.title.multi",
       "description": "label.project.feature.desc.multi"
     },
     {
-      "img": "",
+      "img": "music.png",
       "name": "label.project.feature.title.music",
       "description" : "label.project.feature.desc.music"
+    },
+    {
+      "img": "type.png",
+      "name": "label.project.feature.title.type.fixit",
+      "description": "label.project.feature.desc.type.fixit"
     }
   ],
   "technologies": [
     "Unity",
-    "C",
+    "CSharp",
     "Git"
   ],
   "team": [

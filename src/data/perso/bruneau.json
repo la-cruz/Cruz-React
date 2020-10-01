@@ -4,8 +4,8 @@
   "image": "mickael.jpg",
   "thumbnail": "mickael-thumbnail.png",
   "bio": "label.perso.bio.bruneau",
-  "cv-fr": "cv-site-Bruneau.pdf",
-  "cv-en": "cv-site-Bruneau.pdf",
+  "cv_fr": "cv-site-Bruneau.pdf",
+  "cv_en": "cv-site-Bruneau.pdf",
   "fonction": "label.perso.secretary",
   "metier": "label.perso.dev.polyvalent",
   "socials": [
