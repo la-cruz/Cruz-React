@@ -1,0 +1,41 @@
+@media (max-width: 760px) {
+    .container-slider {
+        .slick-slider {
+            button {
+                &::before {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container-slider {
+        .slick-slider {
+            button {
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .container-slider {
+        position: unset;
+
+        .slick-next,
+        .slick-prev {
+            right: 0;
+            left: 0;
+        }
+
+        .logo-prod,
+        .content-card {
+            img {
+                max-width: 10rem;
+                max-height: 10rem;
+            }
+        }
+    }
+}
