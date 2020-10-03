@@ -29,7 +29,8 @@
   "label.perso.date.june.2016": "June 2016",
   "label.perso.date.summer.2017.2018": "Summer 2017 and summer 2018",
   "label.perso.date.may.august.2019": "From may to august 2019",
-  "label.perso.date.july.august.2015": "From july to august 2015",
+  "label.perso.date.june.august.2017.june.august.2019": "From june to august 2017 and from june to august 2019",
+  "label.perso.date.july.august.2015.july.august.2016": "From july to august 2015 and from july to august 2016",
   "label.perso.date.may.june.2014": "From may to june 2014",
   "label.perso.date.march.august.2019": "From march to august 2019",
   "label.perso.date.july.2014.week": "July 2014 (1 week)",
@@ -115,5 +116,10 @@
   "label.perso.exp.title.admin.sys.intern": "Intern system administator",
   "label.perso.exp.title.assistant.intern": "Intern computer scienctist assistant",
   "label.perso.exp.title.volunteer": "Volunteer",
-  "label.perso.exp.title.production.agent": "Versatile Production Agent"
+  "label.perso.exp.title.production.agent": "Versatile Production Agent",
+  "label.perso.elem.dev.php": "Php development",
+  "label.perso.elem.dev.angularJS": "Development with AngularJS",
+  "label.perso.cashier": "Cashier",
+  "label.perso.vacation.auxiliary": "Vacation auxiliary",
+  "label.perso.noProjects": "Sorry, <strong>there is no projects !</strong>"
 }

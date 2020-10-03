@@ -29,8 +29,9 @@
   "label.perso.date.july.2016": "Juillet 2016",
   "label.perso.date.june.2016": "Juin 2016",
   "label.perso.date.summer.2017.2018": "De juillet à août 2017 et juillet à août 2018.",
-  "label.perso.date.july.august.2015": "De juillet à août 2015",
-  "label.perso.date.may.august.2019": "De mai à aout 2019",
+  "label.perso.date.june.august.2019": "De juin à août 2019",
+  "label.perso.date.july.august.2015.july.august.2016": "De juillet à août 2015 et de juillet à août 2016",
+  "label.perso.date.june.august.2017.june.august.2019": "De juin à août 2017 et de juin à août 2019",
   "label.perso.date.may.june.2014": "De mai à juin 2014",
   "label.perso.date.march.august.2019": "De mars à août 2019",
   "label.perso.date.july.2014.week": "Juillet 2014 (1 semaine)",
@@ -116,5 +117,10 @@
   "label.perso.exp.title.admin.sys.intern": "Stagiaire administateur système",
   "label.perso.exp.title.assistant.intern": "Stagiaire assistant informaticien",
   "label.perso.exp.title.volunteer": "Bénévole",
-  "label.perso.exp.title.production.agent": "Agent de production polyvalent"
+  "label.perso.exp.title.production.agent": "Agent de production polyvalent",
+  "label.perso.elem.dev.php": "Développement php",
+  "label.perso.elem.dev.angularJS": "Développement avec AngularJS",
+  "label.perso.cashier": "Caissier",
+  "label.perso.vacation.auxiliary": "Auxiliaire de vacances",
+  "label.perso.noProjects": "Désolé, <strong>il n'y a pas de projets !</strong>"
 }
