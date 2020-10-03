@@ -3,6 +3,7 @@ import Presentation from './Presentation';
 import Features from './Features';
 import Technologies from './Technologies';
 import Team from './Team';
+import { Helmet } from "react-helmet";
 
 function Project( {data} ) {   
     const refToScroll = useRef(null);
@@ -11,8 +12,17 @@ function Project( {data} ) {
         refToScroll.current.scrollIntoView({behavior: 'smooth'})
     }
 
+    const title = data.presentation.name + " | LA CRUZ";
+
     return (
         <div className="project">
+            <Helmet>
+                <title>{title}</title>
+                <meta name="title" content={title} />
+                <meta property="og:title" content={title} />
+                <meta property="twitter:title" content={title} />
+            </Helmet>
+
             <Presentation data={data.presentation} scrollToRef={scrollToRef} />
             <Features data={data.features} ref={refToScroll} />
             <Technologies data={data.technologies} />

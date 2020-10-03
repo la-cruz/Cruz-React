@@ -12,6 +12,7 @@ import { CSSPlugin } from 'gsap';
 import gsap from 'gsap/gsap-core';
 import { isSafari } from 'react-device-detect';
 import SlickLink from '../Basic/SlickLink'
+import { Helmet } from "react-helmet";
 
 
 function Home() {
@@ -76,6 +77,13 @@ function Home() {
 
     return (
         <>
+            <Helmet>
+                <title>La Cruz</title>
+                <meta name="title" content="La Cruz" />
+                <meta property="og:title" content="La Cruz" />
+                <meta property="twitter:title" content="La Cruz" />
+            </Helmet>
+            
             <section className="page-header home">
                 <Particles id="particles-js" params={particlesOptions}/>
                 <h1 className="main-title">la cruz</h1>

@@ -50,5 +50,6 @@
   "label.project.team": "Équ<strong>ipe</strong>",
   "label.404.title": "Page non trouvé",
   "label.404.text": "Ooops, cette page a un petit problème",
-  "label.goto.home": "Retour à l'accueil"
+  "label.goto.home": "Retour à l'accueil",
+  "label.team.title": "Notre <strong>équipe</strong>"
 }
