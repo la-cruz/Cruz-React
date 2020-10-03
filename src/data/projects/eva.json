@@ -1,7 +1,8 @@
 {
   "presentation":
   {
-    "name": "Eva Dalla Costa",
+    "name": "label.project.name.eva",
+    "route": "Eva Dalla Costa",
     "image": "eva-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.edc",

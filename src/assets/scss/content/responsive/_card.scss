@@ -1,3 +1,38 @@
+@media (max-width: 900px) {
+    .container-card {
+        &.member {
+            .content-card {
+                .content-member {
+                    flex-direction: column;
+
+                    img {
+                        width: 100px;
+                        height: auto;
+                        margin-bottom: 2rem;
+                    }
+
+                    h3 {
+                        color: $cruz-color-yellow-dark;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                ul {
+                    li {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .btn-card {
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 1.3rem 0.8rem;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 450px) {
     .container-card {
         width: 90%;
@@ -8,10 +43,7 @@
             padding: 1rem 0;
             width: 90%;
             height: 360px;
-
-            img {
-                width: 80px;
-            }
+            justify-content: center !important;
 
             h3 {
                 font-size: 1.3rem;
@@ -24,8 +56,41 @@
             }
 
             .btn-card {
+                text-align: center;
                 color: white;
-                font-size: 0.8rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .container-card {
+        &.member {
+            .content-card {
+                .content-member {
+                    flex-direction: column;
+
+                    img {
+                        width: 50%;
+                        height: auto;
+                    }
+
+                    h3 {
+                        color: $cruz-color-yellow-dark;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                ul {
+                    li {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .btn-card {
+                    font-size: 1rem;
+                }
             }
         }
     }
