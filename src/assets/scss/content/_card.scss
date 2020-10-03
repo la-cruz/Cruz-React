@@ -52,7 +52,7 @@
         }
 
         .btn-card {
-            padding: 1.3rem 2rem;
+            padding: 1.3rem 1.5rem;
             background: $gradient-yellow;
             font-size: 1.3rem;
             font-weight: bold;
@@ -62,6 +62,7 @@
             text-decoration: none;
             box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
             margin-top: 2rem;
+            text-align: center;
 
             &.unavailable {
               background: $cruz-color-black-opac-strong;
@@ -90,7 +91,7 @@
             height: 380px;
 
             img {
-                height: 40%;
+                min-height: 40%;
                 width: auto;
                 max-width: 95%;
                 margin-bottom: 3rem;
@@ -122,9 +123,10 @@
 
             ul {
                 width: 80%;
-                list-style: disc;
+                list-style: none;
 
                 li {
+                    text-align: center;
                     color: white;
                     font-size: 1.5rem;
                     font-weight: bold;
@@ -133,6 +135,7 @@
             }
 
             h3 {
+                color: $cruz-color-yellow-dark;
                 text-align: right;
                 font-size: 2rem;
                 line-height: 3rem;

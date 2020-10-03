@@ -33,8 +33,45 @@
         .logo-prod,
         .content-card {
             img {
-                max-width: 10rem;
-                max-height: 10rem;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .container-slider {
+        .feature {
+            .content-card {
+                justify-content: center !important;
+                img {
+                    min-height: 30%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    .container-slider {
+        .feature {
+            .content-card {
+                img {
+                    max-width: 80%;
+                    min-height: unset;
+                }
+            }
+        }
+
+        .project {
+            .content-card {
+                justify-content: center !important;
+
+                img {
+                    height: unset;
+                    max-width: 50%;
+                }
             }
         }
     }

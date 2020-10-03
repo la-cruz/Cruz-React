@@ -40,7 +40,11 @@ strong {
   -webkit-text-stroke: 4px transparent;
   text-transform: uppercase;
   color: $cruz-color-dark-grey;
-  padding: 0.3rem;
+  letter-spacing: 0.2rem;
+
+  @media (max-width: 450px) {
+    -webkit-text-stroke: 2px transparent;
+  }
 }
 
 a {
