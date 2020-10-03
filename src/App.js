@@ -42,7 +42,7 @@ function App() {
         {
           projects.map(project => {
             return (
-              <Route key={project.presentation.name} exact path={`/projects/${toKebabCase(project.presentation.name)}`}>
+              <Route key={project.presentation.name} exact path={`/projects/${toKebabCase(project.presentation.route)}`}>
                 <Project data={project} />
               </Route>
             )

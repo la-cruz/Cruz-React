@@ -1,7 +1,8 @@
 {
   "presentation":
   {
-    "name": "Fix it",
+    "name": "label.project.name.fixit",
+    "route": "Fix it",
     "image": "fixit-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.fixit",

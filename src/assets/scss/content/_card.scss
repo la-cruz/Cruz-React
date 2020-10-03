@@ -44,7 +44,7 @@
 
         p {
             width: 90%;
-            text-align: justify;
+            text-align: center;
             color: #828181;
             font-weight: bold;
             font-size: 1.3rem;
@@ -86,11 +86,18 @@
         -5px -5px 15px rgba(255,255,255,0.1);
 
         .content-card {
+            justify-content: flex-start !important;
             height: 380px;
 
             img {
                 height: 40%;
                 width: auto;
+                max-width: 95%;
+                margin-bottom: 3rem;
+            }
+
+            h3 {
+                margin-bottom: 2rem;
             }
         }
     }

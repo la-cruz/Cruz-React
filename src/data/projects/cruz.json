@@ -1,7 +1,8 @@
 {
     "presentation":
     {
-        "name": "La Cruz",
+        "name": "label.project.name.lacruz",
+        "route": "La Cruz",
         "image": "lacruz-mockup.png",
         "category": "web",
         "date": "2020",

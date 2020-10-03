@@ -82,5 +82,15 @@
   "label.project.type.showcase.bo": "Site vitrine / Back-office",
   "label.project.type.appweb.online.game": "Application web / Jeu en ligne",
   "label.project.type.educative.appweb": "Application Web Educative",
-  "label.project.type.appweb": "Application web"
+  "label.project.type.appweb": "Application web",
+  "label.project.name.beautiful": "Beautiful <strong>lives</strong>",
+  "label.project.name.lacruz": "La <strong>cruz</strong>",
+  "label.project.name.ecopotager": "Eco <strong>potager</strong>",
+  "label.project.name.eva": "Eva <strong>dalla costa</strong>",
+  "label.project.name.fixit": "fi<strong>xit</strong>",
+  "label.project.name.healtheat": "health<strong>eat</strong>",
+  "label.project.name.nova": "Noémie <strong>Vargas</strong>",
+  "label.project.name.onlyvert": "Only <strong>vert</strong>",
+  "label.project.name.saphir": "Sa<strong>phir</strong>",
+  "label.project.name.speedrace": "Speed <strong>race</strong>"
 }

@@ -1,7 +1,8 @@
 {
   "presentation": 
   {
-    "name": "Beautiful lives",
+    "name": "label.project.name.beautiful",
+    "route": "Beautiful lives",
     "image": "beautifulLives-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.beautiful.lives",

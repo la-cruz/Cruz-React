@@ -1,7 +1,8 @@
 {
     "presentation":
     {
-        "name": "Saphir",
+        "name": "label.project.name.saphir",
+        "route": "Saphir",
         "image": "saphir-mockup.png",
         "date": "2020",
         "desc": "label.project.desc.saphir",

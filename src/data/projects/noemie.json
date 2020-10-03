@@ -1,7 +1,8 @@
 {
     "presentation":
     {
-        "name": "Noémie Vargas",
+        "name": "label.project.name.nova",
+        "route": "Noémie Vargas",
         "image": "ov-mockup.png",
         "date": "2020",
         "desc": "label.project.desc.nova",

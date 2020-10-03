@@ -1,7 +1,8 @@
 {
   "presentation":
   {
-    "name": "Eco-potager",
+    "name": "label.project.name.ecopotager",
+    "route": "Eco-potager",
     "image": "ecopotager-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.ecopotager",
