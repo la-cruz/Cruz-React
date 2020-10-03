@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Trans } from 'react-i18next'
 import * as emailjs from "emailjs-com";
 import validator from 'validator';
+import { Helmet } from "react-helmet";
 
 function Contact() {
     const [name, setName] = useState("")
@@ -73,6 +74,13 @@ function Contact() {
 
     return (
         <section className="contact-page">
+            <Helmet>
+                <title>Contact | LACRUZ</title>
+                <meta name="title" content="Contact | LACRUZ" />
+                <meta property="og:title" content="Contact | LACRUZ" />
+                <meta property="twitter:title" content="Contact | LACRUZ" />
+            </Helmet>
+
             <h2><Trans>label.form.title</Trans></h2>
             <form onSubmit={handleSubmit} id="contact_form_class" className="form">
                 <div className="contact-form">

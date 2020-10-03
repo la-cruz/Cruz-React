@@ -1,9 +1,22 @@
 import React from "react";
 import { Trans } from "react-i18next";
+import { Helmet } from "react-helmet";
+import i18n from 'i18next';
 
 function Legal(){
+
+    const language = i18n.language;
+    const title = (language === "fr" ? "Mentions légales" : "Legals") + " | LACRUZ";
+
     return(
         <section className="legal">
+            <Helmet>
+                <title>{title}</title>
+                <meta name="title" content={title} />
+                <meta property="og:title" content={title} />
+                <meta property="twitter:title" content={title} />
+            </Helmet>
+
             <h1><Trans>label.legal.title</Trans></h1>
             <p><Trans>label.legal.title.text</Trans></p>
             
