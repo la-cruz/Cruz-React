@@ -1,13 +1,11 @@
 .project{
-    // margin: 0 6rem;
-
     .features,
     .team {
         position: relative;
     }
 
     .presentation {
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

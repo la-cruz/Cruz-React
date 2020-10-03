@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+    .container-wrap-list {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-wrap-list {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-wrap-list {
+        width: 90%;
+
+        .wrap-list-elem {
+            &:hover {
+                h5 {
+                    transform: translateX(-50%) translateY(-50%) scale(4);
+                }
+            }
+            
+            .logo-tools {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
