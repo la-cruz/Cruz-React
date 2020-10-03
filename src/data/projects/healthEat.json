@@ -1,7 +1,8 @@
 {
   "presentation":
   {
-    "name": "Healtheat",
+    "name": "label.project.name.healtheat",
+    "route": "Healtheat",
     "image": "healtheat-mockup.png",
     "category": "web",
     "date": "2019",

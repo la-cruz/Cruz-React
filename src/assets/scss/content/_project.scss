@@ -17,6 +17,11 @@
             font-weight: 800;
             text-transform: uppercase;
             text-align: center;
+
+            strong {
+                -webkit-text-stroke: 4px transparent;
+                -webkit-text-stroke-color: $cruz-color-yellow-dark;
+            }
         }
 
         .presentation-infos {

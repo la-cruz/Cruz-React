@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next';
 function Presentation({data, scrollToRef}) {
     return (
         <div className="presentation">
-            <h1>{data.name}</h1>
+            <h1><Trans>{data.name}</Trans></h1>
             <div className="presentation-infos">
                 <img src={require(`../../assets/images/project/${data.image}`)} alt="img-logo" className="presentation-img" />
                 <div className="presentation-text">

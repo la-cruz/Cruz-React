@@ -1,7 +1,8 @@
 {
   "presentation":
   {
-    "name": "Only Vert",
+    "name": "label.project.name.onlyvert",
+    "route": "Only Vert",
     "image": "ov-mockup.png",
     "date": "2020",
     "desc": "label.project.desc.onlyvert",
