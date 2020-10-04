@@ -12,7 +12,7 @@ function Project( {data} ) {
         refToScroll.current.scrollIntoView({behavior: 'smooth'})
     }
 
-    const title = data.presentation.name + " | LA CRUZ";
+    const title = data.presentation.route + " | LA CRUZ";
 
     return (
         <div className="project">

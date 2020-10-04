@@ -20,7 +20,7 @@ function Card({key, data, type}) {
                     type !== "feature" ?
                     data.has_link ?
                     <Link to={`/projects/${toKebabCase(data.name)}`} className="btn-card hover-shadow"><Trans>label.see.page.project</Trans></Link> :
-                    <a className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.project.unavailable</Trans></a> :
+                    <button className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.project.unavailable</Trans></button> :
                     <></>
                 }
             </div>

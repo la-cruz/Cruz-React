@@ -3,16 +3,16 @@ import { Trans } from 'react-i18next'
 
 function ExperienceCard({ data }) {
 
-  var image = data.logo != "" ? require(`../../assets/images/companies/${data.logo}`) : ""
+  var image = data.logo !== "" ? require(`../../assets/images/companies/${data.logo}`) : ""
 
   return (
     <div className="experience-card">
-      <img src={image} />
+      <img src={image} alt="exp-card-img" />
       <h3><Trans>{data.title}</Trans></h3>
       <p><Trans>{data.date}</Trans> - {data.company}</p>
       <hr />
       {
-        data.list != [] &&
+        data.list !== [] &&
         <ul>
           {
             data.list.map(elem => (
