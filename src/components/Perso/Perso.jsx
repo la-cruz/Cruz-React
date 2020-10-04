@@ -20,7 +20,7 @@ function Perso({ data }) {
         refToScroll.current.scrollIntoView({ behavior: 'smooth' })
     }
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const title = data.firstname + " " + data.name.toUpperCase() + " - " + t(data.metier);
 
     return (
