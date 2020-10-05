@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     height: 105vh;
-
+    
     img {
         width: 40%;
         object-fit: cover;
         align-self: flex-end;
     }
-
+    
     .info-perso {
         width: 45%;
         display: flex;
@@ -16,7 +16,7 @@
         align-items: flex-end;
         justify-content: center;
         margin-right: 10rem;
-
+        
         h1 {
             width: 100%;
             font-size: 13rem;
@@ -24,12 +24,12 @@
             font-weight: 800;
             text-transform: uppercase;
             line-height: 14rem;
-
+            
             strong {
                 -webkit-text-stroke-color: $cruz-color-yellow-dark;
             }
         }
-
+        
         p {
             color: $cruz-color-white;
             font-size: 2.5rem;
@@ -37,13 +37,13 @@
             letter-spacing: 0.2rem;
             margin: 2rem 0 5rem 0;
         }
-
+        
         ul {
             display: flex;
             align-items: center;
             justify-content: space-around;
             width: 40%;
-
+            
             li {
                 a {
                     text-decoration: none;
@@ -51,7 +51,7 @@
                         color: $cruz-color-white;
                         font-size: 4rem;
                         transition: 1s;
-
+                        
                         &:hover {
                             color: $cruz-color-yellow-dark;
                             transition: 1s;
@@ -61,7 +61,7 @@
                 }
             }
         }
-
+        
         .cv {
             margin-top: 7rem;
             padding: 1.5rem 2rem;
@@ -72,19 +72,19 @@
             color: black;
             border-radius: 50px;
             box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
-
+            
             i {
                 margin-right: 2rem;
                 margin-left: 0.5rem;
                 font-size: 2rem;
             }
-
+            
             &:hover {
                 cursor: pointer;
             }
         }
     }
-
+    
     .scroll {
         position: absolute;
         cursor: pointer;
@@ -94,7 +94,7 @@
         animation: bounceUp 4s infinite;
         transform: translateX(-50%);
         animation-delay: 1s;
-
+        
         img {
             width: 9rem;
         }
@@ -110,17 +110,17 @@
     padding: 5rem 0;
     margin-top: 2rem;
     margin-bottom: 10rem;
-
+    
     * {
         position: relative;
     }
-
+    
     h2 {
         strong {
             color: $cruz-color-grey;
         }
     }
-
+    
     p {
         color: $cruz-color-white;
         font-size: 1.8rem;
@@ -129,7 +129,7 @@
         text-align: justify;
         line-height: 3rem;
     }
-
+    
     &:before {
         position: absolute;
         background-color: $cruz-color-grey;
@@ -144,12 +144,12 @@
 
 .studies {
     margin: 15rem 10rem;
-
+    
     .studies-content {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         .roadmap {
             height: 100%;
             width: 20%;
@@ -157,7 +157,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-
+            
             .roadmap-point {
                 width: 10rem;
                 height: 10rem;
@@ -166,13 +166,13 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
+                
                 i {
                     color: $cruz-color-yellow-dark;
                     font-size: 5rem;
                 }
             }
-
+            
             svg {
                 margin: 1rem 0;
                 line {
@@ -183,13 +183,13 @@
                 }
             }
         }
-
+        
         .studies-list {
             width: 80%;
             height: 100%;
             display: flex;
             flex-direction: column;
-
+            
             .studies-elem {
                 display: flex;
                 flex-direction: column;
@@ -198,21 +198,21 @@
                 margin: 3.5rem 0;
                 position: relative;
                 min-height: 20rem;
-
+                
                 .studies-info {
                     h3 {
                         text-transform: none;
                     }
-
+                    
                     p {
                         color: $cruz-color-yellow-dark;
                         font-size: 1.8rem;
                         margin: 1rem 0;
                     }
-
+                    
                     ul {
                         list-style: disc;
-
+                        
                         li {
                             color: $cruz-color-white;
                             margin: 0.6rem 1.5rem 0.6rem;
@@ -220,7 +220,7 @@
                         }
                     }
                 }
-
+                
                 img {
                     position: absolute;
                     right: 15rem;
@@ -233,19 +233,19 @@
 
 .experiences {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     z-index: 1;
     margin-bottom: 15rem;
     padding: 0 10rem;
-
+    
     * {
         position: relative;
         z-index: 1;
     }
-
+    
     &:before {
         position: absolute;
         background-color: $cruz-color-grey;
@@ -256,7 +256,7 @@
         transform: skewY(2deg);
         box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
     }
-
+    
     h2 {
         padding: 5rem 0;
         width: 100%;
@@ -264,47 +264,55 @@
             color: $cruz-color-grey;
         }
     }
-
-    .experience-card {
-        width: 45%;
+    
+    .experiences-row {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 5rem 0;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
 
-        img {
-            width: 50%;
-            max-height: 10rem;
-            object-fit: contain;
-        }
-
-        h3 {
-            margin-top: 5rem;
-        }
-
-        p {
-            color: $cruz-color-yellow-dark;
-            margin: 2rem 0;
-            font-size: 1.6rem;
-        }
-
-        hr {
-            width: 40%;
-            height: 3px;
-            background-color: $cruz-color-white;
-        }
-
-        ul {
-            list-style: disc;
-            margin: 3rem 0;
-            width: 60%;
-            font-size: 1.3rem;
-
-            li {
-                color: $cruz-color-white;
-                margin: 0.6rem 1.5rem 0.6rem;
-                font-size: 1.5rem;
+        .experience-card {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 5rem 0;
+            
+            img {
+                width: 50%;
+                height: 10rem;
+                object-fit: contain;
+            }
+            
+            h3 {
+                margin-top: 5rem;
+                text-align: center;
+            }
+            
+            p {
+                color: $cruz-color-yellow-dark;
+                margin: 2rem 0;
+                font-size: 1.6rem;
+            }
+            
+            hr {
+                width: 40%;
+                height: 3px;
+                background-color: $cruz-color-white;
+            }
+            
+            ul {
+                list-style: disc;
+                margin: 3rem 0;
+                width: 60%;
+                font-size: 1.3rem;
+                
+                li {
+                    color: $cruz-color-white;
+                    margin: 0.6rem 1.5rem 0.6rem;
+                    font-size: 1.5rem;
+                }
             }
         }
     }
@@ -312,7 +320,7 @@
 
 .related-project {
     padding-top: 5rem;
-
+    
     * {
         position: relative;
     }
@@ -320,22 +328,22 @@
 
 .related-tools {
     margin: 15rem 0;
-
+    
     &:not(.skew) {
         h2 {
             padding-top: 8rem;
         }
     }
-
+    
     &.skew {
         z-index: 1;
         position: relative;
-
+        
         * {
             z-index: 1;
             position: relative;
         }
-
+        
         &:before {
             position: absolute;
             background-color: $cruz-color-grey;
@@ -346,7 +354,7 @@
             transform: skewY(2deg);
             box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
         }
-
+        
         h2 {
             padding-top: 10rem;
             strong {
@@ -354,7 +362,7 @@
             }
         }
     }
-
+    
     .container-wrap-list {
         width: 60%;
     }
@@ -367,12 +375,12 @@
     align-items: center;
     z-index: 1;
     position: relative;
-
+    
     * {
         z-index: 1;
         position: relative;
     }
-
+    
     &:before {
         position: absolute;
         background-color: $cruz-color-grey;
@@ -383,7 +391,7 @@
         transform: skewY(2deg);
         box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
     }
-
+    
     h2 {
         width: 100%;
         margin: 3rem 0;
@@ -391,7 +399,7 @@
             color: $cruz-color-grey;
         }
     }
-
+    
     .skills-card {
         width: 25%;
         height: 10rem;
@@ -400,9 +408,9 @@
         align-items: center;
         border-radius: 15px;
         box-shadow: -11px 11px 22px rgba(33, 31, 31, 0.2), 11px -11px 22px rgba(33, 31, 31, 0.2),
-            -11px -11px 22px rgba(55, 53, 53, 0.9), 11px 11px 28px rgba(33, 31, 31, 0.9),
-            inset 1px 1px 2px rgba(55, 53, 53, 0.3), inset -1px -1px 2px rgba(33, 31, 31, 0.5);
-
+        -11px -11px 22px rgba(55, 53, 53, 0.9), 11px 11px 28px rgba(33, 31, 31, 0.9),
+        inset 1px 1px 2px rgba(55, 53, 53, 0.3), inset -1px -1px 2px rgba(33, 31, 31, 0.5);
+        
         h4 {
             text-transform: uppercase;
             font-weight: bold;
