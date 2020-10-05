@@ -25,7 +25,7 @@ function MemberCard({data}) {
                               {
                                   data.has_link ?
                                   <Link to={`/team/${data.name.toLowerCase()}-${data.firstname.toLowerCase()}`} className="hover-shadow"><Trans>label.see.page.perso</Trans></Link> :
-                                  <a className="unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></a>
+                                  <button className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></button>
                               }
                             </div>
                         }

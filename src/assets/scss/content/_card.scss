@@ -65,6 +65,7 @@
             text-align: center;
 
             &.unavailable {
+              border: none;
               background: $cruz-color-black-opac-strong;
 
               i {

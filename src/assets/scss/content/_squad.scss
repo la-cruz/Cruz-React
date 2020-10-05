@@ -113,7 +113,7 @@
           .btn-more {
             margin-top: 4rem;
             
-            a {
+            a, button {
               padding: 1.3rem 2rem;
               background: $gradient-yellow;
               font-size: 1.6rem;
@@ -125,9 +125,11 @@
               box-shadow: 0px 0px 15px 3px rgb(0, 0, 0);
               
               &.unavailable {
+                border: none;
                 background: $cruz-color-light-grey;
 
                 i {
+                  margin-right: 1rem;
                   font-size: 1.5rem;
                 }
 

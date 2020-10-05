@@ -1,6 +1,6 @@
 import React from 'react'
 import { Trans } from 'react-i18next'
-import SkillsCard from './SkilsCard'
+// import SkillsCard from './SkilsCard'
 
 function RelatedSkills({ skills }) {
   return (
