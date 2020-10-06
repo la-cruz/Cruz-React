@@ -175,15 +175,54 @@
 
 @media (max-width: 800px) {
     .perso-presentation {
+        img {
+            display: none;
+        }
+
         .info-perso {
-            margin-right: 5rem;
+            width: 100%;
+            margin: 0;
+            position: relative;
+            
+            &::before {
+                background-image: url('../../../images/team/big-audart.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                filter: opacity(0.2);
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+            }
 
             h1 {
                 font-size: 7rem;
+                text-align: center;
+                z-index: 5;
+
+                strong {
+                    color: transparent;
+                    background: unset;
+                }
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+                font-size: 2rem;
+                z-index: 5;
             }
 
             ul {
-                width: 70%;
+                width: 100%;
+                justify-content: center;
+                z-index: 5;
+
+                li {
+                    margin: 0 2rem;
+                }
             }
         }
     }
@@ -256,55 +295,14 @@
 
 @media (max-width: 700px) {
     .perso-presentation {
-        img {
-            display: none;
-        }
-
         .info-perso {
-            width: 100%;
-            margin: 0;
-            position: relative;
-            
-            &::before {
-                background-image: url('../../../images/team/big.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                filter: opacity(0.2);
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 100%;
-            }
-
             h1 {
                 font-size: 6rem;
                 line-height: 6rem;
-                text-align: center;
-                z-index: 5;
-
-                strong {
-                    color: transparent;
-                    background: unset;
-                }
             }
 
             p {
-                width: 100%;
-                text-align: center;
                 font-size: 2rem;
-                z-index: 5;
-            }
-
-            ul {
-                width: 100%;
-                justify-content: center;
-                z-index: 5;
-
-                li {
-                    margin: 0 2rem;
-                }
             }
 
             .cv {

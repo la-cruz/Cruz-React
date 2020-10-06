@@ -15,7 +15,7 @@ function Perso({ data, scrollToRef }) {
 
     return (
         <section className="perso-presentation">
-            <img src={require(`../../assets/images/team/big.png`)} alt="team-img"/>
+            <img src={require(`../../assets/images/team/big-${data.name.toLowerCase()}.jpg`)} alt="team-img"/>
             <div className="info-perso">
                 <h1>{data.name} <strong>{data.firstname}</strong></h1>
                 <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
