@@ -2,16 +2,15 @@
     display: flex;
     justify-content: space-between;
     height: 105vh;
-    
-    img {
-        width: 40%;
-        object-fit: cover;
-        align-self: flex-end;
-    }
+    background-color: #020202;
+    background-image: url('../../images/team/mickael-big.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     
     .info-perso {
-        width: 45%;
+        width: 50%;
         display: flex;
+        margin-left: auto;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
@@ -19,13 +18,14 @@
         
         h1 {
             width: 100%;
-            font-size: 13rem;
+            font-size: 15rem;
             text-align: right;
             font-weight: 800;
             text-transform: uppercase;
-            line-height: 14rem;
+            line-height: 16rem;
             
             strong {
+                color: #020202;
                 -webkit-text-stroke-color: $cruz-color-yellow-dark;
             }
         }
