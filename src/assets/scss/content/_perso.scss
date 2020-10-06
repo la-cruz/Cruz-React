@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     height: 105vh;
+    background-color: #020202;
     
     img {
+        height: 100%;
         width: 40%;
         object-fit: cover;
         align-self: flex-end;
