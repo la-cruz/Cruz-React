@@ -14,7 +14,7 @@ function Perso({ data, scrollToRef }) {
     };
 
     return (
-        <section className="perso-presentation">
+        <section className={`perso-presentation ${data.name.toLowerCase()}`}>
             <div className="info-perso">
                 <h1>{data.name} <strong>{data.firstname}</strong></h1>
                 <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
@@ -38,7 +38,7 @@ function Perso({ data, scrollToRef }) {
                 <source srcSet={require('../../assets/images/scroll.webp')} type="image/webp" />
                 <img src={require('../../assets/images/scroll.png')} alt="scroll" />
             </picture>
-        </section >
+        </section>
     )
 }
 
