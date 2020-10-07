@@ -1,12 +1,18 @@
+@media (max-width: 1200px) {
+    .container-wrap-list {
+        width: 70% !important;
+    }
+}
+
 @media (max-width: 1000px) {
     .container-wrap-list {
-        width: 70%;
+        width: 80% !important;
     }
 }
 
 @media (max-width: 800px) {
     .container-wrap-list {
-        width: 90%;
+        width: 90% !important;
     }
 }
 
@@ -24,6 +30,17 @@
             .logo-tools {
                 width: 50px;
                 height: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .container-wrap-list {
+        .wrap-list-elem {
+            .logo-tools {
+                width: 35px;
+                height: 35px;
             }
         }
     }

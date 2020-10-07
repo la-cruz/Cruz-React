@@ -1,0 +1,492 @@
+@media (max-width: 1400px) {
+    .perso-presentation {
+        .info-perso {
+            h1 {
+                font-size: 10rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            ul {
+                li {
+                    a {
+                        i {
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .studies {
+        margin: 15rem 5rem;
+
+        .studies-content {
+            .studies-list {
+                .studies-elem {
+                    img {
+                        right: 5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .studies {
+        .studies-content {
+            .studies-list {
+                .studies-elem {
+                    .studies-info {
+                        h3 {
+                            font-size: 2rem;
+                        }
+
+                        p {
+                            font-size: 1.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .experiences {
+        .experience-card {
+            h3 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            ul {
+                width: 80%;
+
+                li {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .perso-presentation {
+        .info-perso {
+            h1 {
+                font-size: 8rem;
+                line-height: 8rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            ul {
+                li {
+                    a {
+                        i {
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about-perso {
+        h2 {
+            font-size: 5rem;
+        }
+    }
+
+    .studies {
+        h2 {
+            font-size: 5rem;
+        }
+        
+        .studies-content {
+            .studies-list {
+                .studies-elem {
+                    .studies-info {
+                        h3 {
+                            font-size: 1.7rem;
+                        }
+
+                        p {
+                            font-size: 1.5rem;
+                        }
+
+                        ul {
+                            li {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    img {
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .experiences {
+        justify-content: space-around;
+        padding: 0;
+
+        h2 {
+            font-size: 5rem;
+        }
+
+        .experiences-row {
+            .experience-card {
+                width: 50%;
+            }
+        }
+    }
+
+    .related-project {
+        h2 {
+            font-size: 5rem;
+        }
+    }
+
+    .related-tools {
+        h2 {
+            font-size: 5rem;
+        }
+    }
+
+    .related-skills {
+        h2 {
+            font-size: 5rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .perso-presentation {
+        img {
+            display: none;
+        }
+
+        .info-perso {
+            width: 100%;
+            margin: 0;
+            position: relative;
+            
+            &::before {
+                background-image: url('../../../images/team/big-audart.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                filter: opacity(0.2);
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 7rem;
+                text-align: center;
+                z-index: 5;
+
+                strong {
+                    color: transparent;
+                    background: unset;
+                }
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+                font-size: 2rem;
+                z-index: 5;
+            }
+
+            ul {
+                width: 100%;
+                justify-content: center;
+                z-index: 5;
+
+                li {
+                    margin: 0 2rem;
+                }
+            }
+        }
+    }
+
+    .about-perso {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+
+    .studies {
+        h2 {
+            font-size: 4rem;
+            padding: 0;
+        }
+
+        .studies-content {
+            .studies-list {
+                .studies-elem {
+                    .studies-info {
+                        margin-left: 5rem;
+
+                        h3 {
+                            font-size: 1.7rem;
+                        }
+
+                        p {
+                            font-size: 1.5rem;
+                        }
+
+                        ul {
+                            li {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .experiences {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+
+    .related-project {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+
+    .related-tools {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+
+    .related-skills {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .perso-presentation {
+        .info-perso {
+            h1 {
+                font-size: 6rem;
+                line-height: 6rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            .cv {
+                margin: 7rem auto 0 auto;
+            }
+        }
+    }
+
+    .studies {
+        .studies-content {
+            .roadmap {
+                .roadmap-point {
+                    width: 7rem;
+                    height: 7rem;
+
+                    i {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+
+            .studies-list {
+                .studies-elem {
+                    margin: 1.8rem 0;
+
+                    .studies-info {
+                        margin-left: 5rem;
+
+                        h3 {
+                            font-size: 1.7rem;
+                            width: 80%;
+                        }
+
+                        p {
+                            font-size: 1.5rem;
+                        }
+
+                        ul {
+                            li {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .experiences {
+        .experiences-row {
+            flex-wrap: wrap;
+            .experience-card {
+                width: 90%;
+
+                p {
+                    text-align: center;
+                }
+
+                ul {
+                    text-align: center;
+                    width: 100%;
+                    list-style: none;
+
+                    li {
+                        line-height: 2rem;
+                        margin: 0.5rem 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .related-project {
+        .slick-next,
+        .slick-prev {
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .about-perso {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .studies {
+        margin: 15rem 1rem;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .studies-content {
+            .roadmap {
+                width: 10%;
+
+                .roadmap-point {
+                    width: 5rem;
+                    height: 5rem;
+
+                    i {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                svg {
+                    line {
+                        stroke-width: 10;
+                    }
+                }
+            }
+
+            .studies-list {
+                .studies-elem {
+                    margin: 1rem 0;
+
+                    .studies-info {
+                        margin-left: 5rem;
+
+                        h3 {
+                            font-size: 1.7rem;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .experiences {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .related-project {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .related-tools {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+    .related-skills {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .perso-presentation {
+        .info-perso {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .studies {
+        .studies-content {
+            .studies-list {
+                .studies-elem {
+                    .studies-info {
+                        h3 {
+                            font-size: 1.5rem;
+                        }
+
+                        p {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

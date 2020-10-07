@@ -15,14 +15,14 @@ function Perso({ data, scrollToRef }) {
 
     return (
         <section className="perso-presentation">
-            <img src={require(`../../assets/images/team/big.png`)} alt="team-img"/>
+            <img src={require(`../../assets/images/team/big-${data.name.toLowerCase()}.jpg`)} alt="team-img"/>
             <div className="info-perso">
                 <h1>{data.name} <strong>{data.firstname}</strong></h1>
                 <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
                 <ul>
                     {
                         data.socials.map(link => (
-                            <li li key={link.icon}>
+                            <li key={link.icon}>
                                 <a href={link.name === "mail" ? "mailto:" + link.link : "" + link.name === "tel" ? "tel:" + link.link : "" + link.link} {...link.name === "mail" ? { target: "_blank", rel: "noopener noreferrer" } : {}}>
                                     <i className={link.icon}></i>
                                 </a>
