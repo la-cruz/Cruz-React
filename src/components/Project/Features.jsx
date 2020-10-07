@@ -4,7 +4,7 @@ import SlickLink from '../Basic/SlickLink'
 
 const Features = forwardRef( ({data}, ref) => (
     <div className="features" ref={ref}>
-        <h2><Trans>label.project.features</Trans></h2>
+        <h2 classsName="wow fadeIn"><Trans>label.project.features</Trans></h2>
         <SlickLink data={data} type="feature"/>
     </div>
 ));

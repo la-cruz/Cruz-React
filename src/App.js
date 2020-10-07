@@ -11,7 +11,7 @@ import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
-import {WOW} from 'wowjs'
+import WOW from 'wow.js'
 
 import toKebabCase from './lib/toKebabCase'
 
@@ -30,7 +30,7 @@ function App() {
   i18n.changeLanguage("fr")
 
   useEffect(() => {
-    const wow = new WOW({offset: 50})
+    const wow = new WOW()
     wow.init()
   }, [])
 
