@@ -5,7 +5,6 @@ import Studies from './Studies'
 import Experiences from './Experiences'
 import RelatedProject from './RelatedProject'
 import RelatedTools from './RelatedTools'
-import RelatedSkills from './RelatedSkills'
 import { Helmet } from "react-helmet"
 
 import { useTranslation } from "react-i18next";
@@ -39,7 +38,7 @@ function Perso({ data }) {
             <RelatedProject projects={getRelatedProject(data.projects)} />
             <RelatedTools title="label.perso.technologies" data={data.technologies} skew />
             <RelatedTools title="label.perso.tools" data={data.tools} />
-            <RelatedSkills skills={data.qualities} />
+            {/* <RelatedSkills skills={data.qualities} /> */}
         </>
     )
 }

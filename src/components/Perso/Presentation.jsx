@@ -31,7 +31,7 @@ function Perso({ data, scrollToRef }) {
                 </ul>
                 {
                     resume !== null &&
-                    <a className="hover-shadow cv" href={fileName} download={fileName}><i class="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
+                    <a className="hover-shadow cv" href={fileName} download={fileName}><i className="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
                 }
             </div>
             <picture className="scroll" onClick={scrollToRef}>

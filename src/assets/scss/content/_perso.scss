@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 105vh;
-    background-color: #030303;
+    background-color: #020202;
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -41,10 +41,11 @@
             text-align: right;
             font-weight: 800;
             text-transform: uppercase;
-            line-height: 16rem;
+            line-height: 10rem;
             
             strong {
                 -webkit-text-stroke-color: $cruz-color-yellow-dark;
+                color: #020202;
             }
         }
         
@@ -125,7 +126,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 6rem 0;
     margin-bottom: 10rem;
     
     * {
@@ -136,6 +137,7 @@
         strong {
             color: $cruz-color-grey;
         }
+        padding-bottom: 8rem;
     }
     
     p {
@@ -153,7 +155,7 @@
         content: "";
         display: block;
         width: 100%;
-        height: 120%;
+        height: 110%;
         transform: skewY(2deg);
         box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
     }
@@ -255,7 +257,7 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     padding: 0 10rem;
     
     * {
@@ -269,13 +271,13 @@
         content: "";
         display: block;
         width: 100%;
-        height: 110%;
+        height: 105%;
         transform: skewY(2deg);
         box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
     }
     
     h2 {
-        padding: 5rem 0;
+        padding: 15rem 0 8rem 0;
         width: 100%;
         strong {
             color: $cruz-color-grey;
@@ -322,13 +324,15 @@
             ul {
                 list-style: disc;
                 margin: 3rem 0;
-                width: 60%;
+                width: 70%;
                 font-size: 1.3rem;
                 
                 li {
                     color: $cruz-color-white;
                     margin: 0.6rem 1.5rem 0.6rem;
                     font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    font-weight: 600;
                 }
             }
         }
@@ -337,6 +341,10 @@
 
 .related-project {
     padding-top: 15rem;
+
+    h2 {
+        padding-bottom: 8rem;
+    }
     
     * {
         position: relative;
@@ -347,8 +355,10 @@
     margin: 15rem 0;
     
     &:not(.skew) {
+        margin-bottom: 0rem;
+
         h2 {
-            padding-top: 8rem;
+            padding: 6rem 0;
         }
     }
     
@@ -367,13 +377,13 @@
             content: "";
             display: block;
             width: 100%;
-            height: 110%;
+            height: 120%;
             transform: skewY(2deg);
             box-shadow: 0px 0px 20px 0px $cruz-color-light-grey;
         }
         
         h2 {
-            padding-top: 10rem;
+            padding: 10rem 0 8rem 0;
             strong {
                 color: $cruz-color-grey;
             }
@@ -411,7 +421,7 @@
     
     h2 {
         width: 100%;
-        margin: 3rem 0;
+        margin: 5rem 0;
         strong {
             color: $cruz-color-grey;
         }
