@@ -8,7 +8,7 @@ function RelatedTools({ title, data, skew }) {
 
   return (
     <section className={classname}>
-      <h2><Trans>{title}</Trans></h2>
+      <h2 className="wow fadeIn"><Trans>{title}</Trans></h2>
       <WrapList data={data}/>
     </section>
   )

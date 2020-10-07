@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function MemberCard({data}) {
     return (
-        <section className="card-member wow fadeInUp">
+        <section className="card-member wow fadeInUp" data-wow-delay={`${(Math.random()*10) / 10}s`}>
             <div className="card">
                 <img src={require(`../../assets/images/team/${data.imgsrc}`)} alt="" />
                 <div className="overlay">

@@ -19,18 +19,18 @@ function Experiences({ experiences }) {
 
     return (
         <section className="experiences">
-        <h2><Trans>label.perso.experiences</Trans></h2>
-        {
-            groupedExp.map(([exp1, exp2]) => (
-                <div className="experiences-row" key={`${exp1.title}`}>
-                    <ExperienceCard data={exp1} />
-                    {
-                        exp2 &&
-                        <ExperienceCard data={exp2} />
-                    } 
-                </div>
-            ))
-        }
+            <h2 className="wow fadeIn"><Trans>label.perso.experiences</Trans></h2>
+            {
+                groupedExp.map(([exp1, exp2]) => (
+                    <div className="experiences-row" key={`${exp1.title}`}>
+                        <ExperienceCard data={exp1} first/>
+                        {
+                            exp2 &&
+                            <ExperienceCard data={exp2} />
+                        } 
+                    </div>
+                ))
+            }
         </section>
     )
 }

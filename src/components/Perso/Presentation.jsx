@@ -16,9 +16,9 @@ function Perso({ data, scrollToRef }) {
     return (
         <section className={`perso-presentation ${data.name.toLowerCase()}`}>
             <div className="info-perso">
-                <h1>{data.name} <strong>{data.firstname}</strong></h1>
-                <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
-                <ul>
+                <h1 className="wow fadeInRight" data-wow-delay="0.2s">{data.name} <strong>{data.firstname}</strong></h1>
+                <p className="wow fadeInRight" data-wow-delay="0.4s"><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
+                <ul className="wow fadeInRight" data-wow-delay="0.5s">
                     {
                         data.socials.map(link => (
                             <li key={link.icon}>
@@ -31,7 +31,7 @@ function Perso({ data, scrollToRef }) {
                 </ul>
                 {
                     resume !== null &&
-                    <a className="hover-shadow cv" href={fileName} download={fileName}><i class="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
+                    <a className="hover-shadow cv wow fadeInRight" data-wow-delay="0.6s" href={fileName} download={fileName}><i className="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
                 }
             </div>
             <picture className="scroll" onClick={scrollToRef}>
