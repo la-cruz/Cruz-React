@@ -2,10 +2,29 @@
     display: flex;
     justify-content: space-between;
     height: 105vh;
-    background-color: #020202;
-    //background-image: url('../../images/team/big.jpg');
+    background-color: #030303;
     background-repeat: no-repeat;
     background-size: contain;
+    
+    &.alves {
+        background-image: url('../../images/team/big-alves.jpg');
+    }
+    
+    &.audart {
+        background-image: url('../../images/team/big-audart.jpg');
+    }
+    
+    &.idoux {
+        background-image: url('../../images/team/big-idoux.jpg');
+    }
+    
+    &.bruneau {
+        // background-image: url('../../images/team/big-bruneau.jpg');
+    }
+    
+    &.sabard {
+        // background-image: url('../../images/team/big-sabard.jpg');
+    }
     
     .info-perso {
         width: 50%;
@@ -25,7 +44,6 @@
             line-height: 16rem;
             
             strong {
-                color: #020202;
                 -webkit-text-stroke-color: $cruz-color-yellow-dark;
             }
         }
@@ -108,7 +126,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 5rem 0;
-    margin-top: 2rem;
     margin-bottom: 10rem;
     
     * {
@@ -270,7 +287,7 @@
         align-items: flex-start;
         justify-content: space-around;
         width: 100%;
-
+        
         .experience-card {
             width: 45%;
             display: flex;
@@ -319,7 +336,7 @@
 }
 
 .related-project {
-    padding-top: 5rem;
+    padding-top: 15rem;
     
     * {
         position: relative;

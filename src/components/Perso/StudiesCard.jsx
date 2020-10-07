@@ -21,7 +21,10 @@ function StudiesCard({ study }) {
           </ul>
         }
       </div>
-      <img src={image} alt="studies-img"/>
+     {
+        image != "" &&
+        <img src={image} alt="studies-img"/>
+     } 
     </article>
   )
 }

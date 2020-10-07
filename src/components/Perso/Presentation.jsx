@@ -24,7 +24,7 @@ function Perso({ data, scrollToRef }) {
     console.log(backgroundImage)
 
     return (
-        <section className="perso-presentation" style={{backgroundImage : `url(${backgroundImage})`}}>
+        <section className={`perso-presentation ${data.name.toLowerCase()}`}>
             <div className="info-perso">
                 <h1>{data.name} <strong>{data.firstname}</strong></h1>
                 <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
