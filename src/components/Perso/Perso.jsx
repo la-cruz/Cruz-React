@@ -5,7 +5,6 @@ import Studies from './Studies'
 import Experiences from './Experiences'
 import RelatedProject from './RelatedProject'
 import RelatedTools from './RelatedTools'
-import RelatedSkills from './RelatedSkills'
 import { Helmet } from "react-helmet"
 
 import { useTranslation } from "react-i18next";
