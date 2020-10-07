@@ -6,22 +6,12 @@ function Perso({ data, scrollToRef }) {
     const language = i18n.language;
     const fileName = language === "fr" ? data.cv_fr : data.cv_en;
     var resume;
-    var backgroundImage;
 
     try {
         resume = fileName === "" ? null : require("../../assets/cvs/" + fileName);
     } catch (error) {
         resume = null;
     };
-
-    try {
-        backgroundImage = require(`../../assets/images/team/big-${data.name.toLowerCase()}.jpg`)
-    } catch (error) {
-        console.error(error)
-        backgroundImage = null
-    }
-
-    console.log(backgroundImage)
 
     return (
         <section className={`perso-presentation ${data.name.toLowerCase()}`}>
@@ -48,7 +38,7 @@ function Perso({ data, scrollToRef }) {
                 <source srcSet={require('../../assets/images/scroll.webp')} type="image/webp" />
                 <img src={require('../../assets/images/scroll.png')} alt="scroll" />
             </picture>
-        </section >
+        </section>
     )
 }
 
