@@ -6,6 +6,7 @@ function Perso({ data, scrollToRef }) {
     const language = i18n.language;
     const fileName = language === "fr" ? data.cv_fr : data.cv_en;
     var resume;
+    var backgroundImage;
 
     try {
         resume = fileName === "" ? null : require("../../assets/cvs/" + fileName);
@@ -13,8 +14,17 @@ function Perso({ data, scrollToRef }) {
         resume = null;
     };
 
+    try {
+        backgroundImage = require(`../../assets/images/team/big-${data.name.toLowerCase()}.jpg`)
+    } catch (error) {
+        console.error(error)
+        backgroundImage = null
+    }
+
+    console.log(backgroundImage)
+
     return (
-        <section className="perso-presentation">
+        <section className="perso-presentation" style={{backgroundImage : `url(${backgroundImage})`}}>
             <div className="info-perso">
                 <h1>{data.name} <strong>{data.firstname}</strong></h1>
                 <p><Trans>{data.fonction}</Trans> - <Trans>{data.metier}</Trans></p>
