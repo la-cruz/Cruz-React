@@ -5,8 +5,6 @@ import { Helmet } from "react-helmet"
 import { Trans } from 'react-i18next'
 import i18n from 'i18next';
 
-
-
 function Team() {
     const language = i18n.language;
     const title = (language === "fr" ? "Équipe" : "Team") + " | LACRUZ";

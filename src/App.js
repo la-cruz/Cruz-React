@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from "react-i18next";
 
 import ScrollToTop from './components/Basic/ScrollToTop'
@@ -11,6 +11,7 @@ import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
+import WOW from 'wow.js'
 
 import toKebabCase from './lib/toKebabCase'
 
@@ -27,6 +28,11 @@ import members from './lib/team'
 function App() {
   const { i18n } = useTranslation()
   i18n.changeLanguage("fr")
+
+  useEffect(() => {
+    const wow = new WOW()
+    wow.init()
+  }, [])
 
   return (
     <Router>

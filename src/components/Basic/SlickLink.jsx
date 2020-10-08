@@ -50,7 +50,7 @@ function SlickLink({data, type}) {
     };
 
     return (
-        <div className="container-slider">
+        <div className="container-slider wow fadeIn">
             <Slider {...settings}>
             {
                 type === "project" ?
