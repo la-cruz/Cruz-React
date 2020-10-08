@@ -4,8 +4,8 @@
   "image": "mickael.jpg",
   "thumbnail": "mickael-thumbnail.png",
   "bio": "label.perso.bio.bruneau",
-  "cv_fr": "cv-site-Bruneau.pdf",
-  "cv_en": "cv-site-Bruneau.pdf",
+  "cv_fr": "cv-richard-fr.pdf",
+  "cv_en": "cv-richard-fr.pdf",
   "fonction": "label.perso.secretary",
   "metier": "label.perso.dev.polyvalent",
   "socials": [
@@ -36,7 +36,12 @@
       "date": "label.perso.date.2020.2021",
       "location": "label.perso.location.lyon1",
       "logo": "lyon1.png",
-      "list": []
+      "list": [
+        "label.perso.elem.project.management",
+        "label.perso.elem.dev.java",
+        "label.perso.elem.dev.python",
+        "label.perso.elem.dev.netlogo"
+      ]
     },
     {
       "title": "label.perso.studies.title.master1",
@@ -69,7 +74,8 @@
       "company": "Association La Cruz",
       "logo": "cruz.png",
       "list": [
-        "label.perso.elem.administration"
+        "label.perso.elem.administration",
+        "label.perso.elem.project.management"
       ]
     },
     {
@@ -112,23 +118,42 @@
       "list": [
         "label.perso.elem.solidworks"
       ]
-    }
+    },
+    {
+        "title": "label.perso.exp.title.unicef",
+        "date": "label.perso.date.sept.juillet.2014",
+        "company": "Unicef",
+        "logo": "unicef.png",
+        "list": [
+            "label.perso.elem.project.management",
+            "label.perso.elem.project.caritative",
+            "label.perso.elem.project.children"
+        ]
+      }
   ],
   "projects": [
     "Eva Dalla Costa"
   ],
   "technologies": [
-    "C++",
     "Java",
+    "Maven",
+    "C++",
     "VBA",
     "Python",
-    "CSharp"
+    "CSharp",
+    "SQL",
+    "Git"
   ],
   "tools": [
-    "Git",
+    "Github",
+    "Gitlab",
+    "Linux",
     "Netlogo",
     "Unity",
-    "JUnit"
+    "JUnit",
+    "VSCode",
+    "IntelliJ",
+    "Figma"
   ],
   "qualities": [
     {

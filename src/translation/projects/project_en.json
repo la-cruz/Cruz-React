@@ -82,5 +82,9 @@
   "label.project.type.showcase.bo": "Showcase site / Back-office",
   "label.project.type.appweb.online.game": "Web application / Online game",
   "label.project.type.educative.appweb": "Educative Web App",
-  "label.project.type.appweb": "Web application"
+  "label.project.type.appweb": "Web application",
+  "label.perso.exp.title.unicef": "Young ambassador",
+  "label.perso.date.sept.juillet.2014": "From 2011 to 2014",
+  "label.perso.elem.project.caritative": "Charity evening entertainment",
+  "label.perso.elem.project.children": "Facilitation of workshops with children"
 }

@@ -60,7 +60,7 @@
       ]
     },
     {
-      "image": "idoux.jpg",
+      "image": "etienne.jpg",
       "name": "Idoux Etienne",
       "roles": [
         "label.project.team.role.dev",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "image": "bruneau.jpg",
+      "image": "richard.jpg",
       "name": "Bruneau Richard",
       "roles": [
         "label.project.team.role.design"

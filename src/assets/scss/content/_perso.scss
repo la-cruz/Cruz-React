@@ -1,7 +1,7 @@
 .perso-presentation {
     display: flex;
     justify-content: space-between;
-    height: 105vh;
+    height: 110vh;
     background-color: #020202;
     background-repeat: no-repeat;
     background-size: contain;
@@ -16,6 +16,7 @@
     
     &.idoux {
         background-image: url('../../images/team/big-idoux.jpg');
+        background-color: #010101;
     }
     
     &.bruneau {
@@ -37,7 +38,7 @@
         
         h1 {
             width: 100%;
-            font-size: 15rem;
+            font-size: 13rem;
             text-align: right;
             font-weight: 800;
             text-transform: uppercase;
@@ -313,6 +314,8 @@
                 color: $cruz-color-yellow-dark;
                 margin: 2rem 0;
                 font-size: 1.6rem;
+                line-height: 2.5rem;
+                text-align: center;
             }
             
             hr {
@@ -358,7 +361,7 @@
         margin-bottom: 0rem;
 
         h2 {
-            padding: 6rem 0;
+            padding: 10rem 0 6rem 0;
         }
     }
     
@@ -391,7 +394,7 @@
     }
     
     .container-wrap-list {
-        width: 60%;
+        width: 70%;
     }
 }
 
