@@ -84,7 +84,7 @@ function Contact() {
             <h2><Trans>label.form.title</Trans></h2>
             <form onSubmit={handleSubmit} id="contact_form_class" className="form">
                 <div className="contact-form">
-                    <div className="reverse-form wow zoomIn">
+                    <div data-aos="zoom-in" className="reverse-form">
                         {
                             ( errors.name !== "" && errors.name !== "no error" ) && 
                             <div className="error-form"><span>ERREUR</span><Trans>{ errors.name }</Trans></div>
@@ -92,7 +92,7 @@ function Contact() {
                         <input name="name" id="name" type="text" value={name} onChange={(e) => {setName(e.target.value)}} />
                         <label htmlFor="name"><Trans>label.form.name</Trans></label>
                     </div>
-                    <div className="reverse-form wow zoomIn">
+                    <div data-aos="zoom-in" className="reverse-form">
                         {
                             ( errors.email !== "" && errors.email !== "no error" ) && 
                             <div className="error-form"><span>ERREUR</span><Trans>{ errors.email }</Trans></div>
@@ -100,7 +100,7 @@ function Contact() {
                         <input name="email" id="email" type="text" value={email} onChange={(e) => {setEmail(e.target.value)}} />
                         <label htmlFor="email"><Trans>label.form.email</Trans></label>
                     </div>
-                    <div className="reverse-form wow zoomIn">
+                    <div data-aos="zoom-in" className="reverse-form">
                         {
                             ( errors.subject !== "" && errors.subject !== "no error" ) && 
                             <div className="error-form"><span>ERREUR</span><Trans>{ errors.subject }</Trans></div>
@@ -108,7 +108,7 @@ function Contact() {
                         <input name="subject" id="subject" type="text" value={subject} onChange={(e) => {setSubject(e.target.value)}} />
                         <label htmlFor="subject"><Trans>label.form.subject</Trans></label>
                     </div>
-                    <div className="reverse-form wow zoomIn">
+                    <div data-aos="zoom-in" className="reverse-form">
                         {
                             ( errors.content !== "" && errors.content !== "no error" ) && 
                             <div className="error-form"><span>ERREUR</span><Trans>{ errors.content }</Trans></div>

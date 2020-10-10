@@ -19,7 +19,7 @@ function Experiences({ experiences }) {
 
     return (
         <section className="experiences">
-            <h2 className="wow fadeIn"><Trans>label.perso.experiences</Trans></h2>
+            <h2 data-aos="fade-in"><Trans>label.perso.experiences</Trans></h2>
             {
                 groupedExp.map(([exp1, exp2]) => (
                     <div className="experiences-row" key={`${exp1.title}`}>

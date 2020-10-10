@@ -6,7 +6,7 @@ import RoadMap from './RoadMap'
 function Studies({ studies }) {
   return (
     <section className="studies">
-      <h2 className="wow fadeIn"><Trans>label.perso.studies</Trans></h2>
+      <h2 data-aos="fade-in"><Trans>label.perso.studies</Trans></h2>
       <div className="studies-content">
         <RoadMap studies={studies} />
         <div className="studies-list">
