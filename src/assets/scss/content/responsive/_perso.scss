@@ -88,7 +88,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 90px) {
     .perso-presentation {
         &.alves,
         &.audart,
@@ -108,6 +108,14 @@
         
         &.audart .info-perso::before {
             background-image: url('../../../images/team/big-audart.jpg');
+        }
+
+        &.bruneau .info-perso::before {
+            background-image: url('../../../images/team/big-bruneau.jpg');
+        }
+
+        &.sabard .info-perso::before {
+            background-image: url('../../../images/team/big-sabard.jpg');
         }
         
         .info-perso {
