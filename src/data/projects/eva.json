@@ -40,7 +40,8 @@
   "technologies": [
     "ReactJs",
     "Firebase",
-    "Sass"
+    "Sass",
+    "Webpack"
   ],
   "team": [
     {
@@ -71,7 +72,8 @@
       "image": "richard.jpg",
       "name": "Bruneau Richard",
       "roles": [
-        "label.project.team.role.design"
+        "label.project.team.role.design",
+        "label.project.team.role.administratif"
       ]
     }
   ]

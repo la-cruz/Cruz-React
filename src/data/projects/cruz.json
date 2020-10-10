@@ -46,7 +46,8 @@
     ],
     "technologies": [
         "ReactJs",
-        "Sass"
+        "Sass",
+        "Webpack"
     ],
     "team": [
         {

@@ -141,7 +141,8 @@
     "Figma",
     "VSCode",
     "Photoshop",
-    "Linux"
+    "Linux",
+    "Webpack"
   ],
   "qualities": [
     "label.perso.elem.flexibility",

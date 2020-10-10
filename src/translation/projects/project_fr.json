@@ -76,6 +76,7 @@
   "label.project.team.role.dev": "Développeur",
   "label.project.team.role.game.designer": "Game Designer",
   "label.project.team.role.design": "Design",
+  "label.project.team.role.administratif" : "Administratif",
   "label.project.team.role.project.management": "Gestion de projets",
   "label.project.type.jv": "Jeu vidéo",
   "label.project.type.showcase": "Site Vitrine",
