@@ -5,10 +5,10 @@ function ExperienceCard({ data, first }) {
 
   var image = data.logo !== "" ? require(`../../assets/images/companies/${data.logo}`) : ""
 
-  var animateClass = first ? "bounceInLeft" : "bounceInRight"
+  var animateClass = first ? "slide-right" : "slide-left"
 
   return (
-    <div className={`experience-card wow ${animateClass}`} data-wow-delay={`${(Math.random()*5) / 10}s`}>
+    <div data-aos={animateClass} className="experience-card">
       <img src={image} alt="exp-card-img" />
       <h3><Trans>{data.title}</Trans></h3>
       <p><Trans>{data.date}</Trans> - {data.company}</p>

@@ -6,7 +6,7 @@ function StudiesCard({ study }) {
   var image = study.logo !== "" ? require(`../../assets/images/schools/${study.logo}`) : ""
 
   return (
-    <article className="studies-elem wow slideInRight" key={study.title}>
+    <article data-aos="slide-left" className="studies-elem" key={study.title}>
       <div className="studies-info">
         <h3><Trans>{study.title}</Trans></h3>
         <p><Trans>{study.date}</Trans> - <Trans>{study.location}</Trans></p>

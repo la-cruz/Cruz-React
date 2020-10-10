@@ -11,7 +11,8 @@ import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
-import WOW from 'wow.js'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import toKebabCase from './lib/toKebabCase'
 
@@ -30,8 +31,7 @@ function App() {
   i18n.changeLanguage("fr")
 
   useEffect(() => {
-    const wow = new WOW()
-    wow.init()
+    Aos.init({once: true, offset: "50px", duration: "700"})
   }, [])
 
   return (

@@ -16,7 +16,7 @@ function Team() {
                 <meta property="og:title" content={title} />
                 <meta property="twitter:title" content={title} />
             </Helmet>
-            <h2 className="wow fadeInUp"><Trans>label.team.title</Trans>
+            <h2 data-aos="fade-up"><Trans>label.team.title</Trans>
             </h2>
             <section className="squad">
                 {
