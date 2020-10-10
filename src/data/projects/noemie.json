@@ -1,7 +1,8 @@
 {
     "presentation":
     {
-        "name": "Noémie Vargas",
+        "name": "label.project.name.nova",
+        "route": "Noémie Vargas",
         "image": "ov-mockup.png",
         "date": "2020",
         "desc": "label.project.desc.nova",
@@ -34,7 +35,8 @@
     "technologies": [
         "React",
         "Firebase",
-        "Sass"
+        "Sass",
+        "Webpack"
     ],
     "team": [
         {
@@ -56,12 +58,20 @@
             ]
         },
         {
-            "image": "idoux.jpg",
+            "image": "etienne.jpg",
             "name": "Idoux Étienne",
             "roles": [
               "label.project.team.role.dev",
               "label.project.team.role.design",
               "label.project.team.role.project.management"
+            ]
+        },
+        {
+            "image": "richard.jpg",
+            "name": "Bruneau Richard",
+            "roles": [
+              "label.project.team.role.design",
+              "label.project.team.role.administratif"
             ]
         }
     ]

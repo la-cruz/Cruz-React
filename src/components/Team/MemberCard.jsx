@@ -3,8 +3,10 @@ import { Trans } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 function MemberCard({data}) {
+    var random = parseInt(Math.random() * 10) * 50
+
     return (
-        <section className="card-member wow fadeInUp">
+        <section data-aos="fade-up" data-aos-delay={random} className="card-member">
             <div className="card">
                 <img src={require(`../../assets/images/team/${data.imgsrc}`)} alt="" />
                 <div className="overlay">
@@ -25,7 +27,7 @@ function MemberCard({data}) {
                               {
                                   data.has_link ?
                                   <Link to={`/team/${data.name.toLowerCase()}-${data.firstname.toLowerCase()}`} className="hover-shadow"><Trans>label.see.page.perso</Trans></Link> :
-                                  <a className="unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></a>
+                                  <button className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></button>
                               }
                             </div>
                         }

@@ -32,7 +32,7 @@ function CardMember({key, data, type}) {
                 {
                   hasLink ?
                   <Link to={`/team/${toKebabCase(data.name)}`} className="btn-card hover-shadow"><Trans>label.see.page.perso</Trans></Link> :
-                  <a className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></a>
+                  <button className="btn-card unavailable"><i className="far fa-clock"></i><Trans>label.page.perso.unavailable</Trans></button>
                 }
             </div>
         </div>

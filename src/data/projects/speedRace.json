@@ -1,7 +1,8 @@
 {
     "presentation":
     {
-        "name": "Speed Race",
+        "name": "label.project.name.speedrace",
+        "route": "Speed Race",
         "image": "speedrace-mockup.png",
         "date": "2020",
         "desc": "label.project.desc.speedrace",

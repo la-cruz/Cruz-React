@@ -1,5 +1,5 @@
 {
-  "label.perso.bio.bruneau": "I am a french student in Artificial Intelligence at Lyon 1 University and the secretary of this association. I am looking for an internship between march and august 2021.",
+  "label.perso.bio.bruneau": "I am a french student in Artificial Intelligence at Lyon 1 University and the secretary of this association. I am looking for an internship between march and august 2021. <br><br> Since the age of 6 I have been practicing sports several times a week. I first played soccer and then badminton. Three years ago, I joined the Gones de Lyon to play Flag Football, a mixed and non-contact variant of American Football. All these years on the field have developed my team spirit and perseverance. <br><br> Since high school I have been involved in the associative sector. At the time, I was organizing charity events and conducting workshops with children for Unicef. Today, in addition to my role as secretary of the association La Cruz, I am part of the communication team of my Flag Football team and I assist the coaches in the organization of the tournaments. <br><br><br> I am looking for an internship between march and august 2021.",
   "label.perso.secretary": "Secretary",
   "label.perso.treasurer": "Teasurer",
   "label.perso.president": "President",
@@ -85,7 +85,7 @@
   "label.perso.elem.graphic.design": "Graphic design",
   "label.perso.elem.db.management": "Database management",
   "label.perso.elem.base.maintenance": "Computer maintenance basis",
-  "label.perso.elem.base.dev.wbe": "Web development basis",
+  "label.perso.elem.base.dev.web": "Web development basis",
   "label.perso.elem.web.project.simple": "Simple Web projects development",
   "label.perso.elem.c2i": "C2I",
   "label.perso.elem.svt": "Science & Vie",

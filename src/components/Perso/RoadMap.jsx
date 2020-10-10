@@ -5,7 +5,7 @@ function RoadMap({ studies }) {
     <div className="roadmap">
         {
           studies.map((_, index) => (
-            <>
+            <React.Fragment key={`roadmap-point-${index}`}>
               <div className="roadmap-point">
                 {
                   index === 0 ?
@@ -19,7 +19,7 @@ function RoadMap({ studies }) {
                     <line x1="50%" y1="10%" x2="50%" y2="95%" />
                 </svg>
               }
-            </>
+            </React.Fragment>
           ))
         }
     </div>

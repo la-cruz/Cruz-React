@@ -81,8 +81,8 @@
             "company": "Association La Cruz",
             "logo": "cruz.png",
             "list": [
-                "label.elem.perso.web.project",
-                "label.elem.perso.association.management",
+                "label.perso.elem.web.project",
+                "label.perso.elem.association.management",
                 "label.perso.elem.project.management",
                 "label.perso.elem.teamwork"
             ]
@@ -184,7 +184,8 @@
         "Firebase",
         "MySQL",
         "VSCode",
-        "Figma"
+        "Figma",
+        "Webpack"
     ],
     "qualities": [
         {

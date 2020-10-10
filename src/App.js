@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from "react-i18next";
 
 import ScrollToTop from './components/Basic/ScrollToTop'
@@ -11,6 +11,8 @@ import Legal from './components/Legal/Legal'
 import Team from './components/Team/Team'
 import Contact from './components/Contact/Contact'
 import Perso from './components/Perso/Perso'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import toKebabCase from './lib/toKebabCase'
 
@@ -28,6 +30,10 @@ function App() {
   const { i18n } = useTranslation()
   i18n.changeLanguage("fr")
 
+  useEffect(() => {
+    Aos.init({once: true, offset: "50px", duration: "700"})
+  }, [])
+
   return (
     <Router>
       <ScrollToTop />
@@ -42,7 +48,7 @@ function App() {
         {
           projects.map(project => {
             return (
-              <Route key={project.presentation.name} exact path={`/projects/${toKebabCase(project.presentation.name)}`}>
+              <Route key={project.presentation.name} exact path={`/projects/${toKebabCase(project.presentation.route)}`}>
                 <Project data={project} />
               </Route>
             )
