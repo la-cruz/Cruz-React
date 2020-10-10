@@ -43,7 +43,8 @@
     "Twig",
     "Bootstrap",
     "MySQL",
-    "ChartJS"
+    "ChartJS",
+    "Webpack"
   ],
   "team": [
     {

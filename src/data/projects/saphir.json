@@ -54,7 +54,9 @@
     ],
     "technologies": [
         "ReactJs",
-        "Firebase"
+        "React Dnd",
+        "Sass",
+        "Webpack"
     ],
     "team": [
         {
