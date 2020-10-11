@@ -101,7 +101,7 @@ function Home() {
                 </div>
             </section>
         
-        <div className="img-group"></div>
+            <div className="img-group"></div>
             <section className="production">
                 <h2 data-aos="fade-up"><Trans>label.title.productions</Trans></h2>
                 <input type="radio" className="collapse-checkbox" id="prod-web" name="prod-choice" defaultChecked={true} />
