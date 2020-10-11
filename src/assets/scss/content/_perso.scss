@@ -21,11 +21,11 @@
     }
     
     &.bruneau {
+        background-color: #010101;
         background-image: url('../../images/team/big-bruneau.jpg');
     }
     
     &.sabard {
-        // background-size: cover;
         background-image: url('../../images/team/big-sabard.jpg');
     }
     
@@ -54,6 +54,7 @@
         
         p {
             color: $cruz-color-white;
+            text-align: right;
             font-size: 2.5rem;
             font-weight: bold;
             letter-spacing: 0.2rem;
