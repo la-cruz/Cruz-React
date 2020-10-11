@@ -41,7 +41,7 @@ function Home() {
             
             new TimelineMax({delay: 0.3}).to(logo, {duration: 1, width: '25%'},)
             .to(logo, {duration: 1, opacity: '1'})
-            .to(logo, {duration: 0.1, width: '7rem', ease: Power2.easeInOut})
+            .to(logo, {duration: 0.1, width: '5rem', ease: Power2.easeInOut})
             .to(logo, {duration: 0.5, left: '5rem', ease: Power2.easeInOut}, "-=0.2")
             .to(logo, {duration: 0.5, top: '5rem', ease: Power2.easeInOut}, "-=0.4")
             .to(title, {duration: 1, left: '0%', ease: Power2.easeInOut})
@@ -51,9 +51,9 @@ function Home() {
             
             setIsAnimation(true)
         } else if(window.innerWidth > 1200) { 
-            logo.style.width = "5%";
-            logo.style.left = "5%";
-            logo.style.top = "5%";
+            logo.style.width = "5rem";
+            logo.style.left = "5rem";
+            logo.style.top = "5rem";
             logo.style.opacity = "1";
             
             title.style.right = "0%";

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from "react-i18next";
-
 import ScrollToTop from './components/Basic/ScrollToTop'
 import Error404 from './components/Basic/Error404'
 import Header from './components/Header/Header'
@@ -27,6 +26,7 @@ import projects from "./lib/projects";
 import members from './lib/team'
 
 function App() {
+  
   const { i18n } = useTranslation()
   i18n.changeLanguage("fr")
 
