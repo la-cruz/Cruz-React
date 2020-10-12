@@ -35,7 +35,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Header i18n={i18n} />
+      <Header />
       <Switch>
         <Route exact path="/legal">
           <Legal />

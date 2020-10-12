@@ -27,7 +27,7 @@ function Footer({ i18n }) {
                     <button onClick={() => i18n.changeLanguage("en")} className="btn-lng logo-en" aria-label="english-language" ></button>
                 </div>
                 <section className="copyright">
-                    <p><Link to="/legal"><Trans>label.footer.legal</Trans>    </Link> - © La Cruz<span><img src={require('../../assets/images/logo_cruz.png')} alt="logo cruz" /></span></p>
+                    <p><Link to="/legal"><Trans>label.footer.legal</Trans> </Link> - © La Cruz<span><img src={require('../../assets/images/logo_cruz.png')} alt="logo cruz" /></span></p>
                 </section>
             </div>
         </footer>
