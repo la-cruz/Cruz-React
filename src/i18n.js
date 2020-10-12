@@ -1,4 +1,5 @@
 import i18n from "i18next";
+import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from "react-i18next";
 import teamFr from './translation/team/team_fr.json'
 import teamEn from './translation/team/team_en.json'
@@ -25,11 +26,11 @@ var resources = {
 }
 
 i18n
+  .use(LanguageDetector)
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources,
-    lng: "en",
-
+    fallbackLng: "en",
     keySeparator: false, // we do not use keys in form messages.welcome
 
     interpolation: {
