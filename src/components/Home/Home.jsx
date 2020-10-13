@@ -21,17 +21,15 @@ function Home() {
         const logo = document.querySelector(".cruz-logo > img")
         const title = document.querySelector(".main-title")
         const desc = document.querySelector(".main-desc")
-        
-        if(isSafari) {
-            document.querySelector(".img-group").classList.add("safari")
-        }
-        
+        const hamburger = document.querySelector(".hamburger")
+
         if(!isAnimation && window.innerWidth > 1200) {
             gsap.registerPlugin(CSSPlugin)
             
             logo.style.transition = "1s";
             title.style.transition = "0.3s";
             desc.style.transition = "0.3s";
+            hamburger.style.opacity = "0";
             
             handleScroll.disableScroll();
             
@@ -46,6 +44,7 @@ function Home() {
             .to(logo, {duration: 0.5, top: '5rem', ease: Power2.easeInOut}, "-=0.4")
             .to(title, {duration: 1, left: '0%', ease: Power2.easeInOut})
             .to(desc, {duration: 1, left: '0%', ease: Power2.easeInOut})
+            .to(hamburger, {duration: 1, opacity: '1', ease: Power2.easeInOut})
             .eventCallback("onComplete", handleScroll.enableScroll)
             ;
             
