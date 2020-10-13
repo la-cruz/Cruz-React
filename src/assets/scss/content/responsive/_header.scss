@@ -1,11 +1,11 @@
 @media (max-width:1200px) {
     .cruz-logo {
-        img {
-            width: 7rem;
-            top: 5rem;
-            left: 5rem;
-            opacity: 1;
-        }
+        // img {
+        //     width: 7rem;
+        //     top: 5rem;
+        //     left: 5rem;
+        //     opacity: 1;
+        // }
     } 
 }
 
@@ -36,6 +36,10 @@
                 }
             }
         }
+    }
+
+    .hamburger {
+        top: 3rem;
     }
 }
 

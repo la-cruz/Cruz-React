@@ -31,7 +31,7 @@
     { "name": "Linux", "url" : "https://wikipedia.org/wiki/Linux", "img_src": "linux.svg", "is_home": false, "category": "web" },
     { "name": "VBA", "url" : "https://fr.wikipedia.org/wiki/Visual_Basic_for_Applications", "img_src": "vba.png", "is_home": false, "category": "both" },
     { "name": "Netlogo", "url" : "https://ccl.northwestern.edu/netlogo/", "img_src": "netlogo.png", "is_home": false, "category": "ia" },
-    { "name": "JUnit", "url" : "https://fr.wikipedia.org/wiki/JUnit", "img_src": "junit.png", "is_home": false, "category": "both" },
+    { "name": "Junit", "url" : "https://fr.wikipedia.org/wiki/JUnit", "img_src": "junit.png", "is_home": false, "category": "both" },
     { "name": "Webpack", "url" : "https://webpack.js.org/", "img_src": "webpack.png", "is_home": false, "category": "web" },
     { "name": "React Dnd", "url" : "https://react-dnd.github.io/react-dnd/", "img_src": "reactDnd.png", "is_home": false, "category": "web" }
 ]
