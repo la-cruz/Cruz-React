@@ -81,19 +81,7 @@
     "firstname": "Pierre",
     "metier": "label.perso.dev.web",
     "role": "label.perso.member",
-    "socials": [
-      {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/in/pierre-sabard-001bb5174/",
-        "class": "fab fa-linkedin"
-      },
-      {
-        "name": "git",
-        "link": "https://github.com/Sporard",
-        "class": "fab fa-github"
-      }
-    ],
-    "has_link": false
+    "has_link": true
   },
   {
     "imgsrc": "florent.jpg",
