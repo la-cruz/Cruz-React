@@ -9,7 +9,6 @@ function WrapList({data}) {
         img = require('../../assets/images/tools/' + name.toLowerCase() + '.svg')
       } catch {
         try {
-            console.log(name.toLowerCase());
           img = require('../../assets/images/tools/' + name.toLowerCase() + '.png')
         } catch (e) {
           console.error(e)
