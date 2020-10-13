@@ -26,9 +26,7 @@ import projects from "./lib/projects";
 import members from './lib/team'
 
 function App() {
-  
   const { i18n } = useTranslation()
-  i18n.changeLanguage("fr")
 
   useEffect(() => {
     Aos.init({once: true, offset: "50px", duration: "700"})
@@ -71,7 +69,7 @@ function App() {
           <Error404 />
         </Route>
       </Switch>
-      <Footer />
+      <Footer i18n={i18n} />
     </Router>
   );
 }
