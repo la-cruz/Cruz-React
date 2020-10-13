@@ -12,7 +12,7 @@ function WrapList({data}) {
           img = require('../../assets/images/tools/' + name.toLowerCase() + '.png')
         } catch (e) {
           console.error(e)
-          console.log("No image for ", name)
+          console.log("No image for ", name.toLowerCase())
         }
       }
 

@@ -50,7 +50,7 @@ function Home() {
             
             setIsAnimation(true)
         } else if(window.innerWidth > 1200) { 
-            logo.style.width = "5rem";
+            logo.style.width = "4rem";
             logo.style.left = "5rem";
             logo.style.top = "5rem";
             logo.style.opacity = "1";

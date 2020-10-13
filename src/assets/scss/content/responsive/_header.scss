@@ -1,14 +1,3 @@
-@media (max-width:1200px) {
-    .cruz-logo {
-        img {
-            width: 7rem;
-            top: 5rem;
-            left: 5rem;
-            opacity: 1;
-        }
-    } 
-}
-
 @media (max-width: 991px) {
     .cruz-header {
         .header-menu {
@@ -36,6 +25,10 @@
                 }
             }
         }
+    }
+
+    .hamburger {
+        top: 3rem;
     }
 }
 
