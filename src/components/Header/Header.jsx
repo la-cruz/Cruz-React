@@ -1,17 +1,23 @@
-import React, { useEffect} from 'react';
+import React, { useEffect, useState} from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Trans } from "react-i18next";
+import useSessionStorage from '../../lib/useSessionStorage'
 
 function Header() {
     const location = useLocation();
+    const [isAnimation, setIsAnimation] = useSessionStorage('animation', false)
 
     useEffect( () => {
         if(location.pathname !== "/"){
+          if (!isAnimation) {
+            setIsAnimation(true)
+          }
+
           const logo = document.querySelector(".cruz-logo > img");
             if(window.innerWidth > 1200) {
-              logo.style.width = "5%";
-              logo.style.left = "5%";
-              logo.style.top = "5%";
+              logo.style.width = "5rem";
+              logo.style.left = "5rem";
+              logo.style.top = "5rem";
               logo.style.opacity = "1";
             } else if(window.innerWidth < 500) {
                 var header = document.createElement("div");
@@ -27,7 +33,7 @@ function Header() {
                 }
             }
         }
-      }, [location]);
+      }, []);
 
     const handleOnClick = () => {
         document.querySelector("#hamburger-checkbox").checked = false;

@@ -5,7 +5,7 @@ import Technologies from './Technologies';
 import Team from './Team';
 import { Helmet } from "react-helmet";
 
-function Project( {data} ) {   
+function Project( {data} ) {
     const refToScroll = useRef(null);
 
     const scrollToRef = () => {

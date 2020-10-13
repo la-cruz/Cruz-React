@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from "react-i18next";
-
 import ScrollToTop from './components/Basic/ScrollToTop'
 import Error404 from './components/Basic/Error404'
 import Header from './components/Header/Header'
@@ -28,7 +27,6 @@ import members from './lib/team'
 
 function App() {
   const { i18n } = useTranslation()
-  i18n.changeLanguage("fr")
 
   useEffect(() => {
     Aos.init({once: true, offset: "50px", duration: "700"})
@@ -71,7 +69,7 @@ function App() {
           <Error404 />
         </Route>
       </Switch>
-      <Footer />
+      <Footer i18n={i18n} />
     </Router>
   );
 }

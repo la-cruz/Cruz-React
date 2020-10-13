@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: $cruz-color-dark-grey;
 
     .links-footer {
         width: 100%;
@@ -29,6 +30,28 @@
                 }
             }
         }
+    }
+
+    .btn-group {
+      button {
+          background: transparent;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          width: 2.5rem;
+          height: 2.5rem;
+          margin: 1rem;
+          
+          &.logo-fr {
+              background: url('../../images/lang-fr.png') no-repeat;
+              background-size: contain;
+          }
+          
+          &.logo-en {
+              background: url("../../images/lang-en.png") no-repeat;
+              background-size: contain;
+          }
+      }
     }
     
     .copyright {

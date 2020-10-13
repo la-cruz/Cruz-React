@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: $cruz-color-dark-grey;
     
     h1,
     p {
@@ -128,36 +129,11 @@
 }
 
 .img-group {
-    height: 60rem;
+    height: 80rem;
+    background-image: url("../../images/groupe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: grayscale(1);
-    position: relative;
-    
-    &::before {
-        position: absolute;
-        filter: grayscale(1);
-        background-image: url("../../images/groupe.jpg");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        content: '';
-        height: 100%;
-        left: 0;
-        top: 0;
-        width: 100%;
-        will-change: transform;
-        z-index: -1;
-    }
-    
-    &.safari {
-        height: 80rem;
-        background-image: url("../../images/groupe.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        &::before {
-            content: none;
-        }
-    }
 }
 
 .production {

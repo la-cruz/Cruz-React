@@ -3,9 +3,9 @@
     "firstname": "Lucas",
     "image": "lucas.png",
     "thumbnail": "lucas-thumbnail.png",
-    "bio": "label.perso.bio.bruneau",
-    "cv_fr": "cv-lucas-fr.pdf",
-    "cv_en": "cv-lucas-en.pdf",
+    "bio": "label.perso.bio.audart",
+    "cv_fr": "audart-cv-fr.pdf",
+    "cv_en": "",
     "fonction": "label.perso.treasurer",
     "metier": "label.perso.dev.web",
     "socials": [
