@@ -1,0 +1,143 @@
+{
+    "name": "SABARD", 
+    "firstname": "Pierre",
+    "image": "mickael.jpg",
+    "thumbnail": "mickael-thumbnail.png",
+    "bio": "label.perso.bio.sabard",
+    "cv_fr": "cv-site-Sabard.pdf",
+    "cv_en": "cv-site-Sabard.pdf",
+    "fonction": "label.perso.member",
+    "metier": "label.perso.dev.web",
+    "socials": [
+      {
+        "name": "mail",
+        "link": "pierresabard@gmail.com",
+        "icon": "fas fa-envelope"
+      },
+      {
+        "name": "tel",
+        "link": "0680301350",
+        "icon": "fas fa-phone"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/Sporard",
+        "icon": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/pierre-sabard/",
+        "icon": "fab fa-linkedin"
+      }
+    ],
+    "studies": [
+      {
+        "title": "label.perso.studies.title.master2.tiw",
+        "date": "label.perso.date.2020.2021",
+        "location": "label.perso.location.lyon1",
+        "logo": "lyon1.png",
+        "list": []
+      },
+      {
+        "title": "label.perso.studies.title.master1",
+        "date": "label.perso.date.2019.2020",
+        "location": "label.perso.location.lyon1",
+        "logo": "lyon1.png",
+        "list": [
+          "label.perso.elem.project.management",
+          "label.perso.elem.dev.java",
+          "label.perso.elem.dev.c++",
+          "label.perso.elem.dev.python",
+          "label.perso.elem.dev.symfony",
+          "label.perso.elem.dev.vue"
+        ]
+      },
+      {
+        "title": "label.perso.studies.title.bachelor",
+        "date": "label.perso.date.2015.2019",
+        "location": "label.perso.location.usmb",
+        "logo": "usmb.png",
+        "list": []
+      }
+      
+    ],
+    "experiences": [
+      {
+        "title": "label.perso.dev.web",
+        "date": "label.perso.date.since.2020",
+        "company": "Infomaniak",
+        "logo": "infomaniak.png",
+        "list" : [
+          "label.perso.elem.dev.php",
+          "label.perso.elem.dev.angularJS"
+          
+        ]
+      },
+      {
+        "title": "label.perso.dev.web",
+        "date": "label.perso.date.since.2019",
+        "company": "Association La Cruz",
+        "logo": "cruz.png",
+        "list": [
+          "label.perso.elem.administration"
+        ]
+      },
+      {
+        "title": "label.perso.cashier",
+        "date": "label.perso.date.june.august.2017.june.august.2019",
+        "company": "Monoprix",
+        "logo": "monoprix.png",
+        "list": [
+        ]
+      },
+      {
+        "title": "label.perso.vacation.auxiliary",
+        "date": "label.perso.date.july.august.2015.july.august.2016",
+        "company": "Société Général",
+        "logo": "sg.png",
+        "list": [
+          "label.perso.elem.order.reception"
+        ]
+      }
+    ],
+    "projects": [
+    ],
+    "technologies": [
+      "C++",
+      "Java",
+      "Python",
+      "PHP",
+      "C",
+      "AngularJS",
+      "Javascript",
+      "ADA",
+      "NodeJS",
+      "Android",
+      "Linux",
+      "Git"
+    ],
+    "tools": [
+      "JetBrains",
+      "Docker",
+      "VSCode"
+    ],
+    "qualities": [
+      {
+        "tilte": "label.perso.elem.teamwork",
+        "image": ""
+      },
+      {
+        "tilte": "label.perso.elem.attentive",
+        "image": ""
+      },
+      {
+        "title": "label.perso.elem.curious",
+        "image": ""
+      },
+      {
+        "title": "label.perso.elem.rigorous",
+        "image": ""
+      }
+    ]
+  }
+  

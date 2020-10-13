@@ -46,5 +46,13 @@
         "img": "speedrace.png",
         "link_website": "speed-race",
         "other_link": ""
+    },
+    {
+        "is_home": false,
+        "name": "Temporary",
+        "description": "Speed Race est une application réalisée sous forme de jeu de géolocalisation ou le but est d'être le premier à atteindre une cible. L'application est accompagnée d'un back-office pour la gestion du jeu.",
+        "img": "speedrace.png",
+        "link_website": "speed-race",
+        "other_link": ""
     }
 ]
