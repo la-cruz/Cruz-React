@@ -58,6 +58,13 @@ function Home() {
             title.style.right = "0%";
             desc.style.left = "0%";
         } else if(window.innerWidth < 500) {
+            logo.style.width = "5rem";
+            logo.style.left = "5rem";
+            logo.style.top = "5rem";
+            logo.style.opacity = "1";
+            
+            title.style.right = "0%";
+            desc.style.left = "0%";
             var header = document.createElement("div");
             header.className = "header-responsive";
             document.body.appendChild(header);
