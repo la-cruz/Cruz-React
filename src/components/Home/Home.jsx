@@ -10,7 +10,6 @@ import handleScroll from '../../lib/handleScroll'
 import { TimelineMax, Power2 } from 'gsap/gsap-core';
 import { CSSPlugin } from 'gsap';
 import gsap from 'gsap/gsap-core';
-import { isSafari } from 'react-device-detect';
 import SlickLink from '../Basic/SlickLink'
 import { Helmet } from "react-helmet";
 
