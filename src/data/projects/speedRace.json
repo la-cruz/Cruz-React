@@ -10,7 +10,7 @@
         "links": [
             {
                 "text": "label.project.check.github",
-                "link": "",
+                "link": "https://github.com/LA-CRUZ/SpeedRace",
                 "icon": "fab fa-github"
             }
         ]
