@@ -9,6 +9,7 @@ function Perso({ data, scrollToRef }) {
 
     try {
         resume = fileName === "" ? null : require("../../assets/cvs/" + fileName);
+        console.log(resume);
     } catch (error) {
         resume = null;
     };
@@ -31,7 +32,7 @@ function Perso({ data, scrollToRef }) {
                 </ul>
                 {
                     resume !== null &&
-                    <a data-aos="fade-left" className="hover-shadow cv" data-aos-delay="1000" href={fileName} download={fileName}><i className="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
+                    <a data-aos="fade-left" className="hover-shadow cv" data-aos-delay="1000" href={resume} download={fileName}><i className="fas fa-file-download"></i><Trans>label.perso.cv</Trans></a>
                 }
             </div>
             <picture className="scroll" onClick={scrollToRef}>
