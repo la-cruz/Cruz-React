@@ -128,5 +128,7 @@
   "label.perso.elem.dev.angularJS": "Développement avec AngularJS",
   "label.perso.cashier": "Caissier",
   "label.perso.vacation.auxiliary": "Auxiliaire de vacances",
-  "label.perso.noProjects": "Désolé, <strong>il n'y a pas de projets !</strong>"
+  "label.perso.noProjects": "Désolé, <strong>il n'y a pas de projets !</strong>",
+  "label.perso.location.usmb": "Université Savoie Mont Blanc",
+  "label.perso.location.orleans" : "Université d'Orléans"
 }
