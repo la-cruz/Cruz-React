@@ -79,7 +79,7 @@
         "company": "Association La Cruz",
         "logo": "cruz.png",
         "list": [
-          "label.perso.elem.administration"
+          "label.perso.elem.web.project"
         ]
       },
       {
@@ -113,10 +113,10 @@
       "ADA",
       "NodeJS",
       "Android",
-      "Linux",
-      "Git"
+      "Linux"
     ],
     "tools": [
+      "Git",
       "JetBrains",
       "Docker",
       "VSCode"
