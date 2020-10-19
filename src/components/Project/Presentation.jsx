@@ -13,7 +13,7 @@ function Presentation({data, scrollToRef}) {
                     <div data-aos="fade-left" className="links" data-aos-delay="600">
                         {
                             data.links.map(elem => (
-                                <a className="hover-shadow" href={elem.link} key={elem.link} >
+                                <a className="hover-shadow" href={elem.link} key={elem.link} target="_blank" rel="noopener noreferrer">
                                     <i className={elem.icon} alt="link-img" />
                                     <Trans>{elem.text}</Trans>
                                 </a>
@@ -26,7 +26,7 @@ function Presentation({data, scrollToRef}) {
                 <source srcSet={require('../../assets/images/scroll.webp')} type="image/webp" />
                 <img src={require('../../assets/images/scroll.png')} alt="scroll" />
             </picture>
-        </div>
+        </div> 
     );
 }
 

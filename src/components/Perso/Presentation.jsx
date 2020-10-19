@@ -22,7 +22,7 @@ function Perso({ data, scrollToRef }) {
                     {
                         data.socials.map(link => (
                             <li key={link.icon}>
-                                <a href={link.name === "mail" ? "mailto:" + link.link : "" + link.name === "tel" ? "tel:" + link.link : "" + link.link} {...link.name === "mail" ? { target: "_blank", rel: "noopener noreferrer" } : {}}>
+                                <a href={link.name === "mail" ? "mailto:" + link.link : "" + link.name === "tel" ? "tel:" + link.link : "" + link.link} target="_blank" rel="noopener noreferrer">
                                     <i className={link.icon}></i>
                                 </a>
                             </li>

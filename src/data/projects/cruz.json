@@ -34,12 +34,12 @@
           "description": "label.project.feature.desc.multilingue"
         },
         {
-          "img": "",
+          "img": "perso.png",
           "name": "label.project.feature.title.page.perso",
           "description": "label.project.feature.desc.page.perso"
         },
         {
-          "img": "",
+          "img": "project.png",
           "name": "label.project.feature.title.page.project",
           "description": "label.project.feature.desc.page.project"
         }
