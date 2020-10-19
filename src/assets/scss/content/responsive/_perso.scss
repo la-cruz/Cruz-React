@@ -354,6 +354,10 @@
 
 @media (max-width: 700px) {
     .perso-presentation {
+        .scroll {
+            display: none;
+        }
+
         .info-perso {
             h1 {
                 font-size: 6rem;

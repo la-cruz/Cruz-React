@@ -16,7 +16,7 @@
             },
             {
                 "text": "label.project.check.github",
-                "link": "https://github.com/LA-CRUZ",
+                "link": "https://github.com/LA-CRUZ/Cruz-React",
                 "icon": "fab fa-github"
             }
         ],
@@ -34,12 +34,12 @@
           "description": "label.project.feature.desc.multilingue"
         },
         {
-          "img": "",
+          "img": "perso.png",
           "name": "label.project.feature.title.page.perso",
           "description": "label.project.feature.desc.page.perso"
         },
         {
-          "img": "",
+          "img": "project.png",
           "name": "label.project.feature.title.page.project",
           "description": "label.project.feature.desc.page.project"
         }
