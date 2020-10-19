@@ -24,7 +24,7 @@
   "label.legal.cnil": "CNIL",
   "label.legal.cnil.text": "The association La Cruz keeps no trace of your visit on our site.",
   "label.form.title": "Contact <strong>us</strong>",
-  "label.form.name": "Nom",
+  "label.form.name": "Name",
   "label.form.email": "Email",
   "label.form.subject": "Object",
   "label.form.content": "Content",
@@ -51,5 +51,6 @@
   "label.404.title": "Page not found",
   "label.404.text": "Ooops, this page has a problem",
   "label.goto.home": "Return home",
-  "label.team.title": "Our <strong>team</strong>"
+  "label.team.title": "Our <strong>team</strong>",
+  "label.error": "Error"
 }
