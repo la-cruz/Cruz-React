@@ -10,7 +10,7 @@ function Perso({ data, scrollToRef }) {
     try {
         resume = fileName === "" ? "" : require('../../assets/cvs/' + fileName);
     } catch (error) {
-        resume = null;
+        resume = "";
     };
 
     return (
