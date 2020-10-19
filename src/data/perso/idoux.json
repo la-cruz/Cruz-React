@@ -142,7 +142,8 @@
     "VSCode",
     "Photoshop",
     "Linux",
-    "Webpack"
+    "Webpack",
+    "Docker"
   ],
   "qualities": [
     "label.perso.elem.flexibility",

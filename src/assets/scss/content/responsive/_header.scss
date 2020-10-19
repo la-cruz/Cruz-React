@@ -15,6 +15,11 @@
 }
 
 @media (max-width: 500px) {
+    .cruz-logo {
+        img {
+            top: 4rem !important;
+        }
+    }
     .cruz-header {
         .header-menu {
             ul {
