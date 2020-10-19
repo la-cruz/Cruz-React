@@ -4,7 +4,7 @@
   "label.menu.team": "Équipe",
   "label.menu.contact": "Contact",
   "label.subtitle": "Association de développement",
-  "label.association.description": "La Cruz est une association créée par des étudiants en informatique de l'Université Claude Bernard Lyon 1. Nous avions comme objectif de conserver une organisation semblable à celles présentes durant nos stages de licence. Aujourd'hui cette association nous permet d'avoir un cadre professionnel afin de réaliser des projets en dehors de nos cursus respectifs. Nos membres se sont spécialisés dans la création de sites web ainsi que dans le développement de jeux-vidéos afin de parfaire nos expériences personnelles et mettre en pratique nos compétences acquises au cours de nos parcours universitaire.",
+  "label.association.description": "La Cruz est une association créée par des étudiants en informatique de l'Université Claude Bernard Lyon 1. Nous avions comme objectif de conserver une organisation semblable à celles présentes durant nos stages de licence. Aujourd'hui cette association nous permet d'avoir un cadre professionnel afin de réaliser des projets en dehors de nos cursus respectifs. Nos membres se sont spécialisés dans la création de sites web ainsi que dans le développement de jeux-vidéos afin de parfaire nos expériences personnelles et mettre en pratique nos compétences acquises au cours de nos parcours universitaires.",
   "label.title.web": "Web",
   "label.title.jv": "Jeux-vidéo",
   "label.title.about": "qui <strong>sommes</strong> <strong>nous</strong>",
@@ -51,5 +51,6 @@
   "label.404.title": "Page non trouvé",
   "label.404.text": "Ooops, cette page a un petit problème",
   "label.goto.home": "Retour à l'accueil",
-  "label.team.title": "Notre <strong>équipe</strong>"
+  "label.team.title": "Notre <strong>équipe</strong>",
+  "label.error": "Erreur"
 }
