@@ -14,31 +14,30 @@ function Header() {
           }
 
           const logo = document.querySelector(".cruz-logo > img");
-            if(window.innerWidth > 1200) {
-              logo.style.width = "4rem";
-              logo.style.left = "5rem";
-              logo.style.top = "5rem";
-              logo.style.opacity = "1";
-            } else if(window.innerWidth < 500) {
-                var header = document.createElement("div");
-                header.className = "header-responsive";
-                document.body.appendChild(header);
-      
-                window.onscroll = function() {
-                    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                        header.style.opacity = "1";
-                    } else {
-                        header.style.opacity = "0";
-                    }
+          logo.style.width = "4rem";
+          logo.style.left = "5rem";
+          logo.style.top = "5rem";
+          logo.style.opacity = "1";
+
+          if(window.innerWidth < 500) {
+            var header = document.createElement("div");
+            header.className = "header-responsive";
+            document.body.appendChild(header);
+  
+            window.onscroll = function() {
+                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    header.style.opacity = "1";
+                } else {
+                    header.style.opacity = "0";
                 }
             }
+          }
         }
       }, []);
 
     const handleOnClick = () => {
         document.querySelector("#hamburger-checkbox").checked = false;
     };
-
 
     return (
         <>
