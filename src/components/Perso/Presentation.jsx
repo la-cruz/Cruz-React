@@ -4,7 +4,7 @@ import i18n from 'i18next';
 
 function Perso({ data, scrollToRef }) {
     const language = i18n.language;
-    const fileName = language === "fr" ? data.cv_fr : data.cv_en;
+    const fileName = language === "fr" || language === "fr-FR" ? data.cv_fr : data.cv_en;
     var resume;
 
     try {
