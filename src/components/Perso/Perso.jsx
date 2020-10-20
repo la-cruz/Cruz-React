@@ -6,21 +6,21 @@ import Experiences from './Experiences'
 import RelatedProject from './RelatedProject'
 import RelatedTools from './RelatedTools'
 import { Helmet } from "react-helmet"
-
-import { useTranslation } from "react-i18next";
-
+import i18n from 'i18next';
 
 import getRelatedProject from '../../lib/getRelatedProject'
 
 function Perso({ data }) {
     const refToScroll = useRef(null);
+    const language = i18n.language;
 
     const scrollToRef = () => {
         refToScroll.current.scrollIntoView({ behavior: 'smooth' })
     }
 
-    const { t } = useTranslation();
+    const t = language === 'fr' ? i18n.getFixedT('fr') : i18n.getFixedT('en');
     const title = data.firstname + " " + data.name.toUpperCase() + " - " + t(data.metier);
+    const description = i18n.t(data.bio).replace(/(<|&lt;)br\s*\/*(>|&gt;)/g,"");
 
     return (
         <>
@@ -29,6 +29,7 @@ function Perso({ data }) {
                 <meta name="title" content={title} />
                 <meta property="og:title" content={title} />
                 <meta property="twitter:title" content={title} />
+                <meta name="description" content={description} />
             </Helmet>
 
             <Presentation data={data} scrollToRef={scrollToRef} />

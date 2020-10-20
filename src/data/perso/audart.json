@@ -185,7 +185,8 @@
         "MySQL",
         "VSCode",
         "Figma",
-        "Webpack"
+        "Webpack",
+        "Docker"
     ],
     "qualities": [
         {

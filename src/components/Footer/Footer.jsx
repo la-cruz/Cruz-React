@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import animateScrollTo from 'animated-scroll-to';
 import { Trans } from 'react-i18next'
 
 
@@ -23,8 +24,8 @@ function Footer({ i18n }) {
                     <li><a href="mailto:contact@lacruz.org" target="_blank" rel="noopener noreferrer" aria-label="Link to our mail"><i className="fas fa-envelope"></i></a></li>
                 </ul>
                 <div className="btn-group">
-                    <button onClick={() => i18n.changeLanguage("fr")} className="btn-lng logo-fr" aria-label="french-language" ></button>
-                    <button onClick={() => i18n.changeLanguage("en")} className="btn-lng logo-en" aria-label="english-language" ></button>
+                    <button onClick={() => {i18n.changeLanguage("fr");animateScrollTo([0, 0])}} className="btn-lng logo-fr" aria-label="french-language" ></button>
+                    <button onClick={() => {i18n.changeLanguage("en");animateScrollTo([0, 0])}} className="btn-lng logo-en" aria-label="english-language" ></button>
                 </div>
                 <section className="copyright">
                     <p><Link to="/legal"><Trans>label.footer.legal</Trans> </Link> - © La Cruz<span><img src={require('../../assets/images/logo_cruz.png')} alt="logo cruz" /></span></p>
