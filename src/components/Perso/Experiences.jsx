@@ -5,16 +5,17 @@ import ExperienceCard from './ExperienceCard'
 function Experiences({ experiences }) {
 
     const [groupedExp, setGroupedExp] = useState([])
-    var tempExp = null
     var tempGroupedExp = []
-
+    
     useEffect(() => {
+        var tempExp = null
         for(var i = 0; i < experiences.length; i+=2) {    
             tempExp = experiences[i + 1] ? experiences[i + 1] : null
             tempGroupedExp.push([experiences[i], tempExp])
         }
 
         setGroupedExp(tempGroupedExp)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
