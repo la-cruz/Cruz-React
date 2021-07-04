@@ -36,7 +36,12 @@
             "date": "label.perso.date.2020.2021",
             "location": "label.perso.location.lyon1",
             "logo": "lyon1.png",
-            "list": []
+            "list": [
+                "label.perso.elem.dev.react",
+                "label.perso.elem.docker",
+                "label.perso.elem.dev.java.spring",
+                "label.perso.elem.data.analysis"
+            ]
         },
         {
             "title": "label.perso.studies.title.master1",
@@ -96,6 +101,17 @@
                 "label.perso.elem.audiovisual.project",
                 "label.perso.elem.shooting.organization",
                 "label.perso.elem.team.management"
+            ]
+        },
+        {
+            "title": "label.perso.exp.title.dev.fullstack.intern",
+            "date": "label.perso.date.mars.august.2021",
+            "company": "Alteca",
+            "logo": "alteca.png",
+            "list": [
+                "label.perso.elem.refactoring.angular",
+                "label.perso.elem.dev.spring.api",
+                "label.perso.elem.mockup.integration"
             ]
         },
         {
@@ -162,14 +178,15 @@
     "technologies": [
         "ReactJS",
         "VueJS",
+        "Angular",
         "NodeJS",
+        "Redux",
+        "ESlint",
         "Symfony",
         "Twig",
         "SASS",
         "JavaScript",
-        "HTML",
-        "PHP",
-        "CSS",
+        "Typescript",
         "Java",
         "Python",
         "SQL",
@@ -182,10 +199,12 @@
         "Github",
         "Gitlab",
         "Firebase",
+        "Heroku",
         "MySQL",
         "VSCode",
         "Figma",
         "Webpack",
+        "Vite",
         "Docker"
     ],
     "qualities": [
