@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '📆 Date'     
+        required: true
+      tags:
+        description: '🔖 Description'
+        required: false
+name: 🚀 Manual deployment on La Cruz server
+jobs:
+  web-deploy:
+    name: 🐵 Deploy on La Cruz OVH
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2.3.4
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+    
+    - name: 📂 Sync files with FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ftp.cluster023.hosting.ovh.net
+        username: qaqhmjq
+        password: ${{ secrets.ftp_password }}
+        local-dir: ./build/
+        server-dir: ./www/build/
