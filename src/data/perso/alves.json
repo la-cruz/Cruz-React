@@ -1,5 +1,6 @@
+
 {
-  "name": "Alves",
+  "name": "Alves", 
   "firstname": "Mickaël",
   "image": "mickael.jpg",
   "thumbnail": "mickael-thumbnail.png",
@@ -28,11 +29,6 @@
       "name": "linkedin",
       "link": "https://www.linkedin.com/in/mickaelalves",
       "icon": "fab fa-linkedin"
-    },
-    {
-      "name": "dev.to",
-      "link": "https://dev.to/cruzazul",
-      "icon": "fab fa-dev"
     }
   ],
   "studies": [
@@ -41,14 +37,7 @@
       "date": "label.perso.date.2020.2021",
       "location": "label.perso.location.lyon1",
       "logo": "lyon1.png",
-      "list": [
-        "label.perso.elem.dev.react",
-		"label.perso.elem.dev.node",
-        "label.perso.elem.docker",
-        "label.perso.elem.ansible",
-		"label.perso.elem.infra.secu",
-        "label.perso.elem.pgsql"
-      ]
+      "list": []
     },
     {
       "title": "label.perso.studies.title.master1",
@@ -83,7 +72,10 @@
       "date": "label.perso.date.2016",
       "location": "label.perso.location.ambroise.croizat",
       "logo": "croizat.png",
-      "list": ["label.perso.elem.svt", "label.perso.elem.spe.physics"]
+      "list": [
+        "label.perso.elem.svt",
+        "label.perso.elem.spe.physics"
+      ]
     }
   ],
   "experiences": [
@@ -95,23 +87,8 @@
       "list": [
         "label.perso.elem.association.management",
         "label.perso.elem.web.project",
-		"label.perso.elem.infra.host",
         "label.perso.elem.project.management",
         "label.perso.elem.teamwork"
-      ]
-    },
-    {
-      "title": "label.perso.dev.web.president",
-      "date": "label.perso.date.mars.september.2021",
-      "company": "Zenika",
-      "logo": "zenika.png",
-      "list": [
-        "label.perso.elem.users.needs",
-        "label.perso.elem.ux.ui",
-        "label.perso.elem.flutter",
-        "label.perso.elem.tests",
-        "label.perso.elem.data.structure",
-        "label.perso.elem.cron"
       ]
     },
     {
@@ -142,7 +119,9 @@
       "date": "label.perso.date.2013.month",
       "company": "TEAMINFO",
       "logo": "teaminfo.png",
-      "list": ["label.perso.elem.computer.maintenance"]
+      "list": [
+        "label.perso.elem.computer.maintenance"
+      ]
     },
     {
       "title": "label.perso.exp.title.volunteer",
@@ -169,18 +148,14 @@
     "VueJS",
     "NodeJS",
     "JavaScript",
-    "Typescript",
-    "Redux",
-    "Jest",
-    "Sass",
-    "CSS",
-    "Flutter",
-    "Dart",
     "Symfony",
     "Laravel",
+    "PHP",
     "SQL",
-    "ESlint",
+    "Sass",
+    "CSS",
     "Bootstrap",
+    "HTML",
     "Twig",
     "Python",
     "Java",
@@ -194,20 +169,15 @@
     "Suite Atlassian",
     "Linux",
     "Firebase",
-    "Codecov",
-    "CircleCi",
     "MySQL",
-	"Postgresql",
     "Postman",
-    "Vite",
     "Webpack",
     "VSCode",
     "Figma",
     "Netlify",
-    "Heroku",
     "Nginx",
+    "Apache",
     "Docker",
-	"Ansible",
     "Photoshop"
   ],
   "qualities": [
@@ -229,3 +199,4 @@
     }
   ]
 }
+
