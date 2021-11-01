@@ -32,23 +32,16 @@
   ],
   "studies": [
     {
-      "title": "label.perso.studies.title.master2.tiw",
-      "date": "label.perso.date.2020.2021",
-      "location": "label.perso.location.lyon1",
-      "logo": "lyon1.png",
-      "list": []
-    },
-    {
-      "title": "label.perso.studies.title.master1",
-      "date": "label.perso.date.2019.2020",
+      "title": "label.perso.studies.title.master.tiw",
+      "date": "label.perso.date.2019.2021",
       "location": "label.perso.location.lyon1",
       "logo": "lyon1.png",
       "list": [
+        "label.perso.elem.dev.react",
+		    "label.perso.elem.dev.node",
         "label.perso.elem.dev.vue",
-        "label.perso.elem.dev.node",
-        "label.perso.elem.dev.python",
         "label.perso.elem.project.management.agile",
-        "label.perso.elem.dev.java.spring"
+        "label.perso.elem.docker"
       ]
     },
     {
@@ -81,6 +74,18 @@
         "label.perso.elem.web.project",
         "label.perso.elem.project.management",
         "label.perso.elem.teamwork"
+      ]
+    },
+    {
+      "title": "label.perso.dev.web",
+      "date": "label.perso.date.since.march.2021",
+      "company": "Neo9",
+      "logo": "neo9.png",
+      "list": [
+        "label.perso.elem.project.angular.nodejs",
+        "label.perso.elem.tests",
+        "label.perso.elem.aws.lambda",
+        "label.perso.elem.mongodb.elasticsearch"
       ]
     },
     {
@@ -117,22 +122,25 @@
   ],
   "technologies": [
     "ReactJS",
-    "VueJS",
+    "Angular",
+    "JavaScript",
+    "Typescript",
     "NodeJS",
+    "ElasticSearch",
+    "MongoDB",
+    "SQL",
+    "ESlint",
     "SASS",
     "HTML",
     "CSS",
-    "JavaScript",
     "Git",
-    "Java",
-    "Spring",
     "C++",
-    "CSharp",
-    "SQL"
+    "CSharp"
   ],
   "tools": [
     "Github",
     "Gitlab",
+    "Suite Atlassian",
     "Postman",
     "Netlify",
     "Nginx",
