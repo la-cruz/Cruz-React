@@ -11,7 +11,7 @@ function RelatedProject({ projects }) {
         :
           <h2><Trans>label.perso.projects</Trans></h2>
       }
-      <SlickLink data={projects} type="project-perso"></SlickLink>
+      <SlickLink data={projects} type="project-perso" />
     </section>
   )
 }

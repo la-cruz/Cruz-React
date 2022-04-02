@@ -49,6 +49,14 @@
 }
 
 @media (max-width: 1200px) {
+    .perso-presentation {
+        .info-perso {
+            ul {
+                width: 70%;
+            }
+        }
+    }
+
     .studies {
         .studies-content {
             .studies-list {
@@ -140,10 +148,9 @@
                 text-align: center;
                 z-index: 5;
                 line-height: 6rem;
-                
+
                 strong {
-                    color: transparent;
-                    background: unset;
+                    -webkit-text-stroke: 4px transparent;
                 }
             }
             
@@ -295,7 +302,6 @@
     .studies {
         h2 {
             font-size: 4rem;
-            padding: 0;
         }
         
         .studies-content {
