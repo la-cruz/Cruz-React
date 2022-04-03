@@ -25,6 +25,11 @@
       "icon": "fab fa-github"
     },
     {
+      "name": "twitter",
+      "link": "https://twitter.com/CruuzAzul",
+      "icon": "fab fa-twitter"
+    },
+    {
       "name": "linkedin",
       "link": "https://www.linkedin.com/in/mickaelalves",
       "icon": "fab fa-linkedin"
@@ -88,71 +93,46 @@
   ],
   "experiences": [
     {
+      "title": "label.perso.dev.web.mobile",
+      "date": "label.perso.date.since.march.2021",
+      "company": "Zenika",
+      "logo": "zenika.png",
+      "list": []
+    },
+    {
+      "title": "label.perso.dev.web",
+      "date": "label.perso.date.since.october.2021",
+      "company": "Bedrock Streaming",
+      "logo": "bedrock.svg",
+      "list": []
+    },
+    {
       "title": "label.perso.dev.web.president",
       "date": "label.perso.date.since.2019",
       "company": "Association La Cruz",
       "logo": "cruz.png",
-      "list": [
-        "label.perso.elem.association.management",
-        "label.perso.elem.web.project",
-		"label.perso.elem.infra.host",
-        "label.perso.elem.project.management",
-        "label.perso.elem.teamwork"
-      ]
-    },
-    {
-      "title": "label.perso.dev.web.mobile",
-      "date": "label.perso.date.mars.september.2021",
-      "company": "Zenika",
-      "logo": "zenika.png",
-      "list": [
-        "label.perso.elem.users.needs",
-        "label.perso.elem.ux.ui",
-        "label.perso.elem.flutter",
-        "label.perso.elem.tests",
-        "label.perso.elem.data.structure",
-        "label.perso.elem.cron"
-      ]
+      "list": []
     },
     {
       "title": "label.perso.exp.title.dev.web.intern",
       "date": "label.perso.date.may.july.2019.month",
       "company": "Pentalog Innovation ( Soluti )",
       "logo": "pentalog.png",
-      "list": [
-        "label.perso.elem.project.symfony",
-        "label.perso.elem.web.maintenance",
-        "label.perso.elem.scrum",
-        "label.perso.elem.teamwork"
-      ]
+      "list": []
     },
     {
       "title": "label.perso.exp.title.assistant.intern",
       "date": "label.perso.date.july.august.2017",
       "company": "Topastuces Informatique",
       "logo": "topastuces.png",
-      "list": [
-        "label.perso.elem.computer.maintenance",
-        "label.perso.elem.web.maintenance.company",
-        "label.perso.elem.network.management"
-      ]
+      "list": []
     },
     {
       "title": "label.perso.exp.title.assistant.intern",
       "date": "label.perso.date.2013.month",
       "company": "TEAMINFO",
       "logo": "teaminfo.png",
-      "list": ["label.perso.elem.computer.maintenance"]
-    },
-    {
-      "title": "label.perso.exp.title.volunteer",
-      "date-fr": "label.perso.date.june.2010.2012.year",
-      "company": "Les Restos du Coeur",
-      "logo": "restauDuCoeur.png",
-      "list": [
-        "label.perso.elem.project.management",
-        "label.perso.elem.fundraising"
-      ]
+      "list": []
     }
   ],
   "projects": [
@@ -172,43 +152,29 @@
     "Typescript",
     "Redux",
     "Jest",
+    "React Testing Library",
     "Sass",
+    "Styled Components",
     "CSS",
     "Flutter",
     "Dart",
-    "Symfony",
-    "Laravel",
-    "SQL",
-    "ESlint",
-    "Bootstrap",
-    "Twig",
-    "Python",
-    "Java",
-    "C++",
-    "Git",
-    "Spring"
+    "Terraform",
+    "Git"
   ],
   "tools": [
     "Github",
+    "Github Actions",
     "Gitlab",
-    "Suite Atlassian",
-    "Linux",
     "Firebase",
+    "Appwrite",
     "Codecov",
     "CircleCi",
-    "MySQL",
-	"Postgresql",
-    "Postman",
     "Vite",
     "Webpack",
-    "VSCode",
+    "Storybook",
     "Figma",
-    "Netlify",
-    "Heroku",
-    "Nginx",
     "Docker",
-	"Ansible",
-    "Photoshop"
+	"Ansible"
   ],
   "qualities": [
     {
